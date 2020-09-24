@@ -6,7 +6,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Contributors:
 Contributors to the project are strictly limated to AIE Students as part of their group work project.
 
-Members (example):
+Members:
  - Caerwyn Bartley : Designer
  - Corey Bloomfield : Designer
  - Alex Smits : Designer
