@@ -7,9 +7,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Contributors to the project are strictly limated to AIE Students as part of their group work project.
 
 Members (example):
- - John Doe: designer
- - John Smith: programmer
- - Sandra Dee: artist
+ - Caerwyn Bartley : Designer
+ - Corey Bloomfield : Designer
+ - Alex Smits : Designer
+ - Mitchell Bonham: Programmer
+ - Alexander O'Dea : Artist
 
 
 ## Build Steps:
