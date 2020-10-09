@@ -1,10 +1,10 @@
 # PROJECT NAME
 
 ## About the Game
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+A narrative driven card game in which you play a socially anxious college freshman and must build up your confidence to approach an estranged friend at a party. 
 
 ### Contributors:
-Contributors to the project are strictly limated to AIE Students as part of their group work project.
+Contributors to the project are strictly limited to AIE Students as part of their group work project.
 
 Members:
  - Caerwyn Bartley : Designer
