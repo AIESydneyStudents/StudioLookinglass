@@ -37,59 +37,47 @@ public class PlayerCardManager : MonoBehaviour
         canvas = GameObject.FindGameObjectWithTag("uiCanvas");
 
         availableCards = new List<Card>();
-        displayedCards = new List<GameObject>();
 
-        // Add cards to available list
+        // Display cards -TEST-
+
         foreach (var card in allCards)
         {
             availableCards.Add(card);
         }
+
+        DisplayCards();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            DisplayCards();
-        }
+        
     }
 
     // Display cards on screen
     public void DisplayCards()
     {
-        int offset = 300;
+        int offset = 0;
 
         // Create card objects
         foreach (var card in availableCards)
         {
             // Create and position card
             var newCard = Instantiate(cardPrefab, canvas.transform);
-            newCard.transform.position = new Vector3(offset, 150, 0);
+            newCard.transform.position = new Vector3(400 + offset, 150, 0);
             offset += 200;
 
             // Set card data
             newCard.name = card.name;
             newCard.GetComponentInChildren<Text>().text = card.name;
             newCard.GetComponent<Image>().sprite = card.image;
-            newCard.GetComponent<Button>().onClick.AddListener(delegate { SelectCard(card.name); } );
-
-            // Add to list of displayed cards
-            displayedCards.Add(newCard);
+            // TODO: Add OnClick event
         }
     }
 
-    // Destory all card objects and report selected card
+    // 
     public void SelectCard(string name)
     {
         // Destroy card objects
-        foreach (var card in displayedCards)
-        {
-            Destroy(card);
-        }
-
-        displayedCards.Clear();
-
-        Debug.Log(name);
     }
 }
