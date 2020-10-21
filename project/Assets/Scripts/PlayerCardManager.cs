@@ -58,14 +58,14 @@ public class PlayerCardManager : MonoBehaviour
     // Display cards on screen
     public void DisplayCards()
     {
-        int offset = 0;
+        int offset = 300;
 
         // Create card objects
         foreach (var card in availableCards)
         {
             // Create and position card
             var newCard = Instantiate(cardPrefab, canvas.transform);
-            newCard.transform.position = new Vector3(400 + offset, 150, 0);
+            newCard.transform.position = new Vector3(offset, 150, 0);
             offset += 200;
 
             // Set card data
@@ -87,6 +87,8 @@ public class PlayerCardManager : MonoBehaviour
         {
             Destroy(card);
         }
+
+        displayedCards.Clear();
 
         Debug.Log(name);
     }
