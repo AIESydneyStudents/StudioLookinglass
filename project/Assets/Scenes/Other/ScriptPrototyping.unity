@@ -406,9 +406,6 @@ GameObject:
   - component: {fileID: 1629291221}
   - component: {fileID: 1629291220}
   - component: {fileID: 1629291219}
-  - component: {fileID: 1629291224}
-  - component: {fileID: 1629291223}
-  - component: {fileID: 1629291225}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -490,67 +487,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1629291223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1629291218}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35f7acbbb6628494f984c8d126967657, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textTag: Test
-  dialogue:
-  - mainText: Hello there
-    image: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
-  - mainText: GENERAL KENOBI
-    image: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-  - mainText: YOU ARE A BOLD ONE
-    image: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-  - mainText: Your move
-    image: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
-  - mainText: YOU FOOL
-    image: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-  - mainText: I WAS TRAINED IN YOUR JEDI ARTS BY COUNT DOOKU
-    image: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
---- !u!114 &1629291224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1629291218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d098daec2396a1b428b0384dd40228f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textboxPrefab: {fileID: 4327648355452738247, guid: 305affb13da18a24380c8e3792e13879,
-    type: 3}
-  spawnPosition: {x: 400, y: 200}
-  textboxMovement: 100
-  maxActiveBoxes: 6
---- !u!114 &1629291225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1629291218}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35f7acbbb6628494f984c8d126967657, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textTag: Test2
-  dialogue:
-  - mainText: YOU DO REALISE, ARMY OR NOT, YOU ARE DOOMED!
-    image: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-  - mainText: Oh, I don't think so!
-    image: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
 --- !u!1 &1914567748
 GameObject:
   m_ObjectHideFlags: 0
