@@ -4,6 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[Serializable]
+public struct TextBox
+{
+    [TextArea] public string mainText;
+    public Sprite image;
+}
+
 [DisallowMultipleComponent]
 public class DialogueManager : MonoBehaviour
 {
@@ -39,24 +46,34 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            CreateTextBox("test " + Time.time.ToString());
+            displays[0].enabled = true;
         }
     }
 
-    void CreateTextBox(string text)
+    public void CreateTextBox(string text)
+    {
+        TextBox temp = new TextBox();
+        temp.mainText = text;
+        temp.image = null;
+
+        CreateTextBox(temp);
+    }
+
+    public void CreateTextBox(TextBox box)
     {
         // Move existing boxes
-        foreach (var box in activeBoxes)
+        foreach (var b in activeBoxes)
         {
-            box.transform.Translate(0, textboxMovement, 0);
+            b.transform.Translate(0, textboxMovement, 0);
         }
 
         // Create new box
         var newBox = Instantiate(textboxPrefab, canvas.transform);
         newBox.transform.position = new Vector3(spawnPosition.x, spawnPosition.y, 0);
-        newBox.GetComponentInChildren<Text>().text = text;
+        newBox.GetComponentInChildren<Text>().text = box.mainText;
+        newBox.GetComponent<Image>().sprite = box.image;
         activeBoxes.Add(newBox);
 
         if (activeBoxes.Count > maxActiveBoxes)
