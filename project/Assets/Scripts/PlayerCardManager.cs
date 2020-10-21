@@ -42,7 +42,7 @@ public class PlayerCardManager : MonoBehaviour
         // Add cards to available list
         foreach (var card in allCards)
         {
-            availableCards.Add(card);
+            MakeCardAvailable(card);
         }
     }
 
@@ -58,6 +58,12 @@ public class PlayerCardManager : MonoBehaviour
     // Display cards on screen
     public void DisplayCards()
     {
+        // Prevent displaying multiple times
+        if (displayedCards.Count > 0)
+        {
+            return;
+        }
+
         int offset = 300;
 
         // Create card objects
@@ -91,5 +97,25 @@ public class PlayerCardManager : MonoBehaviour
         displayedCards.Clear();
 
         Debug.Log(name);
+    }
+
+    public void MakeCardAvailable(string cardName)
+    {
+        foreach (var card in allCards)
+        {
+            if (card.name == cardName && !availableCards.Contains(card))
+            {
+                availableCards.Add(card);
+                return;
+            }
+        }
+    }
+
+    public void MakeCardAvailable(Card card)
+    {
+        if (!availableCards.Contains(card))
+        {
+            availableCards.Add(card);
+        }
     }
 }
