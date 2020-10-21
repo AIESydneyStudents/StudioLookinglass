@@ -65,7 +65,7 @@ public class PlayerCardManager : MonoBehaviour
         {
             // Create and position card
             var newCard = Instantiate(cardPrefab, canvas.transform);
-            newCard.transform.position = new Vector3(offset, 150, 0);
+            newCard.transform.position = new Vector3(offset, 100, 0);
             offset += 200;
 
             // Set card data
