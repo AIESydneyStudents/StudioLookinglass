@@ -45,10 +45,18 @@ public class DialogueRenderer : MonoBehaviour
 
     public void ShowTextBox(ref TextBox box)
     {
+        if (activeBoxes == null)
+        {
+            activeBoxes = new List<GameObject>();
+        }
+
         // Move existing boxes
         foreach (var b in activeBoxes)
         {
-            b.transform.Translate(0, textboxMovement, 0);
+            if (b != null)
+            {
+                b.transform.Translate(0, textboxMovement, 0);
+            }
         }
 
         // Create new box
