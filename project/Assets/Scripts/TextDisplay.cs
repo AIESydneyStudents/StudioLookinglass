@@ -42,6 +42,7 @@ public class TextDisplay : MonoBehaviour
         }
         else
         {
+            manager.OnTextEnd();
             this.enabled = false;
         }
     }
