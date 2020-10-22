@@ -118,7 +118,7 @@ public class DialogueSegment : MonoBehaviour
         var allSegments = gameObject.GetComponents<DialogueSegment>();
         foreach (var s in allSegments)
         {
-            if (s.textTag == nextSegment)
+            if (s.textTag == nextSegment && nextSegment != this.textTag)
             {
                 s.enabled = true;
                 this.enabled = false;

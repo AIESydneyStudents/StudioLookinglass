@@ -411,6 +411,7 @@ GameObject:
   - component: {fileID: 1629291225}
   - component: {fileID: 1629291226}
   - component: {fileID: 1629291227}
+  - component: {fileID: 1629291228}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -609,6 +610,20 @@ MonoBehaviour:
   action: 2
   nextSegment: 
   responses: []
+--- !u!114 &1629291228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629291218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e27e631a715fc4ba4a395acde71662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 32
+  segment: Start
 --- !u!1 &1914567748
 GameObject:
   m_ObjectHideFlags: 0
