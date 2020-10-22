@@ -81,7 +81,7 @@ public class DialogueSegment : MonoBehaviour
                 StartNextSegment();
                 break;
             case EndActions.End:
-                dialogueRenderer.ClearBoxes();
+                dialogueRenderer.ClearAll();
                 break;
             default:
                 break;

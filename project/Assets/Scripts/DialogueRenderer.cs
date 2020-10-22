@@ -9,11 +9,8 @@ public struct TextBox
 {
     [TextArea] public string text;
     public Sprite boxSprite;
-    public TextBox(string _text, Sprite _sprite)
-    {
-        text = _text;
-        boxSprite = _sprite;
-    }
+    public Sprite leftSprite;
+    public Sprite rightSprite;
 }
 
 [DisallowMultipleComponent]
@@ -21,12 +18,20 @@ public class DialogueRenderer : MonoBehaviour
 {
     public GameObject textboxPrefab;
 
-    [Min(1)]
-    public int maxActiveBoxes;
+    [Min(1)] public int maxActiveBoxes;
 
-    public Vector2 spawnPosition;
-
+    public Vector2 boxSpawnPosition;
     public float textboxMovement;
+
+    [Space]
+
+    public GameObject portraitPrefab;
+
+    public Vector2 leftImagePosition;
+    private Image leftImage;
+
+    public Vector2 rightImagePosition;
+    private Image rightImage;
 
     private GameObject canvas;
     private List<GameObject> activeBoxes;
@@ -40,12 +45,17 @@ public class DialogueRenderer : MonoBehaviour
 
     public void ShowTextBox(string text)
     {
-        TextBox t = new TextBox(text, null);
+        TextBox t = new TextBox();
+        t.text = text;
+        t.boxSprite = null;
+        t.leftSprite = null;
+        t.rightSprite = null;
         ShowTextBox(ref t);
     }
 
     public void ShowTextBox(ref TextBox box)
     {
+        // Create list if null
         if (activeBoxes == null)
         {
             activeBoxes = new List<GameObject>();
@@ -62,10 +72,20 @@ public class DialogueRenderer : MonoBehaviour
 
         // Create new box
         var newBox = Instantiate(textboxPrefab, canvas.transform);
-        newBox.transform.position = new Vector3(spawnPosition.x, spawnPosition.y, 0);
+        newBox.transform.position = new Vector3(boxSpawnPosition.x, boxSpawnPosition.y, 0);
         newBox.GetComponentInChildren<Text>().text = box.text;
         newBox.GetComponent<Image>().sprite = box.boxSprite;
         activeBoxes.Add(newBox);
+
+        // Set images
+        if (box.leftSprite != null)
+        {
+            SetLeftImage(box.leftSprite);
+        }
+        if (box.rightSprite != null)
+        {
+            SetRightImage(box.rightSprite);
+        }
 
         // Remove old box past maximum
         if (activeBoxes.Count > maxActiveBoxes)
@@ -75,12 +95,51 @@ public class DialogueRenderer : MonoBehaviour
         }
     }
 
-    public void ClearBoxes()
+    public void ClearAll()
     {
+        // Clear boxes
         foreach (var b in activeBoxes)
         {
             Destroy(b);
         }
         activeBoxes.Clear();
+        
+        // Clear portraits
+        if (leftImage != null)
+        {
+            Destroy(leftImage.gameObject);
+            leftImage = null;
+        }
+        if (rightImage != null)
+        {
+            Destroy(rightImage.gameObject);
+            rightImage = null;
+        }
+    }
+
+    void SetLeftImage(Sprite newSprite)
+    {
+        // Create new image if does not exist
+        if (leftImage == null)
+        {
+            leftImage = Instantiate(portraitPrefab, canvas.transform).GetComponent<Image>();
+            leftImage.gameObject.transform.position = new Vector3(leftImagePosition.x, leftImagePosition.y, 0);
+        }
+
+        leftImage.sprite = newSprite;
+        leftImage.SetNativeSize();
+    }
+
+    void SetRightImage(Sprite newSprite)
+    {
+        // Create new image if does not exist
+        if (rightImage == null)
+        {
+            rightImage = Instantiate(portraitPrefab, canvas.transform).GetComponent<Image>();
+            rightImage.gameObject.transform.position = new Vector3(rightImagePosition.x, rightImagePosition.y, 0);
+        }
+
+        rightImage.sprite = newSprite;
+        rightImage.SetNativeSize();
     }
 }

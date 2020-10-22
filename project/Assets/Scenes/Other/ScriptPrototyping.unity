@@ -508,8 +508,12 @@ MonoBehaviour:
   textBoxes:
   - text: Some text
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    leftSprite: {fileID: 21300000, guid: 484b687a40f58624caea4804c4690430, type: 3}
+    rightSprite: {fileID: 21300000, guid: 78fbe919b6a909848ac6a4387f8e5a6a, type: 3}
   - text: Some other text
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    leftSprite: {fileID: 0}
+    rightSprite: {fileID: 21300000, guid: 1ef1876848b00fa40b98beebac1c1c5a, type: 3}
   action: 1
   nextSegment: Second
   responses: []
@@ -528,8 +532,12 @@ MonoBehaviour:
   textboxPrefab: {fileID: 4327648355452738247, guid: 305affb13da18a24380c8e3792e13879,
     type: 3}
   maxActiveBoxes: 6
-  spawnPosition: {x: 400, y: 250}
+  boxSpawnPosition: {x: 400, y: 250}
   textboxMovement: 80
+  portraitPrefab: {fileID: 6716552671375898118, guid: 148a75babc13a3843add8728d327a452,
+    type: 3}
+  leftImagePosition: {x: 200, y: 250}
+  rightImagePosition: {x: 600, y: 250}
 --- !u!114 &1629291225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,8 +554,12 @@ MonoBehaviour:
   textBoxes:
   - text: Start of second segment
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    leftSprite: {fileID: 0}
+    rightSprite: {fileID: 0}
   - text: Promt for cards next
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    leftSprite: {fileID: 21300000, guid: 78fbe919b6a909848ac6a4387f8e5a6a, type: 3}
+    rightSprite: {fileID: 21300000, guid: 484b687a40f58624caea4804c4690430, type: 3}
   action: 0
   nextSegment: 
   responses:
@@ -571,6 +583,8 @@ MonoBehaviour:
   textBoxes:
   - text: Response to card B
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    leftSprite: {fileID: 0}
+    rightSprite: {fileID: 0}
   action: 2
   nextSegment: 
   responses: []
@@ -590,6 +604,8 @@ MonoBehaviour:
   textBoxes:
   - text: Generic card response.
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    leftSprite: {fileID: 0}
+    rightSprite: {fileID: 0}
   action: 2
   nextSegment: 
   responses: []
