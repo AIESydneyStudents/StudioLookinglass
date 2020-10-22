@@ -11,17 +11,24 @@ public enum EndActions
     End
 }
 
+[Serializable]
+public struct CardResponse
+{
+    public string cardName;
+    public string nextSegment;
+}
+
 [RequireComponent(typeof(DialogueRenderer))]
 public class DialogueSegment : MonoBehaviour
 {
     public string textTag;
     public TextBox[] textBoxes;
 
-    public KeyCode advanceKey = KeyCode.Return;
     public EndActions action;
-
     public string nextSegment;
+    public CardResponse[] responses;
 
+    private KeyCode advanceKey = KeyCode.Return;
     private DialogueRenderer dialogueRenderer;
     private int position;
 
@@ -34,7 +41,7 @@ public class DialogueSegment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(advanceKey))
+        if (Input.GetKeyDown(advanceKey) && position <= textBoxes.Length)
         {
             PushNext();
         }
@@ -57,6 +64,7 @@ public class DialogueSegment : MonoBehaviour
         }
         else
         {
+            position++;
             OnTextEnd();
         }
     }
@@ -67,28 +75,38 @@ public class DialogueSegment : MonoBehaviour
         switch (action)
         {
             case EndActions.ShowCards:
-                GetPlayerCard();
+                ShowPlayerCards();
                 break;
-
             case EndActions.StartSegment:
                 StartNextSegment();
                 break;
-
             case EndActions.End:
                 dialogueRenderer.ClearBoxes();
                 break;
-
             default:
                 break;
         }
     }
 
     // Prompt player for cards
-    void GetPlayerCard()
+    void ShowPlayerCards()
     {
         var player = GameObject.FindGameObjectWithTag("Player");
         var playerCards = player.GetComponent<PlayerCardManager>();
         playerCards.DisplayCards();
+        playerCards.SetListener(this);
+    }
+
+    public void ReceiveCard(string card)
+    {
+        foreach (var r in responses)
+        {
+            if (r.cardName == card)
+            {
+                nextSegment = r.nextSegment;
+                StartNextSegment();
+            }
+        }
     }
 
     // Start a new segment with the nextSegment string
@@ -104,7 +122,7 @@ public class DialogueSegment : MonoBehaviour
                 return;
             }
         }
-        // Log if the next segment is not found
-        Debug.LogWarning("Next segment " + nextSegment + " not found");
+
+        Debug.LogError("Segment \"" + nextSegment + "\" not found");
     }
 }

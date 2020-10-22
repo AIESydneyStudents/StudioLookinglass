@@ -409,6 +409,7 @@ GameObject:
   - component: {fileID: 1629291224}
   - component: {fileID: 1629291223}
   - component: {fileID: 1629291225}
+  - component: {fileID: 1629291226}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -504,15 +505,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Start
   textBoxes:
-  - text: Hello there
+  - text: Some text
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
-  - text: GENERAL KENOBI
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-  - text: YOU ARE A BOLD ONE
+  - text: Some other text
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
   advanceKey: 13
   action: 1
   nextSegment: Second
+  responses: []
 --- !u!114 &1629291224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,9 +527,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textboxPrefab: {fileID: 4327648355452738247, guid: 305affb13da18a24380c8e3792e13879,
     type: 3}
-  maxActiveBoxes: 10
-  spawnPosition: {x: 400, y: 100}
-  textboxMovement: 100
+  maxActiveBoxes: 6
+  spawnPosition: {x: 400, y: 250}
+  textboxMovement: 80
 --- !u!114 &1629291225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -544,17 +544,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Second
   textBoxes:
-  - text: BACK AWAY! I WILL DEAL WITH THIS JEDI SLIME MYSELF!
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-  - text: Your move
+  - text: Start of second segment
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
-  - text: YOU FOOL!
+  - text: Promt for cards next
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-  - text: I WAS TRAINED IN YOUR JEDI ARTS BY COUNT DOOKU!
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+  advanceKey: 13
+  action: 0
+  nextSegment: 
+  responses:
+  - cardName: Card A
+    nextSegment: Start
+  - cardName: Card B
+    nextSegment: bResponse
+  - cardName: Card C
+    nextSegment: NA
+--- !u!114 &1629291226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629291218}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: bResponse
+  textBoxes:
+  - text: Response to card B
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
   advanceKey: 13
   action: 2
   nextSegment: 
+  responses: []
 --- !u!1 &1914567748
 GameObject:
   m_ObjectHideFlags: 0

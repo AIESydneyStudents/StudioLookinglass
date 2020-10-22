@@ -29,10 +29,13 @@ public class PlayerCardManager : MonoBehaviour
 
     private List<GameObject> displayedCards;
 
+    // Dialogue sgement to send card selection to
+    private DialogueSegment listener;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        listener = null;
+
         // Get canvas gameobject to display cards on
         canvas = GameObject.FindGameObjectWithTag("uiCanvas");
 
@@ -43,15 +46,6 @@ public class PlayerCardManager : MonoBehaviour
         foreach (var card in allCards)
         {
             MakeCardAvailable(card);
-        }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            DisplayCards();
         }
     }
 
@@ -88,6 +82,12 @@ public class PlayerCardManager : MonoBehaviour
     // Destory all card objects and report selected card
     public void SelectCard(string name)
     {
+        if (listener != null)
+        {
+            listener.ReceiveCard(name);
+            listener = null;
+        }
+
         // Destroy card objects
         foreach (var card in displayedCards)
         {
@@ -95,8 +95,6 @@ public class PlayerCardManager : MonoBehaviour
         }
 
         displayedCards.Clear();
-
-        Debug.Log(name);
     }
 
     public void MakeCardAvailable(string cardName)
@@ -117,5 +115,10 @@ public class PlayerCardManager : MonoBehaviour
         {
             availableCards.Add(card);
         }
+    }
+
+    public void SetListener(DialogueSegment newListener)
+    {
+        listener = newListener;
     }
 }

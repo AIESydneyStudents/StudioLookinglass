@@ -21,6 +21,7 @@ public class DialogueRenderer : MonoBehaviour
 {
     public GameObject textboxPrefab;
 
+    [Min(1)]
     public int maxActiveBoxes;
 
     public Vector2 spawnPosition;
@@ -31,7 +32,7 @@ public class DialogueRenderer : MonoBehaviour
     private List<GameObject> activeBoxes;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         activeBoxes = new List<GameObject>();
         canvas = GameObject.FindGameObjectWithTag("uiCanvas");
