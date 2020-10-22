@@ -101,15 +101,17 @@ public class DialogueSegment : MonoBehaviour
     {
         foreach (var r in responses)
         {
-            if (r.cardName == card || r.cardName == String.Empty)
+            if (r.cardName == card)
             {
                 nextSegment = r.nextSegment;
-                StartNextSegment();
-                return;
+                break;
+            }
+            if (r.cardName == String.Empty)
+            {
+                nextSegment = r.nextSegment;
             }
         }
-
-        Debug.LogError("Unkown card \"" + card + "\" received.");
+        StartNextSegment();
     }
 
     // Start a new segment with the nextSegment string

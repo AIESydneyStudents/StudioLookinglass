@@ -59,14 +59,17 @@ public class PlayerCardManager : MonoBehaviour
         }
 
         int offset = 300;
+        int angle = 10;
 
         // Create card objects
         foreach (var card in availableCards)
         {
             // Create and position card
             var newCard = Instantiate(cardPrefab, canvas.transform);
-            newCard.transform.position = new Vector3(offset, 100, 0);
-            offset += 200;
+            newCard.transform.position = new Vector3(offset, 100 - Mathf.Abs(angle), 0);
+            newCard.transform.eulerAngles = new Vector3(0, 0, angle);
+            offset += 150;
+            angle -= 10;
 
             // Set card data
             newCard.name = card.name;
