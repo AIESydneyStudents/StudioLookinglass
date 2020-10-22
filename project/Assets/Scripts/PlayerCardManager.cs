@@ -42,7 +42,7 @@ public class PlayerCardManager : MonoBehaviour
         availableCards = new List<Card>();
         displayedCards = new List<GameObject>();
 
-        // Add cards to available list
+        // Add all cards to available list
         foreach (var card in allCards)
         {
             MakeCardAvailable(card);
@@ -82,26 +82,25 @@ public class PlayerCardManager : MonoBehaviour
     // Destory all card objects and report selected card
     public void SelectCard(string name)
     {
-        if (listener != null)
-        {
-            listener.ReceiveCard(name);
-            listener = null;
-        }
-
         // Destroy card objects
         foreach (var card in displayedCards)
         {
             Destroy(card);
         }
-
         displayedCards.Clear();
+
+        if (listener != null)
+        {
+            listener.ReceiveCard(name);
+            listener = null;
+        }
     }
 
     public void MakeCardAvailable(string cardName)
     {
         foreach (var card in allCards)
         {
-            if (card.name == cardName && !availableCards.Contains(card))
+            if (card.name == cardName)
             {
                 availableCards.Add(card);
                 return;

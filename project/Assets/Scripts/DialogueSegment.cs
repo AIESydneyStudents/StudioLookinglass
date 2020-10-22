@@ -101,12 +101,15 @@ public class DialogueSegment : MonoBehaviour
     {
         foreach (var r in responses)
         {
-            if (r.cardName == card)
+            if (r.cardName == card || r.cardName == String.Empty)
             {
                 nextSegment = r.nextSegment;
                 StartNextSegment();
+                return;
             }
         }
+
+        Debug.LogError("Unkown card \"" + card + "\" received.");
     }
 
     // Start a new segment with the nextSegment string
@@ -123,6 +126,6 @@ public class DialogueSegment : MonoBehaviour
             }
         }
 
-        Debug.LogError("Segment \"" + nextSegment + "\" not found");
+        Debug.LogError("Segment \"" + nextSegment + "\" not found.");
     }
 }

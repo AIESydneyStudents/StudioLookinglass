@@ -410,6 +410,7 @@ GameObject:
   - component: {fileID: 1629291223}
   - component: {fileID: 1629291225}
   - component: {fileID: 1629291226}
+  - component: {fileID: 1629291227}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -509,7 +510,6 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
   - text: Some other text
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-  advanceKey: 13
   action: 1
   nextSegment: Second
   responses: []
@@ -548,16 +548,13 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
   - text: Promt for cards next
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-  advanceKey: 13
   action: 0
   nextSegment: 
   responses:
-  - cardName: Card A
-    nextSegment: Start
+  - cardName: 
+    nextSegment: Generic
   - cardName: Card B
     nextSegment: bResponse
-  - cardName: Card C
-    nextSegment: NA
 --- !u!114 &1629291226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -574,7 +571,25 @@ MonoBehaviour:
   textBoxes:
   - text: Response to card B
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
-  advanceKey: 13
+  action: 2
+  nextSegment: 
+  responses: []
+--- !u!114 &1629291227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629291218}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Generic
+  textBoxes:
+  - text: Generic card response.
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
   action: 2
   nextSegment: 
   responses: []
