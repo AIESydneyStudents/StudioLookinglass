@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4a7238ce767f104db19b0d6f3b7ca0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allCards:
+  availableCards:
   - name: Card A
     image: {fileID: 21300000, guid: 484b687a40f58624caea4804c4690430, type: 3}
   - name: Card B

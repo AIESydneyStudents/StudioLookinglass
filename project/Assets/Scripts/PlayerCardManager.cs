@@ -15,10 +15,7 @@ public struct Card
 public class PlayerCardManager : MonoBehaviour
 {
     // List of cards the player can use
-    private List<Card> availableCards;
-
-    // List of all cards
-    public List<Card> allCards;
+    public List<Card> availableCards;
 
     [Space]
 
@@ -41,12 +38,6 @@ public class PlayerCardManager : MonoBehaviour
 
         availableCards = new List<Card>();
         displayedCards = new List<GameObject>();
-
-        // Add all cards to available list
-        foreach (var card in allCards)
-        {
-            MakeCardAvailable(card);
-        }
     }
 
     // Display cards on screen
@@ -99,24 +90,17 @@ public class PlayerCardManager : MonoBehaviour
         }
     }
 
-    public void MakeCardAvailable(string cardName)
-    {
-        foreach (var card in allCards)
-        {
-            if (card.name == cardName)
-            {
-                availableCards.Add(card);
-                return;
-            }
-        }
-    }
-
-    public void MakeCardAvailable(Card card)
+    public void AddNewCard(Card card)
     {
         if (!availableCards.Contains(card))
         {
             availableCards.Add(card);
         }
+    }
+
+    public void RemoveCard(Card card)
+    {
+        availableCards.Remove(card);
     }
 
     public void SetListener(DialogueSegment newListener)
