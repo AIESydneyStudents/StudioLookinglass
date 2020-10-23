@@ -10,7 +10,9 @@ public struct TextBox
     [TextArea] public string text;
     public Sprite boxSprite;
     public Sprite leftSprite;
+    public bool flipLeft;
     public Sprite rightSprite;
+    public bool flipRight;
 }
 
 [DisallowMultipleComponent]
@@ -83,11 +85,11 @@ public class DialogueRenderer : MonoBehaviour
         // Set images
         if (box.leftSprite != null)
         {
-            SetLeftImage(box.leftSprite);
+            SetLeftImage(box.leftSprite, box.flipLeft);
         }
         if (box.rightSprite != null)
         {
-            SetRightImage(box.rightSprite);
+            SetRightImage(box.rightSprite, box.flipRight);
         }
 
         // Remove old box past maximum
@@ -120,7 +122,7 @@ public class DialogueRenderer : MonoBehaviour
         }
     }
 
-    void SetLeftImage(Sprite newSprite)
+    void SetLeftImage(Sprite newSprite, bool flip)
     {
         // Create new image if does not exist
         if (leftImage == null)
@@ -131,9 +133,17 @@ public class DialogueRenderer : MonoBehaviour
 
         leftImage.sprite = newSprite;
         leftImage.SetNativeSize();
+        if (flip)
+        {
+            leftImage.transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else
+        {
+            leftImage.transform.localScale = new Vector3(1, 1, 1);
+        }
     }
 
-    void SetRightImage(Sprite newSprite)
+    void SetRightImage(Sprite newSprite, bool flip)
     {
         // Create new image if does not exist
         if (rightImage == null)
@@ -144,5 +154,14 @@ public class DialogueRenderer : MonoBehaviour
 
         rightImage.sprite = newSprite;
         rightImage.SetNativeSize();
+
+        if (flip)
+        {
+            rightImage.transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else
+        {
+            rightImage.transform.localScale = new Vector3(1, 1, 1);
+        }
     }
 }

@@ -507,14 +507,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Start
   textBoxes:
-  - text: Some text
+  - text: Hello
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 21300000, guid: c75916ccbb3457c4da3f925e0cd99639, type: 3}
+    flipLeft: 0
     rightSprite: {fileID: 21300000, guid: c75916ccbb3457c4da3f925e0cd99639, type: 3}
-  - text: Some other text
+    flipRight: 1
+  - text: Hi
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
+    flipLeft: 0
     rightSprite: {fileID: 0}
+    flipRight: 0
   action: 0
   nextSegment: Second
   responses:
@@ -564,7 +568,9 @@ MonoBehaviour:
   - text: Success
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
+    flipLeft: 0
     rightSprite: {fileID: 0}
+    flipRight: 0
   action: 2
   nextSegment: 
   responses: []
@@ -587,9 +593,11 @@ MonoBehaviour:
   textTag: Generic
   textBoxes:
   - text: Failure
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
+    flipLeft: 0
     rightSprite: {fileID: 0}
+    flipRight: 0
   action: 1
   nextSegment: Start
   responses: []
