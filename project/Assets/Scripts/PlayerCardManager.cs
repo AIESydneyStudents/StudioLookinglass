@@ -17,10 +17,13 @@ public class PlayerCardManager : MonoBehaviour
     // Card prefab
     public GameObject cardPrefab;
 
-    [Space]
-
     // List of cards the player can use
     public List<Card> availableCards;
+
+    private float centrePosition;
+
+    public int cardPositionDelta;
+    public int cardAngleDelta;
 
     private GameObject canvas;
 
@@ -36,6 +39,8 @@ public class PlayerCardManager : MonoBehaviour
         // Get canvas gameobject to display cards on
         canvas = GameObject.FindGameObjectWithTag("uiCanvas");
 
+        centrePosition = canvas.GetComponent<RectTransform>().rect.width / 2;
+
         displayedCards = new List<GameObject>();
     }
 
@@ -48,22 +53,21 @@ public class PlayerCardManager : MonoBehaviour
             return;
         }
 
-        int offset = 300;
-        int angle = 10;
+        float position = centrePosition - cardPositionDelta * (availableCards.Count / 2);
+        float angle = cardAngleDelta * (availableCards.Count / 2);
 
         // Create card objects
         foreach (var card in availableCards)
         {
             // Create and position card
             var newCard = Instantiate(cardPrefab, canvas.transform);
-            newCard.transform.position = new Vector3(offset, 100 - Mathf.Abs(angle), 0);
             newCard.transform.eulerAngles = new Vector3(0, 0, angle);
-            offset += 150;
-            angle -= 10;
+            newCard.transform.position = new Vector3(position, 20 - Mathf.Abs(angle * 1.8f), 0);
+            position += cardPositionDelta;
+            angle -= cardAngleDelta;
 
             // Set card data
             newCard.name = card.name;
-            newCard.GetComponentInChildren<Text>().text = card.name;
             newCard.GetComponent<Image>().sprite = card.image;
             newCard.GetComponent<Button>().onClick.AddListener(delegate { SelectCard(card.name); } );
 
