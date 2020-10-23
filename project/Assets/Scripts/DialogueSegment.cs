@@ -32,6 +32,9 @@ public class DialogueSegment : MonoBehaviour
     private DialogueRenderer dialogueRenderer;
     private int position;
 
+    public bool giveCard;
+    public Card cardToGive;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -72,6 +75,12 @@ public class DialogueSegment : MonoBehaviour
     // Action taken when text finishes
     void OnTextEnd()
     {
+        if (giveCard)
+        {
+            var player = GameObject.FindGameObjectWithTag("Player");
+            player.GetComponent<PlayerCardManager>().AddNewCard(cardToGive);
+        }
+
         switch (action)
         {
             case EndActions.ShowCards:

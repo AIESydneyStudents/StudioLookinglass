@@ -318,10 +318,9 @@ MonoBehaviour:
     image: {fileID: 21300000, guid: d717d886ace7d6546a3e18b4304f9863, type: 3}
   - name: Joke
     image: {fileID: 21300000, guid: 4d6495a47a1aa5c44a7c4e42477b8c4e, type: 3}
-  - name: SmallTalk
-    image: {fileID: 21300000, guid: fdf2038fcab51524b9df9d76fac7a6d1, type: 3}
+  cardHeight: 25
   cardPositionDelta: 90
-  cardAngleDelta: 5
+  cardAngleDelta: 15
 --- !u!65 &1403527349
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -520,9 +519,13 @@ MonoBehaviour:
   nextSegment: Second
   responses:
   - cardName: 
-    nextSegment: Second
-  - cardName: Silence
-    nextSegment: Silence
+    nextSegment: Generic
+  - cardName: SmallTalk
+    nextSegment: Correct
+  giveCard: 0
+  cardToGive:
+    name: SmallTalk
+    image: {fileID: 21300000, guid: fdf2038fcab51524b9df9d76fac7a6d1, type: 3}
 --- !u!114 &1629291224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -556,15 +559,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textTag: Second
+  textTag: Correct
   textBoxes:
-  - text: Generic response
+  - text: Success
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     rightSprite: {fileID: 0}
   action: 2
   nextSegment: 
   responses: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
 --- !u!114 &1629291226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -577,15 +584,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textTag: Silence
+  textTag: Generic
   textBoxes:
-  - text: ...
+  - text: Failure
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     rightSprite: {fileID: 0}
-  action: 2
-  nextSegment: 
+  action: 1
+  nextSegment: Start
   responses: []
+  giveCard: 1
+  cardToGive:
+    name: SmallTalk
+    image: {fileID: 21300000, guid: fdf2038fcab51524b9df9d76fac7a6d1, type: 3}
 --- !u!114 &1629291228
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -22,6 +22,7 @@ public class PlayerCardManager : MonoBehaviour
 
     private float centrePosition;
 
+    public int cardHeight;
     public int cardPositionDelta;
     public int cardAngleDelta;
 
@@ -62,7 +63,7 @@ public class PlayerCardManager : MonoBehaviour
             // Create and position card
             var newCard = Instantiate(cardPrefab, canvas.transform);
             newCard.transform.eulerAngles = new Vector3(0, 0, angle);
-            newCard.transform.position = new Vector3(position, 20 - Mathf.Abs(angle * 1.8f), 0);
+            newCard.transform.position = new Vector3(position, cardHeight - Mathf.Abs(angle * 1.8f), 0);
             position += cardPositionDelta;
             angle -= cardAngleDelta;
 

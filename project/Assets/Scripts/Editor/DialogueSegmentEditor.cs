@@ -30,6 +30,14 @@ public class DialogueSegmentEditor : Editor
             segment.nextSegment = EditorGUILayout.TextField("Next segment", segment.nextSegment);
         }
 
+        // New player cards
+        segment.giveCard = EditorGUILayout.Toggle("Give Card", segment.giveCard);
+        if (segment.giveCard)
+        {
+            SerializedProperty card = serializedObject.FindProperty("cardToGive");
+            EditorGUILayout.PropertyField(card, true);
+        }
+
         serializedObject.ApplyModifiedProperties();
     }
 }
