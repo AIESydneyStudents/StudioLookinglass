@@ -20,17 +20,19 @@ public class DialogueRenderer : MonoBehaviour
 
     [Min(1)] public int maxActiveBoxes;
 
-    public Vector2 boxSpawnPosition;
+    public float boxSpawnHeight;
     public float textboxMovement;
 
     [Space]
 
     public GameObject portraitPrefab;
 
-    public Vector2 leftImagePosition;
+    private float centre;
+
+    public Vector2 leftImageOffset;
     private Image leftImage;
 
-    public Vector2 rightImagePosition;
+    public Vector2 rightImageOffset;
     private Image rightImage;
 
     private GameObject canvas;
@@ -41,6 +43,7 @@ public class DialogueRenderer : MonoBehaviour
     {
         activeBoxes = new List<GameObject>();
         canvas = GameObject.FindGameObjectWithTag("uiCanvas");
+        centre = canvas.GetComponent<RectTransform>().rect.width / 2;
     }
 
     public void ShowTextBox(string text)
@@ -72,7 +75,7 @@ public class DialogueRenderer : MonoBehaviour
 
         // Create new box
         var newBox = Instantiate(textboxPrefab, canvas.transform);
-        newBox.transform.position = new Vector3(boxSpawnPosition.x, boxSpawnPosition.y, 0);
+        newBox.transform.position = new Vector3(centre, boxSpawnHeight, 0);
         newBox.GetComponentInChildren<Text>().text = box.text;
         newBox.GetComponent<Image>().sprite = box.boxSprite;
         activeBoxes.Add(newBox);
@@ -123,7 +126,7 @@ public class DialogueRenderer : MonoBehaviour
         if (leftImage == null)
         {
             leftImage = Instantiate(portraitPrefab, canvas.transform).GetComponent<Image>();
-            leftImage.gameObject.transform.position = new Vector3(leftImagePosition.x, leftImagePosition.y, 0);
+            leftImage.gameObject.transform.position = new Vector3(centre - leftImageOffset.x, leftImageOffset.y, 0);
         }
 
         leftImage.sprite = newSprite;
@@ -136,7 +139,7 @@ public class DialogueRenderer : MonoBehaviour
         if (rightImage == null)
         {
             rightImage = Instantiate(portraitPrefab, canvas.transform).GetComponent<Image>();
-            rightImage.gameObject.transform.position = new Vector3(rightImagePosition.x, rightImagePosition.y, 0);
+            rightImage.gameObject.transform.position = new Vector3(centre + rightImageOffset.x, rightImageOffset.y, 0);
         }
 
         rightImage.sprite = newSprite;

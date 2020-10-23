@@ -320,7 +320,7 @@ MonoBehaviour:
     image: {fileID: 21300000, guid: 4d6495a47a1aa5c44a7c4e42477b8c4e, type: 3}
   - name: SmallTalk
     image: {fileID: 21300000, guid: fdf2038fcab51524b9df9d76fac7a6d1, type: 3}
-  cardPositionDelta: 80
+  cardPositionDelta: 90
   cardAngleDelta: 5
 --- !u!65 &1403527349
 BoxCollider:
@@ -408,10 +408,11 @@ GameObject:
   - component: {fileID: 1629291221}
   - component: {fileID: 1629291220}
   - component: {fileID: 1629291219}
+  - component: {fileID: 1629291228}
   - component: {fileID: 1629291224}
   - component: {fileID: 1629291223}
   - component: {fileID: 1629291225}
-  - component: {fileID: 1629291228}
+  - component: {fileID: 1629291226}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -509,8 +510,8 @@ MonoBehaviour:
   textBoxes:
   - text: Some text
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
-    leftSprite: {fileID: 0}
-    rightSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: c75916ccbb3457c4da3f925e0cd99639, type: 3}
+    rightSprite: {fileID: 21300000, guid: c75916ccbb3457c4da3f925e0cd99639, type: 3}
   - text: Some other text
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
@@ -520,6 +521,8 @@ MonoBehaviour:
   responses:
   - cardName: 
     nextSegment: Second
+  - cardName: Silence
+    nextSegment: Silence
 --- !u!114 &1629291224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -534,13 +537,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textboxPrefab: {fileID: 4327648355452738247, guid: 305affb13da18a24380c8e3792e13879,
     type: 3}
-  maxActiveBoxes: 6
-  boxSpawnPosition: {x: 400, y: 250}
+  maxActiveBoxes: 4
+  boxSpawnHeight: 350
   textboxMovement: 80
   portraitPrefab: {fileID: 6716552671375898118, guid: 148a75babc13a3843add8728d327a452,
     type: 3}
-  leftImagePosition: {x: 200, y: 250}
-  rightImagePosition: {x: 600, y: 250}
+  leftImageOffset: {x: 200, y: 320}
+  rightImageOffset: {x: 200, y: 320}
 --- !u!114 &1629291225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -548,7 +551,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629291218}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
   m_Name: 
@@ -557,6 +560,27 @@ MonoBehaviour:
   textBoxes:
   - text: Generic response
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    leftSprite: {fileID: 0}
+    rightSprite: {fileID: 0}
+  action: 2
+  nextSegment: 
+  responses: []
+--- !u!114 &1629291226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629291218}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Silence
+  textBoxes:
+  - text: ...
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     rightSprite: {fileID: 0}
   action: 2
