@@ -14,13 +14,13 @@ public struct Card
 [DisallowMultipleComponent]
 public class PlayerCardManager : MonoBehaviour
 {
-    // List of cards the player can use
-    public List<Card> availableCards;
+    // Card prefab
+    public GameObject cardPrefab;
 
     [Space]
 
-    // Card prefab
-    public GameObject cardPrefab;
+    // List of cards the player can use
+    public List<Card> availableCards;
 
     private GameObject canvas;
 
@@ -36,7 +36,6 @@ public class PlayerCardManager : MonoBehaviour
         // Get canvas gameobject to display cards on
         canvas = GameObject.FindGameObjectWithTag("uiCanvas");
 
-        availableCards = new List<Card>();
         displayedCards = new List<GameObject>();
     }
 
