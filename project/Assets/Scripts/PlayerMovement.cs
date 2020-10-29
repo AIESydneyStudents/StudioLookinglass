@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
 
     public float movementSpeed;
     public float angle;
+    [Range(0f,1f)]
+    public float rotationSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +37,10 @@ public class PlayerMovement : MonoBehaviour
         transform.position += displacement * Time.deltaTime * movementSpeed;
 
         // Rotate to face direction of movement
+        Quaternion from = transform.rotation;
         transform.LookAt(transform.position + displacement);
+        Quaternion to = transform.rotation;
+        transform.rotation = Quaternion.Slerp(from, to, rotationSpeed);
 
         //Force zero velocity
         body.velocity = Vector3.zero;
