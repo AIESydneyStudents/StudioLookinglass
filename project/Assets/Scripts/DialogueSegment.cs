@@ -91,6 +91,7 @@ public class DialogueSegment : MonoBehaviour
                 break;
             case EndActions.End:
                 dialogueRenderer.ClearAll();
+                this.enabled = false;
                 break;
             default:
                 break;
