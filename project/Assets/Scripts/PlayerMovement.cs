@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[DisallowMultipleComponent]
 public class PlayerMovement : MonoBehaviour
 {
     private Transform mainCamera;
@@ -9,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public string forwardAxis;
     public string sideAxis;
 
-    public string movementSpeed;
+    public float movementSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -20,29 +21,17 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetAxis(forwardAxis) > 0)
-        {
-            transform.rotation = mainCamera.rotation;
-            transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
-        }
-        else if (Input.GetAxis(forwardAxis) < 0)
-        {
-            transform.rotation = mainCamera.rotation;
-            transform.Rotate(0, 180, 0);
-            transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
-        }
+        // Get player input
+        Vector2 playerInput;
+        playerInput.x = Input.GetAxis(sideAxis);
+        playerInput.y = Input.GetAxis(forwardAxis);
+        playerInput = Vector2.ClampMagnitude(playerInput, 1f);
 
-        if (Input.GetAxis(sideAxis) > 0)
-        {
-            transform.rotation = mainCamera.rotation;
-            transform.Rotate(0, 90, 0);
-            transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
-        }
-        else if (Input.GetAxis(sideAxis) < 0)
-        {
-            transform.rotation = mainCamera.rotation;
-            transform.Rotate(0, -90, 0);
-            transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
-        }
+        // Move player
+        Vector3 displacement = new Vector3(playerInput.x, 0, playerInput.y);
+        transform.position += displacement * Time.deltaTime * movementSpeed;
+
+        // Rotate to face direction of movement
+        transform.LookAt(transform.position + displacement);
     }
 }
