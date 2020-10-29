@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NPCInteraction : MonoBehaviour
 {
@@ -12,27 +13,45 @@ public class NPCInteraction : MonoBehaviour
 
     public KeyCode interactionKey = KeyCode.E;
 
+    [Space]
+
+    public GameObject textPrefab;
+    private Text text;
+    public Vector2 textOffset;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        text = Instantiate(textPrefab, GameObject.FindGameObjectWithTag("uiCanvas").transform).GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Check if player is close enough and has pressed key
-        if (Vector3.Distance(transform.position, player.transform.position) < interactionDistance && Input.GetKeyDown(interactionKey))
+        text.transform.position = Camera.main.WorldToScreenPoint(transform.position);
+        text.transform.Translate(new Vector3(textOffset.x, textOffset.y, 0));
+
+        // Check if player is close enough
+        if (Vector3.Distance(transform.position, player.transform.position) < interactionDistance)
         {
-            // Start segment
-            var allSegments = gameObject.GetComponents<DialogueSegment>();
-            foreach (var segment in allSegments)
+            text.enabled = true;
+            if (Input.GetKeyDown(interactionKey))
             {
-                if (segment.textTag == segmentName)
+                // Start segment
+                var allSegments = gameObject.GetComponents<DialogueSegment>();
+                foreach (var segment in allSegments)
                 {
-                    segment.enabled = true;
+                    if (segment.textTag == segmentName)
+                    {
+                        segment.enabled = true;
+                    }
                 }
             }
+        }
+        else
+        {
+            text.enabled = false;
         }
     }
 }
