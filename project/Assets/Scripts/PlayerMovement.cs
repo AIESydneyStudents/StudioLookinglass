@@ -5,7 +5,7 @@ using UnityEngine;
 [DisallowMultipleComponent]
 public class PlayerMovement : MonoBehaviour
 {
-    private Transform mainCamera;
+    private Rigidbody body;
 
     public string forwardAxis;
     public string sideAxis;
@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mainCamera = Camera.main.transform;
+        body = gameObject.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -33,5 +33,8 @@ public class PlayerMovement : MonoBehaviour
 
         // Rotate to face direction of movement
         transform.LookAt(transform.position + displacement);
+
+        //Force zero velocity
+        body.velocity = Vector3.zero;
     }
 }
