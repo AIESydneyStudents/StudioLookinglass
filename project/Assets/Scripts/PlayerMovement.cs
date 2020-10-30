@@ -41,8 +41,20 @@ public class PlayerMovement : MonoBehaviour
         transform.LookAt(transform.position + displacement);
         Quaternion to = transform.rotation;
         transform.rotation = Quaternion.Slerp(from, to, rotationSpeed);
+    }
 
-        //Force zero velocity
+    private void FixedUpdate()
+    {
+        // Handle height changes
+        RaycastHit hit;
+        Vector3 rayOrigin = transform.position;
+        rayOrigin.y += 1;
+        if (Physics.Raycast(rayOrigin, Vector3.down, out hit))
+        {
+            transform.position = new Vector3(transform.position.x, hit.point.y, transform.position.z);
+        }
+
+        // Force zero velocity
         body.velocity = Vector3.zero;
     }
 }
