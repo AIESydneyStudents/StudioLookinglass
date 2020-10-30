@@ -715,7 +715,7 @@ MonoBehaviour:
   interactionKey: 101
   textPrefab: {fileID: 4296914676108268686, guid: 66b0b511a2852f4458fd620c9a8e50f6,
     type: 3}
-  textOffset: {x: 0, y: 200}
+  textOffset: {x: 0, y: 2, z: 0}
 --- !u!1 &1719635193
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,7 +957,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8.14
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -981,7 +981,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950809027}
   m_LocalRotation: {x: 0.27781588, y: 0.36497167, z: -0.1150751, w: 0.8811196}
-  m_LocalPosition: {x: -6.1, y: 6.02, z: -6.27}
+  m_LocalPosition: {x: -17.68, y: 17.17, z: -17.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1273,7 +1273,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 2
+  m_Height: 1.9
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &8296172667796423673

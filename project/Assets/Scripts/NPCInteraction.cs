@@ -17,7 +17,7 @@ public class NPCInteraction : MonoBehaviour
 
     public GameObject textPrefab;
     private Text text;
-    public Vector2 textOffset;
+    public Vector3 textOffset;
 
     // Start is called before the first frame update
     void Start()
@@ -29,8 +29,8 @@ public class NPCInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.transform.position = Camera.main.WorldToScreenPoint(transform.position);
-        text.transform.Translate(new Vector3(textOffset.x, textOffset.y, 0));
+        Vector3 textWorldPosition = transform.position + textOffset;
+        text.transform.position = Camera.main.WorldToScreenPoint(textWorldPosition);
 
         // Check if player is close enough
         if (Vector3.Distance(transform.position, player.transform.position) < interactionDistance)
