@@ -619,6 +619,8 @@ MonoBehaviour:
     nextSegment: Generic
   - cardName: SmallTalk
     nextSegment: Correct
+  removeCard: 0
+  cardNameToTake: 
   giveCard: 0
   cardToGive:
     name: SmallTalk
@@ -667,6 +669,8 @@ MonoBehaviour:
   action: 2
   nextSegment: 
   responses: []
+  removeCard: 0
+  cardNameToTake: 
   giveCard: 0
   cardToGive:
     name: 
@@ -694,6 +698,8 @@ MonoBehaviour:
   action: 1
   nextSegment: Start
   responses: []
+  removeCard: 0
+  cardNameToTake: 
   giveCard: 1
   cardToGive:
     name: SmallTalk
