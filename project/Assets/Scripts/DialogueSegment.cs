@@ -32,6 +32,9 @@ public class DialogueSegment : MonoBehaviour
     private DialogueRenderer dialogueRenderer;
     private int position;
 
+    public bool removeCard;
+    public string cardNameToTake;
+
     public bool giveCard;
     public Card cardToGive;
 
@@ -75,10 +78,20 @@ public class DialogueSegment : MonoBehaviour
     // Action taken when text finishes
     void OnTextEnd()
     {
-        if (giveCard)
+        GameObject player = null;
+        if (giveCard || removeCard)
         {
-            var player = GameObject.FindGameObjectWithTag("Player");
+            player = GameObject.FindGameObjectWithTag("Player");
+        }
+
+        if (giveCard && player != null)
+        {
             player.GetComponent<PlayerCardManager>().AddNewCard(cardToGive);
+        }
+
+        if (removeCard && player != null)
+        {
+            player.GetComponent<PlayerCardManager>().RemoveCard(cardNameToTake);
         }
 
         switch (action)

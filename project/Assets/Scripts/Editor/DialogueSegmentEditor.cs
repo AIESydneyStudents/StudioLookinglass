@@ -21,7 +21,7 @@ public class DialogueSegmentEditor : Editor
 
         if (segment.action == EndActions.ShowCards)
         {
-            // Card response array
+            // Card responses array
             SerializedProperty responses = serializedObject.FindProperty("responses");
             EditorGUILayout.PropertyField(responses, true);
         }
@@ -29,6 +29,15 @@ public class DialogueSegmentEditor : Editor
         {
             segment.nextSegment = EditorGUILayout.TextField("Next segment", segment.nextSegment);
         }
+
+        // Remove player card
+        segment.removeCard = EditorGUILayout.Toggle("Remove card", segment.removeCard);
+        if (segment.removeCard)
+        {
+            segment.cardNameToTake = EditorGUILayout.TextField("Card To Remove", segment.cardNameToTake);
+        }
+
+        EditorGUILayout.Separator();
 
         // New player cards
         segment.giveCard = EditorGUILayout.Toggle("Give Card", segment.giveCard);
@@ -38,6 +47,8 @@ public class DialogueSegmentEditor : Editor
             EditorGUILayout.PropertyField(card, true);
         }
 
+        // Apply properties
+        // KEEP AT END
         serializedObject.ApplyModifiedProperties();
     }
 }

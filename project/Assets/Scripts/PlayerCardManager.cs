@@ -77,7 +77,7 @@ public class PlayerCardManager : MonoBehaviour
         }
     }
 
-    // Destory all card objects and report selected card
+    // Destory all card display objects and report selected card
     public void SelectCard(string name)
     {
         // Destroy card objects
@@ -94,17 +94,45 @@ public class PlayerCardManager : MonoBehaviour
         }
     }
 
+    // Give a new card to the player
     public void AddNewCard(Card card)
     {
-        if (!availableCards.Contains(card))
+        // Stop duplicate cards
+        foreach (var c in availableCards)
         {
-            availableCards.Add(card);
+            if (c.name == card.name)
+            {
+                return;
+            }
         }
+
+        availableCards.Add(card);
     }
 
+    // Remove a specific card from the player
     public void RemoveCard(Card card)
     {
         availableCards.Remove(card);
+    }
+
+    // Remove a card with a specific name from the player
+    public void RemoveCard(string cardName)
+    {
+        Card target = new Card();
+
+        foreach (var card in availableCards)
+        {
+            if (card.name == cardName)
+            {
+                target = card;
+                break;
+            }
+        }
+
+        if (target.name != String.Empty)
+        {
+            availableCards.Remove(target);
+        }
     }
 
     public void SetListener(DialogueSegment newListener)
