@@ -132,7 +132,8 @@ public class DialogueRenderer : MonoBehaviour
         }
 
         leftImage.sprite = newSprite;
-        leftImage.SetNativeSize();
+        //leftImage.SetNativeSize();
+
         if (flip)
         {
             leftImage.transform.localScale = new Vector3(-1, 1, 1);
@@ -153,7 +154,7 @@ public class DialogueRenderer : MonoBehaviour
         }
 
         rightImage.sprite = newSprite;
-        rightImage.SetNativeSize();
+        //rightImage.SetNativeSize();
 
         if (flip)
         {
