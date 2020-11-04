@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public enum EndActions
 {
@@ -37,6 +38,8 @@ public class DialogueSegment : MonoBehaviour
 
     public bool giveCard;
     public Card cardToGive;
+
+    public UnityEvent endEvent;
 
     // Start is called before the first frame update
     void Awake()
@@ -78,6 +81,8 @@ public class DialogueSegment : MonoBehaviour
     // Action taken when text finishes
     void OnTextEnd()
     {
+        endEvent.Invoke();
+
         GameObject player = null;
         if (giveCard || removeCard)
         {

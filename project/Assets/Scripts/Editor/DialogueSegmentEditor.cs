@@ -47,6 +47,11 @@ public class DialogueSegmentEditor : Editor
             EditorGUILayout.PropertyField(card, true);
         }
 
+        EditorGUILayout.Separator();
+
+        SerializedProperty endEvent = serializedObject.FindProperty("endEvent");
+        EditorGUILayout.PropertyField(endEvent, true);
+
         // Apply properties
         // KEEP AT END
         serializedObject.ApplyModifiedProperties();
