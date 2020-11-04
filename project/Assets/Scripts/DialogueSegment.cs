@@ -89,14 +89,14 @@ public class DialogueSegment : MonoBehaviour
             player = GameObject.FindGameObjectWithTag("Player");
         }
 
-        if (giveCard && player != null)
-        {
-            player.GetComponent<PlayerCardManager>().AddNewCard(cardToGive);
-        }
-
         if (removeCard && player != null)
         {
             player.GetComponent<PlayerCardManager>().RemoveCard(cardNameToTake);
+        }
+
+        if (giveCard && player != null)
+        {
+            player.GetComponent<PlayerCardManager>().AddNewCard(cardToGive);
         }
 
         switch (action)

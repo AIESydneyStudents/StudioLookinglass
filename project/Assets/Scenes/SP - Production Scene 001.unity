@@ -36154,6 +36154,9 @@ MonoBehaviour:
   cardToGive:
     name: SmallTalk
     image: {fileID: 21300000, guid: fdf2038fcab51524b9df9d76fac7a6d1, type: 3}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &863879479313326561
 Transform:
   m_ObjectHideFlags: 0
@@ -36285,6 +36288,9 @@ MonoBehaviour:
   cardToGive:
     name: SmallTalk
     image: {fileID: 21300000, guid: fdf2038fcab51524b9df9d76fac7a6d1, type: 3}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &863879479313326567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36323,6 +36329,9 @@ MonoBehaviour:
   cardToGive:
     name: SmallTalk
     image: {fileID: 21300000, guid: fdf2038fcab51524b9df9d76fac7a6d1, type: 3}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &863879479313326568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36390,6 +36399,9 @@ MonoBehaviour:
   cardToGive:
     name: 
     image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &863879479313326572
 MonoBehaviour:
   m_ObjectHideFlags: 0
