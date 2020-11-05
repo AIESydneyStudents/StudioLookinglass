@@ -29,7 +29,7 @@ public class DialogueSegment : MonoBehaviour
     public string nextSegment;
     public CardResponse[] responses;
 
-    private KeyCode advanceKey = KeyCode.Return;
+    private KeyCode advanceKey = KeyCode.Space;
     private DialogueRenderer dialogueRenderer;
     private int position;
 
@@ -51,7 +51,7 @@ public class DialogueSegment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(advanceKey) && position <= textBoxes.Length)
+        if ((Input.GetKeyDown(advanceKey) || Input.GetMouseButtonDown(0)) && position <= textBoxes.Length)
         {
             PushNext();
         }
