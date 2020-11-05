@@ -40,6 +40,7 @@ public class DialogueSegment : MonoBehaviour
     public Card cardToGive;
 
     public UnityEvent endEvent;
+    public bool returnControl = true;
 
     // Start is called before the first frame update
     void Awake()
@@ -108,8 +109,7 @@ public class DialogueSegment : MonoBehaviour
                 StartNextSegment();
                 break;
             case EndActions.End:
-                dialogueRenderer.ClearAll();
-                this.enabled = false;
+                OnEnd();
                 break;
             default:
                 break;
@@ -157,5 +157,16 @@ public class DialogueSegment : MonoBehaviour
         }
 
         Debug.LogError("Segment \"" + nextSegment + "\" not found.");
+    }
+
+    void OnEnd()
+    {
+        dialogueRenderer.ClearAll();
+        this.enabled = false;
+        if (returnControl)
+        {
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().enabled = true;
+        }
+        gameObject.GetComponent<NPCInteraction>().enabled = true;
     }
 }

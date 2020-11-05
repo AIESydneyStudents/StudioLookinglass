@@ -19,6 +19,8 @@ public class NPCInteraction : MonoBehaviour
     private Text text;
     public Vector3 textOffset;
 
+    public bool lockPlayer = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,11 +47,25 @@ public class NPCInteraction : MonoBehaviour
                     if (segment.textTag == segmentName)
                     {
                         segment.enabled = true;
+                        if (lockPlayer)
+                        {
+                            player.GetComponent<PlayerMovement>().enabled = false;
+                        }
+                        this.enabled = false;
+                        break;
                     }
                 }
             }
         }
         else
+        {
+            text.enabled = false;
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (text != null)
         {
             text.enabled = false;
         }

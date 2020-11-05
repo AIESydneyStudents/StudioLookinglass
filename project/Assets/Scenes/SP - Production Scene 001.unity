@@ -30420,6 +30420,7 @@ MonoBehaviour:
   textPrefab: {fileID: 4296914676108268686, guid: 66b0b511a2852f4458fd620c9a8e50f6,
     type: 3}
   textOffset: {x: 0, y: 2, z: 0}
+  lockPlayer: 0
 --- !u!114 &1198690004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30511,6 +30512,7 @@ MonoBehaviour:
   endEvent:
     m_PersistentCalls:
       m_Calls: []
+  returnControl: 0
 --- !u!114 &1198690006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30545,6 +30547,7 @@ MonoBehaviour:
   endEvent:
     m_PersistentCalls:
       m_Calls: []
+  returnControl: 0
 --- !u!114 &1198690007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30586,6 +30589,7 @@ MonoBehaviour:
   endEvent:
     m_PersistentCalls:
       m_Calls: []
+  returnControl: 0
 --- !u!114 &1198690008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30620,6 +30624,7 @@ MonoBehaviour:
   endEvent:
     m_PersistentCalls:
       m_Calls: []
+  returnControl: 0
 --- !u!136 &1198690009
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -57093,6 +57098,7 @@ MonoBehaviour:
   endEvent:
     m_PersistentCalls:
       m_Calls: []
+  returnControl: 0
 --- !u!4 &863879479313326561
 Transform:
   m_ObjectHideFlags: 0
@@ -57227,6 +57233,7 @@ MonoBehaviour:
   endEvent:
     m_PersistentCalls:
       m_Calls: []
+  returnControl: 0
 --- !u!114 &863879479313326567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57268,6 +57275,7 @@ MonoBehaviour:
   endEvent:
     m_PersistentCalls:
       m_Calls: []
+  returnControl: 0
 --- !u!114 &863879479313326568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57338,6 +57346,7 @@ MonoBehaviour:
   endEvent:
     m_PersistentCalls:
       m_Calls: []
+  returnControl: 1
 --- !u!114 &863879479313326572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57356,6 +57365,7 @@ MonoBehaviour:
   textPrefab: {fileID: 4296914676108268686, guid: 66b0b511a2852f4458fd620c9a8e50f6,
     type: 3}
   textOffset: {x: 0, y: 2, z: 0}
+  lockPlayer: 1
 --- !u!114 &863879479313326575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57895,7 +57905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forwardAxis: Vertical
   sideAxis: Horizontal
-  movementSpeed: 2.5
+  movementSpeed: 4.18
   angle: 180
   rotationSpeed: 0.15
 --- !u!1 &8343584422069786811

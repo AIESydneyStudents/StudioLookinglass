@@ -31,7 +31,7 @@ public class DialogueSegmentEditor : Editor
         }
 
         // Remove player card
-        segment.removeCard = EditorGUILayout.Toggle("Remove card", segment.removeCard);
+        segment.removeCard = EditorGUILayout.Toggle("Remove Card", segment.removeCard);
         if (segment.removeCard)
         {
             segment.cardNameToTake = EditorGUILayout.TextField("Card To Remove", segment.cardNameToTake);
@@ -49,8 +49,15 @@ public class DialogueSegmentEditor : Editor
 
         EditorGUILayout.Separator();
 
-        SerializedProperty endEvent = serializedObject.FindProperty("endEvent");
-        EditorGUILayout.PropertyField(endEvent, true);
+        if (segment.action == EndActions.End)
+        {
+
+            SerializedProperty endEvent = serializedObject.FindProperty("endEvent");
+            EditorGUILayout.PropertyField(endEvent, true);
+
+            segment.returnControl = EditorGUILayout.Toggle("Return Control",segment.returnControl);
+
+        }
 
         // Apply properties
         // KEEP AT END
