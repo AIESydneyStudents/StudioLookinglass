@@ -11008,6 +11008,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6145890717158925323, guid: 4cd09a65c673ff54a8b7a66a2bb099da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6145890717158925323, guid: 4cd09a65c673ff54a8b7a66a2bb099da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 4cd09a65c673ff54a8b7a66a2bb099da,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18630,6 +18640,31 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257928060}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1265149234 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 4cd09a65c673ff54a8b7a66a2bb099da,
+    type: 3}
+  m_PrefabInstance: {fileID: 796335948}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1265149236
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265149234}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dd3010b59b088894aa47f21e820004e3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1274301775
 GameObject:
   m_ObjectHideFlags: 0
@@ -23032,10 +23067,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3370396244181766512, guid: c4293d01de2954945a74334bd5d1dcd9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3370396244181766512, guid: c4293d01de2954945a74334bd5d1dcd9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3370396244181766512, guid: c4293d01de2954945a74334bd5d1dcd9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: c4293d01de2954945a74334bd5d1dcd9,
         type: 3}
       propertyPath: m_Name
       value: Fridge_GEO
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244204814337865183, guid: c4293d01de2954945a74334bd5d1dcd9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244204814337865183, guid: c4293d01de2954945a74334bd5d1dcd9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244204814337865183, guid: c4293d01de2954945a74334bd5d1dcd9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4673425054445317733, guid: c4293d01de2954945a74334bd5d1dcd9,
         type: 3}
@@ -23076,7 +23141,7 @@ Animator:
   m_GameObject: {fileID: 1571150084}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ed1a57165b7fdd7409c9c9bd0af89286, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
