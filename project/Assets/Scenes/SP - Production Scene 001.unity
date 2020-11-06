@@ -2769,7 +2769,6 @@ GameObject:
   m_Component:
   - component: {fileID: 128609239}
   - component: {fileID: 128609238}
-  - component: {fileID: 128609237}
   - component: {fileID: 128609240}
   - component: {fileID: 128609242}
   m_Layer: 0
@@ -2779,14 +2778,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &128609237
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128609236}
-  m_Enabled: 1
 --- !u!20 &128609238
 Camera:
   m_ObjectHideFlags: 0
@@ -60433,6 +60424,8 @@ GameObject:
   - component: {fileID: 8343584422069786807}
   - component: {fileID: 8343584422069786813}
   - component: {fileID: 8343584422069786812}
+  - component: {fileID: 8343584422069786815}
+  - component: {fileID: 8343584422069786814}
   m_Layer: 0
   m_Name: Phim
   m_TagString: Player
@@ -60484,3 +60477,36 @@ PlayableDirector:
     - ca23574e5619e084aaf0d4fa9d94dd00: {fileID: 2033910660}
     - 29c267908dd91d94bb8153b12d8a83d3: {fileID: 0}
     - 4c8b71cdf8419024faa7f594396ae9dc: {fileID: 917618390}
+--- !u!169 &8343584422069786814
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8343584422069786811}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.22692133
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!81 &8343584422069786815
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8343584422069786811}
+  m_Enabled: 1

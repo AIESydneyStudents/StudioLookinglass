@@ -13,6 +13,7 @@ public class Song
 public class MusicManager : MonoBehaviour
 {
     public List<Song> playlist;
+    [SerializeField]
     private Song nowPlaying;
     private AudioSource source;
 
