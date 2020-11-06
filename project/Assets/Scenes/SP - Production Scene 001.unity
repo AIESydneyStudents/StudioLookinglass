@@ -1695,7 +1695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &72806837
 Transform:
   m_ObjectHideFlags: 0
@@ -4549,6 +4549,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pierce 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186879350356753281, guid: bce053a6c1a58604f8f62d0829ea1662,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bce053a6c1a58604f8f62d0829ea1662, type: 3}
@@ -8433,7 +8438,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: c75916ccbb3457c4da3f925e0cd99639, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 1
   - text: Heck yeah man. Hey guys, lets go get some more drinks.
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
@@ -8516,7 +8521,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: c75916ccbb3457c4da3f925e0cd99639, type: 3}
+    rightSprite: {fileID: 21300000, guid: e7b6c5ac4bbcc8f45aad1e1b04f31134, type: 3}
     flipRight: 1
   action: 0
   nextSegment: 
@@ -20948,6 +20953,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 162ffc81aa2a3124694ac57e138e29ee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1544415695117486759, guid: 162ffc81aa2a3124694ac57e138e29ee,
         type: 3}
       propertyPath: m_IsActive
@@ -24888,7 +24898,7 @@ PrefabInstance:
     - target: {fileID: 37954198776623512, guid: a00d367a95d638e40aa7adadde862888,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.962
+      value: 11.36
       objectReference: {fileID: 0}
     - target: {fileID: 37954198776623512, guid: a00d367a95d638e40aa7adadde862888,
         type: 3}
@@ -24898,7 +24908,7 @@ PrefabInstance:
     - target: {fileID: 37954198776623512, guid: a00d367a95d638e40aa7adadde862888,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.563
+      value: 3.044
       objectReference: {fileID: 0}
     - target: {fileID: 37954198776623512, guid: a00d367a95d638e40aa7adadde862888,
         type: 3}
@@ -24908,7 +24918,7 @@ PrefabInstance:
     - target: {fileID: 37954198776623512, guid: a00d367a95d638e40aa7adadde862888,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.052345697
+      value: -0.7307178
       objectReference: {fileID: 0}
     - target: {fileID: 37954198776623512, guid: a00d367a95d638e40aa7adadde862888,
         type: 3}
@@ -24918,7 +24928,7 @@ PrefabInstance:
     - target: {fileID: 37954198776623512, guid: a00d367a95d638e40aa7adadde862888,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9986291
+      value: -0.6826797
       objectReference: {fileID: 0}
     - target: {fileID: 37954198776623512, guid: a00d367a95d638e40aa7adadde862888,
         type: 3}
@@ -24933,7 +24943,7 @@ PrefabInstance:
     - target: {fileID: 37954198776623512, guid: a00d367a95d638e40aa7adadde862888,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 6.0010004
+      value: 453.893
       objectReference: {fileID: 0}
     - target: {fileID: 37954198776623512, guid: a00d367a95d638e40aa7adadde862888,
         type: 3}
@@ -38641,7 +38651,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1390908674
 Transform:
   m_ObjectHideFlags: 0
@@ -40958,25 +40968,25 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: c75916ccbb3457c4da3f925e0cd99639, type: 3}
-    flipRight: 1
+    rightSprite: {fileID: 21300000, guid: 2cc4cc0404bde5b45a53dda3ac54cd2f, type: 3}
+    flipRight: 0
   - text: So... what can I getchu
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: c75916ccbb3457c4da3f925e0cd99639, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 1
   - text: Th- this one please.
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: c75916ccbb3457c4da3f925e0cd99639, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 1
   - text: Sure thing! Enjoy.
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: c75916ccbb3457c4da3f925e0cd99639, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 1
   action: 2
   nextSegment: 
@@ -52288,6 +52298,558 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1885309146}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1885309148 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 37954198776623515, guid: a00d367a95d638e40aa7adadde862888,
+    type: 3}
+  m_PrefabInstance: {fileID: 1885309146}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1885309149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: RealTalk
+  textBoxes:
+  - text: "It\u2019s impressive that your able to deal with so many people in one
+      day. I have trouble talking to even one. "
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: You mean Pierce?
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: 'W-Wait, how~?  '
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: 'I was hanging out with him earlier. He mentioned that an old friend was
+      meant to be here tonight, from what I could tell, he was pretty excited to
+      see you. '
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: But how did you know it was me?
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: Well... I pretty much know everyone else at this party except for you.
+      Are you avoiding Pierce?
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "It\u2019s not like that... to be honest, I\u2019m kind of scared to approach
+      him. We haven\u2019t spoken for over a year and it didn\u2019t exactly end
+      on good terms. "
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "Phim... did he ever tell you why he moved during senior year? It not my
+      place to say, but listen, whatever you think you did. Trust me it wasn\u2019t
+      because of you. "
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: 'From what he''s told me, he had a lot going on at home. I think he would
+      really like to see you.  '
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "I saw him head into the large crowd on the dance floor earlier, but I\u2019m
+      not sure if I can handle that many people. "
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "Leave that to me! When you\u2019re ready, I'll draw away the crowd from
+      the dance floor..."
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  action: 2
+  nextSegment: 
+  responses: []
+  removeCard: 0
+  cardNameToTake: 
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1948692159}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1390908673}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 300129744}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 158897338}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  returnControl: 1
+--- !u!114 &1885309150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Compliment
+  textBoxes:
+  - text: 'Your dress still looks nice. '
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "I don\u2019t know... red isn't really my colour."
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  action: 1
+  nextSegment: Start
+  responses: []
+  removeCard: 0
+  cardNameToTake: 
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+--- !u!114 &1885309151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Comfort
+  textBoxes:
+  - text: "I\u2019m sorry for what happed... It was honestly an accident. I didn\u2019t
+      mean to ruin your dress. \r"
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "*Sigh* Yeah, you don\u2019t seem like the type to purposely do something
+      like this. Look, I\u2019m not mad at you or anything, I\u2019m just annoyed
+      at the situation. "
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: 'I... overheard you mention that you were thirsty... so I was trying to
+      get you a drink. '
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "That\u2019s... very thoughtful actually. We haven't met before... have
+      we? "
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "No, I don\u2019t really get out much. My name\u2019s Phim, I usually don't...
+      leave my... room."
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: " I\u2019m Aurora. Wow, what I wouldn\u2019t give for some time alone every
+      once in a while. Sorry, that sounded a bit whiny. "
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "It\u2019s not like I don\u2019t like people or anything, it's just that
+      sometimes it can just be overwhelming."
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "It\u2019s okay, I understand. If I was surrounded by that many strangers,
+      I... honestly wouldn\u2019t know what to do."
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "*Giggles* it\u2019s not as bad as you think. At least they don\u2019t
+      spill drinks on me. But maybe I should be thanking you. "
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: It's kind of nice to just be here on my own for a while without worrying
+      that I need to meet some standard I've set myself.
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: Is it really that bad? Having so many people look up to you and admire
+      you?
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: ' It can be really stressful at times, having all these people place unrealistic
+      expectations on me.  '
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "A lot of people just assume \u2018she must have it all, her life must
+      be so easy\u2019. Well... it's not, and to tell you the truth. I\u2019m terrified
+      of not living up to those expectations.  "
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "Oh wow. Sorry, I\u2019m kind of rambling here. I don\u2019t mean to put
+      this all on you.  "
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: No no no... I should be the one apologising... to tell you the truth, I-...
+      I was one of those people until just now. I never realised that it might be
+      hurting you like that.
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "\u2026 Well... I forgive you. Talking to you now, I feel like I can really
+      be myself, you know?"
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  action: 1
+  nextSegment: Start
+  responses:
+  - cardName: Silence
+    nextSegment: Silence
+  - cardName: SmallTalk
+    nextSegment: SmallTalk
+  - cardName: Joke
+    nextSegment: Joke
+  - cardName: Item
+    nextSegment: Item
+  - cardName: Comfort
+    nextSegment: Comfort
+  - cardName: Compliment
+    nextSegment: Compiment
+  - cardName: RealTalk
+    nextSegment: RealTalk
+  removeCard: 0
+  cardNameToTake: 
+  giveCard: 1
+  cardToGive:
+    name: RealTalk
+    image: {fileID: 21300000, guid: 484b687a40f58624caea4804c4690430, type: 3}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+--- !u!114 &1885309152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Item
+  textBoxes:
+  - text: Here, you can have this.
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "NO! NO! That\u2019s fine, I\u2019m still wearing the last one.\_"
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  action: 1
+  nextSegment: Start
+  responses: []
+  removeCard: 0
+  cardNameToTake: 
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+--- !u!114 &1885309153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Joke
+  textBoxes:
+  - text: Knock knock
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: "You\u2019ve been spending too much time with Budd... "
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  action: 1
+  nextSegment: Start
+  responses: []
+  removeCard: 0
+  cardNameToTake: 
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+--- !u!114 &1885309154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: SmallTalk
+  textBoxes:
+  - text: Where did everyone else go?
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  - text: It's a small kitchen... they're over there enjoying themselves.
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  action: 1
+  nextSegment: Start
+  responses: []
+  removeCard: 0
+  cardNameToTake: 
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+--- !u!114 &1885309155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Silence
+  textBoxes:
+  - text: ...
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: c75916ccbb3457c4da3f925e0cd99639, type: 3}
+    flipRight: 0
+  - text: 'Are you really that scared of me? '
+    boxSprite: {fileID: 0}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+  action: 1
+  nextSegment: Start
+  responses: []
+  removeCard: 0
+  cardNameToTake: 
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+--- !u!114 &1885309156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Start
+  textBoxes:
+  - text: What is it now?
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: c75916ccbb3457c4da3f925e0cd99639, type: 3}
+    flipRight: 0
+  action: 0
+  nextSegment: 
+  responses:
+  - cardName: Silence
+    nextSegment: Silence
+  - cardName: SmallTalk
+    nextSegment: SmallTalk
+  - cardName: Joke
+    nextSegment: Joke
+  - cardName: Item
+    nextSegment: Item
+  - cardName: Comfort
+    nextSegment: Comfort
+  - cardName: Compliment
+    nextSegment: Compliment
+  - cardName: RealTalk
+    nextSegment: RealTalk
+  removeCard: 0
+  cardNameToTake: 
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
 --- !u!1001 &1889742066
 PrefabInstance:
   m_ObjectHideFlags: 0
