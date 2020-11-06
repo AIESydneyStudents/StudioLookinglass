@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 9173880729682305059}
   - component: {fileID: 1852325536802514583}
   - component: {fileID: 8862733391178526645}
+  - component: {fileID: 6703516894753826897}
   m_Layer: 0
-  m_Name: Budd 4
+  m_Name: BuddInteractable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,6 +100,7 @@ MonoBehaviour:
   textPrefab: {fileID: 4296914676108268686, guid: 66b0b511a2852f4458fd620c9a8e50f6,
     type: 3}
   textOffset: {x: 0, y: 2, z: 0}
+  lockPlayer: 1
 --- !u!114 &8862733391178526645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,3 +122,17 @@ MonoBehaviour:
     type: 3}
   leftImageOffset: {x: 400, y: 420}
   rightImageOffset: {x: 400, y: 420}
+--- !u!136 &6703516894753826897
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173880729682305057}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}

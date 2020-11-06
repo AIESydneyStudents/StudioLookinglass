@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 37954198776623513}
   - component: {fileID: 6005108999407674331}
   - component: {fileID: 6751071917871477628}
+  - component: {fileID: 3933904899286149536}
   m_Layer: 0
-  m_Name: Aurora 4
+  m_Name: AuroraInteractable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120,3 +121,18 @@ MonoBehaviour:
   textPrefab: {fileID: 4296914676108268686, guid: 66b0b511a2852f4458fd620c9a8e50f6,
     type: 3}
   textOffset: {x: 0, y: 2, z: 0}
+  lockPlayer: 1
+--- !u!136 &3933904899286149536
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37954198776623515}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
