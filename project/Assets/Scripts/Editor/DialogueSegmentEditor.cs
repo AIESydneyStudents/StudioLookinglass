@@ -8,6 +8,8 @@ using UnityEditor;
 [CanEditMultipleObjects]
 public class DialogueSegmentEditor : Editor
 {
+    bool showEndEvents;
+
     public override void OnInspectorGUI()
     {
         DialogueSegment segment = target as DialogueSegment;
@@ -17,7 +19,7 @@ public class DialogueSegmentEditor : Editor
         SerializedProperty boxes = serializedObject.FindProperty("textBoxes");
         EditorGUILayout.PropertyField(boxes, true);
 
-        segment.action = (EndActions)EditorGUILayout.EnumPopup("Action",segment.action);
+        segment.action = (EndActions)EditorGUILayout.EnumPopup("Action", segment.action);
 
         if (segment.action == EndActions.ShowCards)
         {
@@ -49,14 +51,17 @@ public class DialogueSegmentEditor : Editor
 
         EditorGUILayout.Separator();
 
-        if (segment.action == EndActions.End)
-        {
+        showEndEvents = EditorGUILayout.Foldout(showEndEvents, "Segment End Events");
 
+        if (showEndEvents)
+        {
             SerializedProperty endEvent = serializedObject.FindProperty("endEvent");
             EditorGUILayout.PropertyField(endEvent, true);
+        }
 
-            segment.returnControl = EditorGUILayout.Toggle("Return Control",segment.returnControl);
-
+        if (segment.action == EndActions.End)
+        {
+            segment.returnControl = EditorGUILayout.Toggle("Return Control", segment.returnControl);
         }
 
         // Apply properties
