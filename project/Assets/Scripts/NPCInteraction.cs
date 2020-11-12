@@ -16,7 +16,7 @@ public class NPCInteraction : MonoBehaviour
     [Space]
 
     public GameObject textPrefab;
-    private Text text;
+    private GameObject text;
     public Vector3 textOffset;
 
     public bool lockPlayer = true;
@@ -25,7 +25,7 @@ public class NPCInteraction : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        text = Instantiate(textPrefab, GameObject.FindGameObjectWithTag("uiCanvas").transform).GetComponent<Text>();
+        text = Instantiate(textPrefab, GameObject.FindGameObjectWithTag("uiCanvas").transform);
     }
 
     // Update is called once per frame
@@ -37,7 +37,7 @@ public class NPCInteraction : MonoBehaviour
         // Check if player is close enough
         if (Vector3.Distance(transform.position, player.transform.position) < interactionDistance)
         {
-            text.enabled = true;
+            text.SetActive(true);
             if (Input.GetKeyDown(interactionKey))
             {
                 // Start segment
@@ -59,7 +59,7 @@ public class NPCInteraction : MonoBehaviour
         }
         else
         {
-            text.enabled = false;
+            text.SetActive(false);
         }
     }
 
@@ -67,7 +67,7 @@ public class NPCInteraction : MonoBehaviour
     {
         if (text != null)
         {
-            text.enabled = false;
+            text.SetActive(false);
         }
     }
 }

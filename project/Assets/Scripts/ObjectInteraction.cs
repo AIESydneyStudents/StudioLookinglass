@@ -17,14 +17,14 @@ public class ObjectInteraction : MonoBehaviour
     [Space]
 
     public GameObject textPrefab;
-    private Text text;
+    private GameObject text;
     public Vector3 textOffset;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        text = Instantiate(textPrefab, GameObject.FindGameObjectWithTag("uiCanvas").transform).GetComponent<Text>();
+        text = Instantiate(textPrefab, GameObject.FindGameObjectWithTag("uiCanvas").transform);
     }
 
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class ObjectInteraction : MonoBehaviour
         // Check if player is close enough
         if (Vector3.Distance(transform.position, player.transform.position) < interactionDistance)
         {
-            text.enabled = true;
+            text.SetActive(true);
             if (Input.GetKeyDown(interactionKey))
             {
                 triggerEvent.Invoke();
@@ -44,7 +44,7 @@ public class ObjectInteraction : MonoBehaviour
         }
         else
         {
-            text.enabled = false;
+            text.SetActive(false);
         }
     }
 }

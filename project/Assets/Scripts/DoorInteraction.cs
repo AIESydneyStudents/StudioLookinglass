@@ -16,7 +16,7 @@ public class DoorInteraction : MonoBehaviour
     [Space]
 
     public GameObject textPrefab;
-    private Text text;
+    private GameObject text;
     public Vector3 textOffset;
 
     private bool isOpen;
@@ -34,7 +34,7 @@ public class DoorInteraction : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        text = Instantiate(textPrefab, GameObject.FindGameObjectWithTag("uiCanvas").transform).GetComponent<Text>();
+        text = Instantiate(textPrefab, GameObject.FindGameObjectWithTag("uiCanvas").transform);
         animator = gameObject.GetComponent<Animator>();
         audioSource = gameObject.GetComponent<AudioSource>();
         isOpen = false;
@@ -51,7 +51,7 @@ public class DoorInteraction : MonoBehaviour
         // Check if player is close enough
         if (Vector3.Distance(transform.position, player.transform.position) < interactionDistance && canInteract)
         {
-            text.enabled = true;
+            text.SetActive(true);
             if (Input.GetKeyDown(interactionKey))
             {
                 isOpen = !isOpen;
@@ -69,7 +69,7 @@ public class DoorInteraction : MonoBehaviour
         }
         else
         {
-            text.enabled = false;
+            text.SetActive(false);
         }
 
         if (!canInteract)
