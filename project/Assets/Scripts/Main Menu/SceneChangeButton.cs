@@ -5,9 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangeButton : MonoBehaviour
 {
-    public string scene;
-
-    public void OnClick()
+    public void ChangeScene(string scene)
     {
         if (scene != string.Empty && SceneManager.GetActiveScene().name != scene)
         {
