@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 211361774968283730}
   - component: {fileID: 1581191056828388655}
   - component: {fileID: 688394061275664734}
+  - component: {fileID: 184443971}
   m_Layer: 0
   m_Name: DoorBase_GEO
   m_TagString: Untagged
@@ -80,6 +81,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &184443971
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583671800768948500}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1756431, y: 2.4285505, z: 0.13288634}
+  m_Center: {x: -0.58782154, y: 1.2142738, z: 0.05597643}
 --- !u!1 &5391083649018095254
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,6 +182,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7863623946373042877}
+  - component: {fileID: 1902109999}
+  - component: {fileID: 1902110000}
   m_Layer: 0
   m_Name: Door_GEO
   m_TagString: Untagged
@@ -182,7 +198,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6591701435715739822}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.324667, y: 0, z: -2.0933332}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -191,6 +207,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1902109999
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6591701435715739822}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dd3010b59b088894aa47f21e820004e3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1902110000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6591701435715739822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b4bd89faddb1fd41800a1192c4d801c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animatorParameter: DoorBool
+  interactionDistance: 3
+  interactionKey: 101
+  textPrefab: {fileID: 4296914676108268686, guid: 66b0b511a2852f4458fd620c9a8e50f6,
+    type: 3}
+  textOffset: {x: 0, y: 2, z: 0}
 --- !u!1 &8107064405887521559
 GameObject:
   m_ObjectHideFlags: 0

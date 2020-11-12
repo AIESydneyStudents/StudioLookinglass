@@ -58590,51 +58590,6 @@ Transform:
   m_Father: {fileID: 1804060603}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1902109998 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6591701435715739822, guid: f1734dd5286459144b5ceb6bda2fd84b,
-    type: 3}
-  m_PrefabInstance: {fileID: 845026536}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1902109999
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1902109998}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: dd3010b59b088894aa47f21e820004e3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1902110000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1902109998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a611b0316ece30478ec303b00247aaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  interactionDistance: 2
-  interactionKey: 101
-  textPrefab: {fileID: 4296914676108268686, guid: 66b0b511a2852f4458fd620c9a8e50f6,
-    type: 3}
-  textOffset: {x: 0, y: 0, z: 0}
 --- !u!1001 &1902184958
 PrefabInstance:
   m_ObjectHideFlags: 0
