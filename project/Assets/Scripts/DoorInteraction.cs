@@ -26,6 +26,10 @@ public class DoorInteraction : MonoBehaviour
     public AudioClip closeSound;
     private AudioSource audioSource;
 
+    private bool canInteract;
+    public float interactTime = 1;
+    private float timer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +38,8 @@ public class DoorInteraction : MonoBehaviour
         animator = gameObject.GetComponent<Animator>();
         audioSource = gameObject.GetComponent<AudioSource>();
         isOpen = false;
+        canInteract = true;
+        timer = 0;
     }
 
     // Update is called once per frame
@@ -43,7 +49,7 @@ public class DoorInteraction : MonoBehaviour
         text.transform.position = Camera.main.WorldToScreenPoint(textWorldPosition);
 
         // Check if player is close enough
-        if (Vector3.Distance(transform.position, player.transform.position) < interactionDistance)
+        if (Vector3.Distance(transform.position, player.transform.position) < interactionDistance && canInteract)
         {
             text.enabled = true;
             if (Input.GetKeyDown(interactionKey))
@@ -58,11 +64,25 @@ public class DoorInteraction : MonoBehaviour
                 {
                     audioSource.PlayOneShot(closeSound);
                 }
+                canInteract = false;
             }
         }
         else
         {
             text.enabled = false;
+        }
+
+        if (!canInteract)
+        {
+            if (timer < interactTime)
+            {
+                timer += Time.deltaTime;
+            }
+            else
+            {
+                canInteract = true;
+                timer = 0;
+            }
         }
     }
 }
