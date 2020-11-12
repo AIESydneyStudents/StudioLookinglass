@@ -22,12 +22,17 @@ public class DoorInteraction : MonoBehaviour
     private bool isOpen;
     private Animator animator;
 
+    public AudioClip openSound;
+    public AudioClip closeSound;
+    private AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         text = Instantiate(textPrefab, GameObject.FindGameObjectWithTag("uiCanvas").transform).GetComponent<Text>();
         animator = gameObject.GetComponent<Animator>();
+        audioSource = gameObject.GetComponent<AudioSource>();
         isOpen = false;
     }
 
@@ -45,6 +50,14 @@ public class DoorInteraction : MonoBehaviour
             {
                 isOpen = !isOpen;
                 animator.SetBool(animatorParameter, isOpen);
+                if (isOpen && openSound)
+                {
+                    audioSource.PlayOneShot(openSound);
+                }
+                else if (!isOpen && closeSound)
+                {
+                    audioSource.PlayOneShot(closeSound);
+                }
             }
         }
         else
