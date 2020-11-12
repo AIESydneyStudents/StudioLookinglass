@@ -40,7 +40,7 @@ public class PlayerCardManager : MonoBehaviour
         // Get canvas gameobject to display cards on
         canvas = GameObject.FindGameObjectWithTag("uiCanvas");
 
-        centrePosition = canvas.GetComponent<RectTransform>().rect.width / 2;
+        centrePosition = Screen.width / 2;
 
         displayedCards = new List<GameObject>();
     }

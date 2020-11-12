@@ -23,7 +23,7 @@ public class CardChoice : MonoBehaviour
     private void Awake()
     {
         canvas = GameObject.FindGameObjectWithTag("uiCanvas");
-        centre = canvas.GetComponent<RectTransform>().rect.width / 2;
+        centre = Screen.width / 2;
 
         playerManager = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCardManager>();
     }

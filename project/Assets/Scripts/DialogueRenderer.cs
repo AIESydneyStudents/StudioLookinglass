@@ -45,7 +45,7 @@ public class DialogueRenderer : MonoBehaviour
     {
         activeBoxes = new List<GameObject>();
         canvas = GameObject.FindGameObjectWithTag("uiCanvas");
-        centre = canvas.GetComponent<RectTransform>().rect.width / 2;
+        centre = Screen.width / 2;
     }
 
     public void ShowTextBox(string text)
