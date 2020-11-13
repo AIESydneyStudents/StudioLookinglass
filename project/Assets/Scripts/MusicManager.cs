@@ -2,19 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class Song
-{
-    public AudioClip clip;
-    public uint BPM;
-}
-
 [RequireComponent(typeof(AudioSource))]
 public class MusicManager : MonoBehaviour
 {
-    public List<Song> playlist;
+    public List<AudioClip> playlist;
     [SerializeField]
-    private Song nowPlaying;
+    private AudioClip nowPlaying;
     private AudioSource source;
 
     // Start is called before the first frame update
@@ -37,7 +30,7 @@ public class MusicManager : MonoBehaviour
         source.Stop();
         int index = Random.Range(0, playlist.Count);
         nowPlaying = playlist[index];
-        source.clip = nowPlaying.clip;
+        source.clip = nowPlaying;
         source.Play();
     }
 }

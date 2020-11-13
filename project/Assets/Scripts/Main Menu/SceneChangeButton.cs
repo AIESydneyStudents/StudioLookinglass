@@ -10,6 +10,7 @@ public class SceneChangeButton : MonoBehaviour
         if (scene != string.Empty && SceneManager.GetActiveScene().name != scene)
         {
             SceneManager.LoadScene(scene, LoadSceneMode.Single);
+            Time.timeScale = 1;
         }
     }
 }
