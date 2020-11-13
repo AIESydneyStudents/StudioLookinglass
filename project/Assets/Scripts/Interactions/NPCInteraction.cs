@@ -3,21 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NPCInteraction : MonoBehaviour
+public class NPCInteraction : InteractionBase
 {
-    private GameObject player;
-
     public string segmentName;
-
-    public float interactionDistance;
-
-    public KeyCode interactionKey = KeyCode.E;
-
-    [Space]
-
-    public GameObject textPrefab;
-    private GameObject text;
-    public Vector3 textOffset;
 
     public bool lockPlayer = true;
 
@@ -31,11 +19,10 @@ public class NPCInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 textWorldPosition = transform.position + textOffset;
-        text.transform.position = Camera.main.WorldToScreenPoint(textWorldPosition);
+        PositionText();
 
         // Check if player is close enough
-        if (Vector3.Distance(transform.position, player.transform.position) < interactionDistance)
+        if (InteractionPossible())
         {
             text.SetActive(true);
             if (Input.GetKeyDown(interactionKey))
@@ -50,6 +37,7 @@ public class NPCInteraction : MonoBehaviour
                         if (lockPlayer)
                         {
                             player.GetComponent<PlayerMovement>().enabled = false;
+                            player.GetComponent<Rigidbody>().velocity = Vector3.zero;
                         }
                         this.enabled = false;
                         break;
@@ -59,15 +47,7 @@ public class NPCInteraction : MonoBehaviour
         }
         else
         {
-            text.SetActive(false);
-        }
-    }
-
-    private void OnDisable()
-    {
-        if (text != null)
-        {
-            text.SetActive(false);
+            HideText();
         }
     }
 }

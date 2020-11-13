@@ -3,21 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DoorInteraction : MonoBehaviour
-{
-    private GameObject player;
-
+public class DoorInteraction : InteractionBase
+{   
     public string animatorParameter;
-
-    public float interactionDistance;
-
-    public KeyCode interactionKey = KeyCode.E;
-
-    [Space]
-
-    public GameObject textPrefab;
-    private GameObject text;
-    public Vector3 textOffset;
 
     private bool isOpen;
     private Animator animator;
@@ -33,8 +21,7 @@ public class DoorInteraction : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        text = Instantiate(textPrefab, GameObject.FindGameObjectWithTag("uiCanvas").transform);
+        Setup();
         animator = gameObject.GetComponent<Animator>();
         audioSource = gameObject.GetComponent<AudioSource>();
         isOpen = false;
@@ -45,11 +32,10 @@ public class DoorInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 textWorldPosition = transform.position + textOffset;
-        text.transform.position = Camera.main.WorldToScreenPoint(textWorldPosition);
-
+        PositionText();
+        
         // Check if player is close enough
-        if (Vector3.Distance(transform.position, player.transform.position) < interactionDistance && canInteract)
+        if (InteractionPossible() && canInteract)
         {
             text.SetActive(true);
             if (Input.GetKeyDown(interactionKey))
