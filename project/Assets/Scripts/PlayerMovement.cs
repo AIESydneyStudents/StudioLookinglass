@@ -10,15 +10,18 @@ public class PlayerMovement : MonoBehaviour
     public string forwardAxis;
     public string sideAxis;
 
-    public float movementSpeed;
+    public float maxVelocity;
     public float angle;
     [Range(0f,1f)]
     public float rotationSpeed;
+
+    private Vector3 desiredVelocity;
 
     // Start is called before the first frame update
     void Start()
     {
         body = gameObject.GetComponent<Rigidbody>();
+        desiredVelocity = new Vector3();
     }
 
     // Update is called once per frame
@@ -30,21 +33,24 @@ public class PlayerMovement : MonoBehaviour
         playerInput.y = Input.GetAxis(forwardAxis);
         playerInput = Vector2.ClampMagnitude(playerInput, 1f);
 
-        // Move player
-        Vector3 displacement = new Vector3(playerInput.x, 0, playerInput.y);
+        // Get velocity
+        desiredVelocity = new Vector3(playerInput.x, 0, playerInput.y) * maxVelocity;
+        // Rotate velocity for camera direction
         Quaternion rotation = Quaternion.Euler(0, angle, 0);
-        displacement = rotation * displacement;
-        transform.position += displacement * Time.deltaTime * movementSpeed;
+        desiredVelocity = rotation * desiredVelocity;
 
         // Rotate to face direction of movement
         Quaternion from = transform.rotation;
-        transform.LookAt(transform.position + displacement);
+        transform.LookAt(transform.position + desiredVelocity);
         Quaternion to = transform.rotation;
         transform.rotation = Quaternion.Slerp(from, to, rotationSpeed);
     }
 
     private void FixedUpdate()
     {
+        // Apply velocity to rigidbody
+        body.velocity = desiredVelocity;
+
         // Handle height changes
         RaycastHit hit;
         Vector3 rayOrigin = transform.position;
@@ -53,8 +59,5 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, hit.point.y, transform.position.z);
         }
-
-        // Force zero velocity
-        body.velocity = Vector3.zero;
     }
 }
