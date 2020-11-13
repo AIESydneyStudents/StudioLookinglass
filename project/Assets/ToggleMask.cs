@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShrinkMask : MonoBehaviour
+public class ToggleMask : MonoBehaviour
 {
-    public string Parameter;
-    public Animator MaskAnimator;
+    public GameObject Wall;
 
     private bool inTrigger = true;
 
@@ -22,8 +21,8 @@ public class ShrinkMask : MonoBehaviour
     private void Update()
     {
         if (inTrigger == true)
-            MaskAnimator.SetBool(Parameter, false);
+            Wall.layer = 10;
         else
-            MaskAnimator.SetBool(Parameter, true);
+            Wall.layer = 0;
     }
 }
