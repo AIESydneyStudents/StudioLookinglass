@@ -62,6 +62,7 @@ public class DialogueSegmentEditor : Editor
         if (segment.action == EndActions.End)
         {
             segment.returnControl = EditorGUILayout.Toggle("Return Control", segment.returnControl);
+            segment.allowInteraction = EditorGUILayout.Toggle("Allow Interaction", segment.allowInteraction);
         }
 
         // Apply properties

@@ -2858,7 +2858,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128609236}
   m_LocalRotation: {x: 0.044642597, y: -0.93165344, z: 0.33909404, w: 0.12265456}
-  m_LocalPosition: {x: 16.27, y: 8.3, z: 1.6994224}
+  m_LocalPosition: {x: -4.3473306, y: 6.427875, z: 10.819423}
   m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6863,6 +6863,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 1
+  allowInteraction: 1
 --- !u!1001 &281829597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8249,6 +8250,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 1
+  allowInteraction: 0
 --- !u!114 &346639403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8282,6 +8284,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &346639404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8319,6 +8322,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &346639405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8331,12 +8335,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb55958134e514a4da68d686b627edf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  segmentName: Start
   interactionDistance: 2
   interactionKey: 101
   textPrefab: {fileID: 4296914676108268686, guid: 66b0b511a2852f4458fd620c9a8e50f6,
     type: 3}
   textOffset: {x: 0, y: 2, z: 0}
+  segmentName: Start
   lockPlayer: 1
 --- !u!114 &346639406
 MonoBehaviour:
@@ -9320,6 +9324,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &373502902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9359,6 +9364,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &373502903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9398,6 +9404,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &373502904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9437,6 +9444,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &373502905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9470,6 +9478,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &373502906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9595,6 +9604,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 1
+  allowInteraction: 1
 --- !u!1 &374406077
 GameObject:
   m_ObjectHideFlags: 0
@@ -20567,6 +20577,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &801254717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20678,6 +20689,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 0
+  allowInteraction: 1
 --- !u!114 &801254718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20721,6 +20733,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &801254720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20789,6 +20802,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &801254725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20844,6 +20858,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &801254726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24030,6 +24045,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &901473013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24063,6 +24079,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &901473014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24102,6 +24119,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &901473017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24141,6 +24159,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &901473018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24180,6 +24199,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &901473019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24224,6 +24244,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!1 &906124166
 GameObject:
   m_ObjectHideFlags: 0
@@ -26320,6 +26341,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &979957501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26360,6 +26382,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &979957502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26400,6 +26423,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &979957503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26440,6 +26464,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &979957504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26480,6 +26505,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &979957505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26520,6 +26546,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &979957506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26560,6 +26587,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &979957507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26600,6 +26628,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &979957508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26647,6 +26676,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!95 &979957509
 Animator:
   serializedVersion: 3
@@ -28200,6 +28230,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 1
+  allowInteraction: 1
 --- !u!1001 &1029309079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41823,12 +41854,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb55958134e514a4da68d686b627edf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  segmentName: Start
   interactionDistance: 2
   interactionKey: 101
   textPrefab: {fileID: 4296914676108268686, guid: 66b0b511a2852f4458fd620c9a8e50f6,
     type: 3}
   textOffset: {x: 0, y: 2, z: 0}
+  segmentName: Start
   lockPlayer: 1
 --- !u!114 &1485988366
 MonoBehaviour:
@@ -41907,6 +41938,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   returnControl: 1
+  allowInteraction: 1
 --- !u!1001 &1491425250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45129,6 +45161,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   returnControl: 0
+  allowInteraction: 0
 --- !u!114 &1591100555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45170,6 +45203,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1591100556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45212,6 +45246,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1591100557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45247,6 +45282,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1591100563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45294,6 +45330,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1591100564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51430,6 +51467,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1811955968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51469,6 +51507,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1811955969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51508,6 +51547,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1811955970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51569,6 +51609,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1811955971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51610,6 +51651,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!1001 &1812482217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53562,6 +53604,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1885309150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53601,6 +53644,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1885309151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53757,6 +53801,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1885309152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53796,6 +53841,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1885309153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53835,6 +53881,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1885309154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53874,6 +53921,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1885309155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53913,6 +53961,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1885309156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53960,6 +54009,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!1001 &1889742066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55326,6 +55376,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1951446650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55365,6 +55416,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1951446651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55404,6 +55456,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1951446652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55443,6 +55496,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1951446653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55476,6 +55530,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &1951446654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55601,6 +55656,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 1
+  allowInteraction: 1
 --- !u!1001 &1953001247
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59645,6 +59701,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!95 &2101865103
 Animator:
   serializedVersion: 3
@@ -59715,6 +59772,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &2101865109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59761,6 +59819,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &2101865110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59813,6 +59872,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &2101865111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59904,6 +59964,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 0
+  allowInteraction: 1
 --- !u!114 &2101865113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60001,6 +60062,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 1
+  allowInteraction: 1
 --- !u!114 &2101865115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60045,6 +60107,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 1
+  allowInteraction: 1
 --- !u!1 &2106798667
 GameObject:
   m_ObjectHideFlags: 0

@@ -41,6 +41,7 @@ public class DialogueSegment : MonoBehaviour
 
     public UnityEvent endEvent;
     public bool returnControl = true;
+    public bool allowInteraction = true;
 
     // Start is called before the first frame update
     void Awake()
@@ -167,6 +168,9 @@ public class DialogueSegment : MonoBehaviour
         {
             GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().enabled = true;
         }
-        gameObject.GetComponent<NPCInteraction>().enabled = true;
+        if (allowInteraction)
+        {
+            gameObject.GetComponent<NPCInteraction>().enabled = true;
+        }
     }
 }
