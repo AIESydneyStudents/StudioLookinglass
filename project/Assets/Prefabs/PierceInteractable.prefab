@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5707029018894679698}
   - component: {fileID: 2897315309003861618}
   m_Layer: 0
-  m_Name: Pierce 4
+  m_Name: PierceInteractable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8186879350356753281}
-  m_Mesh: {fileID: 7570884058489748089, guid: 8ff3fdd45cce33d48a0650aeee791884, type: 3}
+  m_Mesh: {fileID: 1188799468277163691, guid: a95c3cfa079a2294dbcbcad9bcd915fa, type: 3}
 --- !u!23 &8186879350356753295
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -93,12 +93,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb55958134e514a4da68d686b627edf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  segmentName: Start
   interactionDistance: 2
   interactionKey: 101
   textPrefab: {fileID: 4296914676108268686, guid: 66b0b511a2852f4458fd620c9a8e50f6,
     type: 3}
   textOffset: {x: 0, y: 2, z: 0}
+  segmentName: Start
+  lockPlayer: 1
 --- !u!114 &2897315309003861618
 MonoBehaviour:
   m_ObjectHideFlags: 0
