@@ -33,6 +33,11 @@ public class PlayerCardManager : MonoBehaviour
     // Dialogue sgement to send card selection to
     private DialogueSegment listener;
 
+
+    [Header("Receive card notification")]
+    public AudioClip receiveSound;
+    private AudioSource source;
+
     void Awake()
     {
         listener = null;
@@ -43,6 +48,7 @@ public class PlayerCardManager : MonoBehaviour
         centrePosition = Screen.width / 2;
 
         displayedCards = new List<GameObject>();
+        source = gameObject.GetComponent<AudioSource>();
     }
 
     // Display cards on screen
@@ -104,6 +110,12 @@ public class PlayerCardManager : MonoBehaviour
             {
                 return;
             }
+        }
+
+        // Give feedback to player
+        if (source != null && receiveSound != null)
+        {
+            source.PlayOneShot(receiveSound);
         }
 
         availableCards.Add(card);
