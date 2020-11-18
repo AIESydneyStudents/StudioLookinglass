@@ -11380,7 +11380,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playlist:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: f8bbc06d760945145b7ddb6e360f1ce6, type: 3}
+  - {fileID: 8300000, guid: 122c27d0c4b41fb41bfac450f4b249e9, type: 3}
+  - {fileID: 8300000, guid: f2eafdc491f715943b7dc4e4468994b6, type: 3}
+  - {fileID: 8300000, guid: d1f859f9351326044b20c1187680559e, type: 3}
   nowPlaying: {fileID: 0}
 --- !u!82 &467497035
 AudioSource:
