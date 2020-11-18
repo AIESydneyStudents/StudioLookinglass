@@ -21,6 +21,8 @@ public class CrowdPopup : MonoBehaviour
     private bool allowDisplay;
     private bool hasActivated;
 
+    public bool followPlayer;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -61,7 +63,15 @@ public class CrowdPopup : MonoBehaviour
 
     private void Position()
     {
-        Vector3 popupWorldPosition = transform.position + offset;
+        Vector3 popupWorldPosition = new Vector3();
+        if (followPlayer)
+        {
+            popupWorldPosition = player.transform.position + offset;
+        }
+        else
+        {
+            popupWorldPosition = transform.position + offset;
+        }
         popup.transform.position = cam.WorldToScreenPoint(popupWorldPosition);
     }
 
