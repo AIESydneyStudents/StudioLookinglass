@@ -13,6 +13,7 @@ public struct TextBox
     public bool flipLeft;
     public Sprite rightSprite;
     public bool flipRight;
+    public AudioClip sound;
 }
 
 [DisallowMultipleComponent]
@@ -40,12 +41,15 @@ public class DialogueRenderer : MonoBehaviour
     private GameObject canvas;
     private List<GameObject> activeBoxes;
 
+    private AudioSource source;
+
     // Start is called before the first frame update
     void Awake()
     {
         activeBoxes = new List<GameObject>();
         canvas = GameObject.FindGameObjectWithTag("uiCanvas");
         centre = Screen.width / 2;
+        source = gameObject.GetComponent<AudioSource>();
     }
 
     public void ShowTextBox(string text)
@@ -81,6 +85,12 @@ public class DialogueRenderer : MonoBehaviour
         newBox.GetComponentInChildren<Text>().text = box.text;
         newBox.GetComponent<Image>().sprite = box.boxSprite;
         activeBoxes.Add(newBox);
+
+        // Play sound
+        if (source != null && box.sound != null)
+        {
+            source.PlayOneShot(box.sound);
+        }
 
         // Set images
         if (box.leftSprite != null)

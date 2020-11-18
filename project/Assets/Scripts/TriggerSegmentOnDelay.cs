@@ -10,7 +10,7 @@ public class TriggerSegmentOnDelay : MonoBehaviour
     private bool active;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         active = false;
     }
