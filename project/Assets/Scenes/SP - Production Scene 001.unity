@@ -2655,7 +2655,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128609236}
   m_LocalRotation: {x: 0.044642597, y: -0.93165344, z: 0.33909404, w: 0.12265456}
-  m_LocalPosition: {x: 16.27, y: 8.3, z: 1.6994224}
+  m_LocalPosition: {x: 9.84267, y: 6.4278746, z: 5.6494474}
   m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6781,39 +6781,31 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "Well... I mean... you\u2019re doing fine talking with me."
+  - text: Listen, the best way to gain more confidence is to dive right in.
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "I know it can be hard, but you will never know unless you try, and doesn\u2019t
-      the thought of not know scare you more?  "
+  - text: "There\u2019s a girl over there named\u202FAurora, she's usually surrounded
+      by a crowd of followers. (I don\u2019t really understand popular people)"
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "Listen, go find Aurora, she's usually surrounded by a crowd of followers.
-      (I don\u2019t really understand popular people) "
+  - text: "I\u2019ve seen\u202Fher and Pierce\u202Fhanging out\u202Fsometimes\u202Fso
+      she might know more about him."
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "I\u2019ve seen Pierce and Aurora hanging out sometimes so she might know
-      more about him."
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 0}
-    flipRight: 0
-    sound: {fileID: 0}
-  - text: ' If you ever get lost or need to see a friendly face, just come back here
-      and talk with me.  '
+  - text: "If you ever get lost or need to see a friendly face, just come back here
+      and talk with me.\u202F\u202F "
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -20563,7 +20555,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "You know, she can seem a little snappy at times, but she\u2019s a good
-      pal! I-  "
+      pal! I- Hold on dude, gotta go."
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -20778,7 +20770,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: End
   textBoxes:
-  - text: Well, it was cool meeting you dude. Laters!
+  - text: "I\u2019d give you a joke but I\u2019m afraid you\u2019re laugh-tose\u202Fintolerant,
+      hah! Laters!"
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -23344,10 +23337,10 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: " That took courage, sometimes she can be scarier than Steph \u2013 ahahah.
+  - text: "That took courage, sometimes she can be scarier than Steph \u2013 ahahah.
       I knew I saw something special in you, that\u2019s why I shared my best joke
       with you.  "
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -23371,7 +23364,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "Okay Blue, here\u2019s what you need to know. Aurora is actually a lot
       like you, nervous about making a fool of themselves. "
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -23380,7 +23373,7 @@ MonoBehaviour:
   - text: She may seem all perfect, but she's normal like all of us here... if you
       want her to really like you, then you need to connect dude, with who she really
       is.
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -23396,7 +23389,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "Alright, I think I owe Aurora a proper apology. Oh, and also- um, Budd...
       thank you \u2026 dude."
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -23410,7 +23403,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: 'Right back atcha blue. '
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -23501,7 +23494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Joke
   textBoxes:
-  - text: Knock knock...
+  - text: "I\u2019d give you a joke but I\u2019m afraid you\u2019re laugh-tose\u202Fintolerant"
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -23509,7 +23502,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Haaha... wait, there's no time for jokes Blue!
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -25300,45 +25293,46 @@ MonoBehaviour:
   textTag: Reunited
   textBoxes:
   - text: ' I thought, maybe... you were avoiding me. That, maybe... you hated me.  '
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 465daa2ec7f4c7e48afb0be8029147d8, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   - text: "N- No that\u2019s not true. How could I hate you?\_"
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "Well... I did kind of leave you back in senior year, I didn\u2019t have
-      the courage to say goodbye..."
-    boxSprite: {fileID: 0}
+  - text: "Well... I\u202Fdid\u202Fkind of leave\u202Fyou back in senior year, I
+      didn\u2019t have the courage to say goodbye\u202Fto you in person...\u202F"
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: "That doesn\u2019t matter! I actually thought that you might hate me."
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "Phim, you were my best friend. I could never hate you. I\u2019m really
-      sorry for how we left things. I was going through some pretty bad stuff at
-      home and I didn\u2019t know how to tell anyone. In the end, I just ran away.  "
-    boxSprite: {fileID: 0}
+  - text: "Phim, you were my best friend. I could never hate you.\u202FI\u2019m\u202Freally
+      sorry\u202Ffor how we left things. I was going through some pretty\u202Fbad\u202Fstuff\u202Fat
+      home and I\u202Fdidn\u2019t\u202Fknow how to tell anyone. In the end, I just
+      ran away.\u202F\u202F "
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: ' I wish you had told me, I would have helped. '
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -25347,14 +25341,14 @@ MonoBehaviour:
   - text: "It wasn\u2019t really that type of problem... I felt completely isolated
       and just had to escape. But I\u2019m doing really, really great now. I found
       a place where I can truly be myself. "
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: "I\u2019m happy for you."
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -25362,7 +25356,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "\u2026 You seem... different, more confident. It suits you. I always thought
       that you looked better with your wings up. "
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -25371,28 +25365,28 @@ MonoBehaviour:
   - text: "I\u2019ve learnt a lot tonight. Initially, I didn\u2019t even want to
       leave my room. I thought that you wouldn\u2019t want to see me... but... I
       kept trying, and I even managed to make some new friends along the way.  "
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: " I\u2019m really glad that you did. I think I owe you an explanation. "
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: So... you really aren't mad at me?
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: "Of course not! We\u2019re friends after all."
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -25427,7 +25421,7 @@ MonoBehaviour:
   textTag: RealTalk
   textBoxes:
   - text: Pierce, its... Its me Ph-
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 465daa2ec7f4c7e48afb0be8029147d8, type: 3}
@@ -25435,7 +25429,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "PHIM! I can\u2019t believe it's actually you... I\u2019ve been looking
       all night for you."
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 1659eaa9a2229a944849c3b0ab1e6af3, type: 3}
@@ -25470,7 +25464,7 @@ MonoBehaviour:
   textTag: Compliment
   textBoxes:
   - text: Nice moves.
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 465daa2ec7f4c7e48afb0be8029147d8, type: 3}
@@ -25478,7 +25472,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "Thanks, I- PHIM! I can\u2019t believe it's actually you... I\u2019ve been
       looking all night for you. "
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 1659eaa9a2229a944849c3b0ab1e6af3, type: 3}
@@ -25513,7 +25507,7 @@ MonoBehaviour:
   textTag: Comfort
   textBoxes:
   - text: 'Hi... sorry for not keeping in contac- '
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 465daa2ec7f4c7e48afb0be8029147d8, type: 3}
@@ -25521,7 +25515,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "PHIM! I can\u2019t believe it's actually you... I\u2019ve been looking
       all night for you. "
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 1659eaa9a2229a944849c3b0ab1e6af3, type: 3}
@@ -25556,7 +25550,7 @@ MonoBehaviour:
   textTag: Item
   textBoxes:
   - text: This is for you...
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 465daa2ec7f4c7e48afb0be8029147d8, type: 3}
@@ -25564,7 +25558,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "PHIM! \u2026 With alcohol! I can\u2019t believe it's actually you... I\u2019ve
       been looking all night for you."
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 1659eaa9a2229a944849c3b0ab1e6af3, type: 3}
@@ -25599,7 +25593,7 @@ MonoBehaviour:
   textTag: Joke
   textBoxes:
   - text: Knock knock...
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 465daa2ec7f4c7e48afb0be8029147d8, type: 3}
@@ -25607,7 +25601,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "Who\u2019s ther... PHIM! I can\u2019t believe it's actually you... I\u2019ve
       been looking all night for you."
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 1659eaa9a2229a944849c3b0ab1e6af3, type: 3}
@@ -25642,7 +25636,7 @@ MonoBehaviour:
   textTag: SmallTalk
   textBoxes:
   - text: I love this song.
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 465daa2ec7f4c7e48afb0be8029147d8, type: 3}
@@ -25650,7 +25644,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "Me too--- PHIM! I can\u2019t believe it's actually you... I\u2019ve been
       looking all night for you."
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 1659eaa9a2229a944849c3b0ab1e6af3, type: 3}
@@ -25685,7 +25679,7 @@ MonoBehaviour:
   textTag: Silence
   textBoxes:
   - text: ...
-    boxSprite: {fileID: 0}
+    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 465daa2ec7f4c7e48afb0be8029147d8, type: 3}
@@ -25727,7 +25721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Start
   textBoxes:
-  - text: '*Phim approaches Pierce'
+  - text: '*Phim approaches Pierce*'
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -43492,7 +43486,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: Actually... I live here
+  - text: "Uh...\u202FI,\u202FI live here...\u202F"
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -49442,7 +49436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Joke
   textBoxes:
-  - text: Knock knock...
+  - text: "I\u2019d... umm... give you a joke b-but I\u2019m..."
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -58147,7 +58141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Joke
   textBoxes:
-  - text: Knock knock...
+  - text: "I\u2019d... umm... give you a joke b-but I\u2019m..."
     boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
