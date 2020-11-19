@@ -8323,8 +8323,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dea8097a3ae630a4eb0f473cb9b058c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  segment: End
-  delayTime: 2.1
+  segment: Start
+  delayTime: 5
 --- !u!95 &282091411
 Animator:
   serializedVersion: 3
@@ -8360,9 +8360,9 @@ MonoBehaviour:
   textBoxes:
   - text: Whoops...
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
-    rightSprite: {fileID: 0}
+    rightSprite: {fileID: 21300000, guid: fc8e334e6e834a04c831c8d9bcbf3b4c, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   - text: Anyway... see you later!
@@ -8372,8 +8372,8 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: fc8e334e6e834a04c831c8d9bcbf3b4c, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  action: 2
-  nextSegment: 
+  action: 1
+  nextSegment: End
   responses: []
   removeCard: 0
   cardsToTake: []
@@ -8395,15 +8395,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 282091409}
-        m_MethodName: StartTimer
-        m_Mode: 1
+      - m_Target: {fileID: 954271937}
+        m_MethodName: SetTrigger
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Move2
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 0
@@ -10116,7 +10116,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   returnControl: 1
-  allowInteraction: 1
+  allowInteraction: 0
 --- !u!1001 &347318196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19256,6 +19256,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.05
       objectReference: {fileID: 0}
+    - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6dc436293e42354799751e2e5923de2, type: 3}
 --- !u!4 &626523595 stripped
@@ -20930,7 +20940,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &678396204
 Transform:
   m_ObjectHideFlags: 0
@@ -20943,8 +20953,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1485988363}
-  m_Father: {fileID: 961018411}
-  m_RootOrder: 64
+  m_Father: {fileID: 2122206248}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
 --- !u!1001 &683787217
 PrefabInstance:
@@ -24380,9 +24390,31 @@ MonoBehaviour:
           m_StringArgument: Move
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 801254726}
+        m_MethodName: StartTimer
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 346639400}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 678396203}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -29296,7 +29328,6 @@ Transform:
   - {fileID: 2081449932}
   - {fileID: 1113298213}
   - {fileID: 1884221666}
-  - {fileID: 678396204}
   - {fileID: 1685141453}
   m_Father: {fileID: 2122206248}
   m_RootOrder: 1
@@ -52255,7 +52286,7 @@ PrefabInstance:
     - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 65
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
         type: 3}
@@ -57666,6 +57697,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1266420354}
     m_Modifications:
+    - target: {fileID: 1852325536802514583, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9173880729682305057, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
         type: 3}
       propertyPath: m_Name
@@ -68697,7 +68733,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 444248749}
+      - m_Target: {fileID: 1266420353}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -68706,11 +68742,11 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1266420353}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 282091409}
+        m_MethodName: StartTimer
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -68730,8 +68766,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 444248749}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   returnControl: 0
-  allowInteraction: 1
+  allowInteraction: 0
 --- !u!114 &2101865115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69197,6 +69244,7 @@ Transform:
   - {fileID: 300129745}
   - {fileID: 158897339}
   - {fileID: 346639401}
+  - {fileID: 678396204}
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
