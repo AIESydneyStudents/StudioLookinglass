@@ -28275,7 +28275,7 @@ MonoBehaviour:
   giveCard: 1
   cardToGive:
     name: Compliment
-    image: {fileID: 21300000, guid: 1913c6460f1d681498fa8614d57b67cf, type: 3}
+    image: {fileID: 21300000, guid: 06f6dd2dcb0d8294bbfcf258222031b0, type: 3}
   endEvent:
     m_PersistentCalls:
       m_Calls:
@@ -28632,7 +28632,7 @@ MonoBehaviour:
   giveCard: 1
   cardToGive:
     name: Comfort
-    image: {fileID: 21300000, guid: 67a7a8e85c8105f46a9b8cbacd6a14a9, type: 3}
+    image: {fileID: 21300000, guid: 91512474b01e33b48bfcac89a107ca45, type: 3}
   endEvent:
     m_PersistentCalls:
       m_Calls:
@@ -48609,11 +48609,11 @@ MonoBehaviour:
     type: 3}
   cards:
   - name: SweetRedCherry
-    image: {fileID: 21300000, guid: 5baeb626e0ec6bc46bbe9894e1eae844, type: 3}
+    image: {fileID: 21300000, guid: 11de0c6edc4ea7741821b5bd7642c54a, type: 3}
   - name: SourGreenApple
-    image: {fileID: 21300000, guid: 4ff6f4a37455ea144b4b0f13e4cad616, type: 3}
+    image: {fileID: 21300000, guid: 62da0b5cc7205034baaf3839402a3793, type: 3}
   - name: BitterRedCranberies
-    image: {fileID: 21300000, guid: f5d811bcb63904446a58b8d21ade7c36, type: 3}
+    image: {fileID: 21300000, guid: 765fd0360d1030f4fbe331e309f3b370, type: 3}
   height: 600
   deltaX: 200
 --- !u!114 &1485988365
@@ -63279,7 +63279,7 @@ MonoBehaviour:
   giveCard: 1
   cardToGive:
     name: RealTalk
-    image: {fileID: 21300000, guid: 0fc8210ca4f2e1245ae5359bec4d2d31, type: 3}
+    image: {fileID: 21300000, guid: 45c344f271eb3c04e95da909e555d47d, type: 3}
   endEvent:
     m_PersistentCalls:
       m_Calls: []
