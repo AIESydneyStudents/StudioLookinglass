@@ -94,5 +94,6 @@ public class PlayerMovement : MonoBehaviour
     public void StopMovement()
     {
         allowMovement = false;
+        body.velocity = Vector3.zero;
     }
 }
