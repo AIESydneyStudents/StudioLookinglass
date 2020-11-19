@@ -115,6 +115,8 @@ MonoBehaviour:
   rotationSpeed: 0.15
   animationThreshold: 0
   animationName: isWalking
+  allowMovement: 1
+  changeHeight: 1
 --- !u!136 &4995383761491109128
 CapsuleCollider:
   m_ObjectHideFlags: 0

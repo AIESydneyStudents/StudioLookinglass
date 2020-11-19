@@ -23,7 +23,6 @@ public class CrowdPopup : MonoBehaviour
 
     public bool followPlayer;
 
-    // Start is called before the first frame update
     void Awake()
     {
         // Get player object
@@ -61,6 +60,7 @@ public class CrowdPopup : MonoBehaviour
         }
     }
 
+    // Position text on screen
     private void Position()
     {
         Vector3 popupWorldPosition = new Vector3();

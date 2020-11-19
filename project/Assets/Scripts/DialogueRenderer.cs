@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [Serializable]
-public struct TextBox
+public class TextBox
 {
     [TextArea] public string text;
     public Sprite boxSprite;
@@ -44,7 +44,7 @@ public class DialogueRenderer : MonoBehaviour
     private AudioSource source;
 
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         activeBoxes = new List<GameObject>();
         canvas = GameObject.FindGameObjectWithTag("uiCanvas");
@@ -52,6 +52,7 @@ public class DialogueRenderer : MonoBehaviour
         source = gameObject.GetComponent<AudioSource>();
     }
 
+    // Show a default text box from a string
     public void ShowTextBox(string text)
     {
         TextBox t = new TextBox();
@@ -59,10 +60,11 @@ public class DialogueRenderer : MonoBehaviour
         t.boxSprite = null;
         t.leftSprite = null;
         t.rightSprite = null;
-        ShowTextBox(ref t);
+        ShowTextBox(t);
     }
 
-    public void ShowTextBox(ref TextBox box)
+    // Show a text box on the screen
+    public void ShowTextBox(TextBox box)
     {
         // Create list if null
         if (activeBoxes == null)
@@ -87,7 +89,7 @@ public class DialogueRenderer : MonoBehaviour
         activeBoxes.Add(newBox);
 
         // Play sound
-        if (source != null && box.sound != null)
+        if (source && box.sound)
         {
             source.PlayOneShot(box.sound);
         }
@@ -141,9 +143,10 @@ public class DialogueRenderer : MonoBehaviour
             leftImage.gameObject.transform.position = new Vector3(centre - leftImageOffset.x, leftImageOffset.y, 0);
         }
 
+        // Change sprite
         leftImage.sprite = newSprite;
-        //leftImage.SetNativeSize();
 
+        // Horizontally mirror sprite
         if (flip)
         {
             leftImage.transform.localScale = new Vector3(-1, 1, 1);
@@ -163,9 +166,10 @@ public class DialogueRenderer : MonoBehaviour
             rightImage.gameObject.transform.position = new Vector3(centre + rightImageOffset.x, rightImageOffset.y, 0);
         }
 
+        // Change sprite
         rightImage.sprite = newSprite;
-        //rightImage.SetNativeSize();
 
+        // Horizontally mirror sprite
         if (flip)
         {
             rightImage.transform.localScale = new Vector3(-1, 1, 1);

@@ -19,13 +19,13 @@ public class DoorInteraction : InteractionBase
     public float interactTime = 1;
     private float timer;
     [Space]
-    public UnityEvent openEvent;
-    public UnityEvent closeEvent;
+    public UnityEvent onOpen;
+    public UnityEvent onClose;
 
     // Start is called before the first frame update
-    void Start()
+    protected override void Start()
     {
-        Setup();
+        base.Start();
         animator = gameObject.GetComponent<Animator>();
         audioSource = gameObject.GetComponent<AudioSource>();
         isOpen = false;
@@ -41,7 +41,7 @@ public class DoorInteraction : InteractionBase
         // Check if player is close enough
         if (InteractionPossible() && canInteract)
         {
-            text.SetActive(true);
+            ShowText();
             if (Input.GetKeyDown(interactionKey))
             {
                 if (isOpen)
@@ -56,7 +56,7 @@ public class DoorInteraction : InteractionBase
         }
         else
         {
-            text.SetActive(false);
+            HideText();
         }
 
         if (!canInteract)
@@ -75,7 +75,7 @@ public class DoorInteraction : InteractionBase
 
     public void OpenDoor()
     {
-        if (isOpen) return;
+        if (isOpen) { return; }
 
         isOpen = true;
 
@@ -84,14 +84,14 @@ public class DoorInteraction : InteractionBase
             audioSource.PlayOneShot(openSound);
         }
 
-        openEvent.Invoke();
+        onOpen.Invoke();
 
         DoorChangeCommon();
     }
 
     public void CloseDoor()
     {
-        if (!isOpen) return;
+        if (!isOpen) { return; }
 
         isOpen = false;
 
@@ -100,7 +100,7 @@ public class DoorInteraction : InteractionBase
             audioSource.PlayOneShot(closeSound);
         }
 
-        closeEvent.Invoke();
+        onClose.Invoke();
 
         DoorChangeCommon();
     }

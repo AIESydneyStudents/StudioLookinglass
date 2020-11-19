@@ -8,12 +8,6 @@ public class ObjectInteraction : InteractionBase
 {
     public UnityEvent triggerEvent;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        Setup();
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -22,7 +16,7 @@ public class ObjectInteraction : InteractionBase
         // Check if player is close enough
         if (InteractionPossible())
         {
-            text.SetActive(true);
+            ShowText();
             if (Input.GetKeyDown(interactionKey))
             {
                 triggerEvent.Invoke();
@@ -30,7 +24,7 @@ public class ObjectInteraction : InteractionBase
         }
         else
         {
-            text.SetActive(false);
+            HideText();
         }
     }
 }

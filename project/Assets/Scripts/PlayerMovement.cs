@@ -22,7 +22,10 @@ public class PlayerMovement : MonoBehaviour
     [Range(0,1)] public float animationThreshold;
     public string animationName;
 
-    public bool allowMovement;
+    [SerializeField]
+    private bool allowMovement;
+
+    public bool changeHeight;
 
     // Start is called before the first frame update
     void Start()
@@ -69,12 +72,27 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Handle height changes
-        RaycastHit hit;
-        Vector3 rayOrigin = transform.position;
-        rayOrigin.y += 1;
-        if (Physics.Raycast(rayOrigin, Vector3.down, out hit))
+        if (changeHeight)
         {
-            transform.position = new Vector3(transform.position.x, hit.point.y, transform.position.z);
+            RaycastHit hit;
+            Vector3 rayOrigin = transform.position;
+            // Move raycast above player feet
+            rayOrigin.y += 1;
+            // Raycast down
+            if (Physics.Raycast(rayOrigin, Vector3.down, out hit))
+            {
+                transform.position = new Vector3(transform.position.x, hit.point.y, transform.position.z);
+            }
         }
+    }
+
+    public void StartMovement()
+    {
+        allowMovement = true;
+    }
+
+    public void StopMovement()
+    {
+        allowMovement = false;
     }
 }

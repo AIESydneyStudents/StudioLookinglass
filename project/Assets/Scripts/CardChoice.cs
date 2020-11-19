@@ -20,7 +20,7 @@ public class CardChoice : MonoBehaviour
 
     private PlayerCardManager playerManager;
 
-    private void Awake()
+    private void Start()
     {
         canvas = GameObject.FindGameObjectWithTag("uiCanvas");
         centre = Screen.width / 2;

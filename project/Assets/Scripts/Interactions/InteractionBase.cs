@@ -16,7 +16,19 @@ public class InteractionBase : MonoBehaviour
     protected GameObject text;
     public Vector3 textOffset;
 
-    protected void OnDisable()
+    private Camera cam;
+
+    protected virtual void Awake()
+    {
+        cam = Camera.main;
+    }
+
+    protected virtual void Start()
+    {
+        Setup();
+    }
+
+    protected virtual void OnDisable()
     {
         if (text != null)
         {
@@ -24,18 +36,21 @@ public class InteractionBase : MonoBehaviour
         }
     }
 
+    // Get player and create text
     protected void Setup()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         text = Instantiate(textPrefab, GameObject.FindGameObjectWithTag("uiCanvas").transform);
     }
 
+    // Position UI text on the canvas
     protected void PositionText()
     {
         Vector3 textWorldPosition = transform.position + textOffset;
-        text.transform.position = Camera.main.WorldToScreenPoint(textWorldPosition);
+        text.transform.position = cam.WorldToScreenPoint(textWorldPosition);
     }
 
+    // Get if player is close enough to interact
     protected bool InteractionPossible()
     {
         return (Vector3.Distance(transform.position, player.transform.position) < interactionDistance);

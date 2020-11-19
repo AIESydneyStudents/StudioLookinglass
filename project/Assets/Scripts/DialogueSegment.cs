@@ -43,6 +43,21 @@ public class DialogueSegment : MonoBehaviour
     public bool returnControl = true;
     public bool allowInteraction = true;
 
+    private GameObject _player;
+    private GameObject Player
+    {
+        get
+        {
+            if (_player)
+            { }
+            else
+            {
+                _player = GameObject.FindGameObjectWithTag("Player");
+            }
+            return _player;
+        }
+    }
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -70,7 +85,7 @@ public class DialogueSegment : MonoBehaviour
         if (position < textBoxes.Length)
         {
             // Advance to next box
-            dialogueRenderer.ShowTextBox(ref textBoxes[position]);
+            dialogueRenderer.ShowTextBox(textBoxes[position]);
             position++;
         }
         else
@@ -83,27 +98,25 @@ public class DialogueSegment : MonoBehaviour
     // Action taken when text finishes
     void OnTextEnd()
     {
+        // Invoke end event
         endEvent.Invoke();
 
-        GameObject player = null;
-        if (giveCard || removeCard)
-        {
-            player = GameObject.FindGameObjectWithTag("Player");
-        }
-
-        if (removeCard && player != null)
+        // Remove cards from the player
+        if (removeCard)
         {
             foreach (var card in cardsToTake)
             {
-                player.GetComponent<PlayerCardManager>().RemoveCard(card);
+                Player.GetComponent<PlayerCardManager>().RemoveCard(card);
             }
         }
 
-        if (giveCard && player != null)
+        // Give cards to the player
+        if (giveCard)
         {
-            player.GetComponent<PlayerCardManager>().AddNewCard(cardToGive);
+            Player.GetComponent<PlayerCardManager>().AddNewCard(cardToGive);
         }
 
+        // Select and take end action
         switch (action)
         {
             case EndActions.ShowCards:
@@ -123,8 +136,7 @@ public class DialogueSegment : MonoBehaviour
     // Prompt player for cards
     void ShowPlayerCards()
     {
-        var player = GameObject.FindGameObjectWithTag("Player");
-        var playerCards = player.GetComponent<PlayerCardManager>();
+        var playerCards = Player.GetComponent<PlayerCardManager>();
         playerCards.DisplayCards();
         playerCards.SetListener(this);
     }
@@ -165,12 +177,17 @@ public class DialogueSegment : MonoBehaviour
 
     void OnEnd()
     {
+        // Clear text boxes
         dialogueRenderer.ClearAll();
         this.enabled = false;
+
+        // Give player control
         if (returnControl)
         {
-            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().allowMovement = true;
+            Player.GetComponent<PlayerMovement>().StartMovement();
         }
+
+        // Allow player to interact with the NPC again
         if (allowInteraction)
         {
             gameObject.GetComponent<NPCInteraction>().enabled = true;
