@@ -169,7 +169,7 @@ public class DialogueSegment : MonoBehaviour
         this.enabled = false;
         if (returnControl)
         {
-            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().enabled = true;
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().allowMovement = true;
         }
         if (allowInteraction)
         {
