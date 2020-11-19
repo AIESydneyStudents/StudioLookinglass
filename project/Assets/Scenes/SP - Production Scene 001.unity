@@ -3372,7 +3372,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4
+  orthographic size: 3.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -13062,7 +13062,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455580013}
   m_LocalRotation: {x: 0.0066597145, y: -0.010675512, z: 0.008837327, w: -0.9998818}
-  m_LocalPosition: {x: 22.317934, y: 3.2003498, z: 5.795183}
+  m_LocalPosition: {x: 22.317934, y: 3.2003498, z: 5.7951837}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1619674749}
@@ -24358,28 +24358,6 @@ MonoBehaviour:
   endEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1310881527}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 961018410}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 765418428}
         m_MethodName: Play
         m_Mode: 1
@@ -24391,19 +24369,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 954271937}
+        m_MethodName: SetTrigger
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Move
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 801254726}
-        m_MethodName: StartTimer
+      - m_Target: {fileID: 0}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24414,7 +24392,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 0
-  allowInteraction: 1
+  allowInteraction: 0
 --- !u!114 &801254718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24543,7 +24521,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801254714}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
   m_Name: 
