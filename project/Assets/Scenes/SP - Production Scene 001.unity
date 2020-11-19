@@ -44804,6 +44804,12 @@ MonoBehaviour:
   openSound: {fileID: 8300000, guid: 770b51cfbcc965544962eb397e01b364, type: 3}
   closeSound: {fileID: 8300000, guid: 94c62486b022059489a18817c433b534, type: 3}
   interactTime: 1
+  openEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  closeEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1398868276
 GameObject:
   m_ObjectHideFlags: 0
