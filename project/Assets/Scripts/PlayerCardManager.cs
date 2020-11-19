@@ -34,9 +34,12 @@ public class PlayerCardManager : MonoBehaviour
     private DialogueSegment listener;
 
 
-    [Header("Receive card notification")]
+    [Header("Card notification")]
     public AudioClip receiveSound;
     private AudioSource source;
+    public GameObject notificationPrefab;
+    [Min(0)] public float notificationDisplayTime;
+    public Vector2 notificationPosition;
 
     void Awake()
     {
@@ -113,10 +116,11 @@ public class PlayerCardManager : MonoBehaviour
         }
 
         // Give feedback to player
-        if (source != null && receiveSound != null)
+        if (source && receiveSound)
         {
             source.PlayOneShot(receiveSound);
         }
+        StartCoroutine(ShowNotification(card));
 
         availableCards.Add(card);
     }
@@ -150,5 +154,31 @@ public class PlayerCardManager : MonoBehaviour
     public void SetListener(DialogueSegment newListener)
     {
         listener = newListener;
+    }
+
+    IEnumerator ShowNotification(Card card)
+    {
+        GameObject notification;
+        notification = Instantiate(notificationPrefab, canvas.transform);
+        notification.transform.position = new Vector3(notificationPosition.x, notificationPosition.y, 0);
+        notification.GetComponent<Image>().sprite = card.image;
+
+        yield return new WaitForSeconds(notificationDisplayTime);
+
+        // Destroy all children of card image
+        foreach (Transform child in notification.transform)
+        {
+            Destroy(child.gameObject);
+        }
+
+        // Move card offscreen
+        float bound = notification.GetComponent<RectTransform>().rect.height * -1;
+        while (notification.transform.position.y > bound)
+        {
+            notification.transform.Translate(0, -600 * Time.deltaTime, 0);
+            yield return null;
+        }
+
+        Destroy(notification);
     }
 }

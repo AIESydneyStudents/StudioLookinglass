@@ -92,6 +92,10 @@ MonoBehaviour:
   cardPositionDelta: 120
   cardAngleDelta: 5
   receiveSound: {fileID: 0}
+  notificationPrefab: {fileID: 5510783269395563879, guid: 543cce23cf8e89648909cb94184f95da,
+    type: 3}
+  notificationDisplayTime: 1
+  notificationPosition: {x: 300, y: 250}
 --- !u!114 &4995383761491109127
 MonoBehaviour:
   m_ObjectHideFlags: 0
