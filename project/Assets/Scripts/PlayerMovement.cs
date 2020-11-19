@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
     {
         body = gameObject.GetComponent<Rigidbody>();
         desiredVelocity = new Vector3();
-        anim = gameObject.GetComponent<Animator>();
+        anim = gameObject.GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
