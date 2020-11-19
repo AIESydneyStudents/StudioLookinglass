@@ -3659,7 +3659,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -6828,7 +6828,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -7046,7 +7046,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -7121,7 +7121,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -8314,7 +8314,7 @@ MonoBehaviour:
   nextSegment: EndHold
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -8382,7 +8382,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -8421,7 +8421,7 @@ MonoBehaviour:
   - cardName: SmallTalk
     nextSegment: SmallTalk
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -8542,7 +8542,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -9494,7 +9494,7 @@ MonoBehaviour:
   - cardName: Comfort
     nextSegment: Comfort
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -9536,7 +9536,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -9578,7 +9578,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -9620,7 +9620,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -9655,7 +9655,7 @@ MonoBehaviour:
   nextSegment: Comfort
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -9770,7 +9770,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 1
   cardToGive:
     name: Compliment
@@ -20639,7 +20639,7 @@ MonoBehaviour:
   - cardName: SmallTalk
     nextSegment: SmallTalk
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -20700,7 +20700,7 @@ MonoBehaviour:
   - cardName: 
     nextSegment: 
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 1
   cardToGive:
     name: Joke
@@ -20801,7 +20801,7 @@ MonoBehaviour:
   - cardName: SmallTalk
     nextSegment: SmallTalk
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -20876,7 +20876,7 @@ MonoBehaviour:
   - cardName: SmallTalk
     nextSegment: SmallTalk
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -20912,7 +20912,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -23549,7 +23549,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 1
   cardToGive:
     name: Compliment
@@ -23606,7 +23606,7 @@ MonoBehaviour:
   nextSegment: Comfort
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -23648,7 +23648,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -23690,7 +23690,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -23732,7 +23732,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -23778,7 +23778,7 @@ MonoBehaviour:
   - cardName: Comfort
     nextSegment: Comfort
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -23906,7 +23906,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 1
   cardToGive:
     name: Comfort
@@ -25532,7 +25532,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -25575,7 +25575,7 @@ MonoBehaviour:
   nextSegment: Reunited
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -25618,7 +25618,7 @@ MonoBehaviour:
   nextSegment: Reunited
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -25661,7 +25661,7 @@ MonoBehaviour:
   nextSegment: Reunited
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -25704,7 +25704,8 @@ MonoBehaviour:
   nextSegment: Reunited
   responses: []
   removeCard: 1
-  cardNameToTake: Item
+  cardsToTake:
+  - Item
   giveCard: 0
   cardToGive:
     name: 
@@ -25747,7 +25748,7 @@ MonoBehaviour:
   nextSegment: Reunited
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -25790,7 +25791,7 @@ MonoBehaviour:
   nextSegment: Reunited
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -25833,7 +25834,7 @@ MonoBehaviour:
   nextSegment: Reunited
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -25882,7 +25883,7 @@ MonoBehaviour:
   - cardName: RealTalk
     nextSegment: RealTalk
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -27241,7 +27242,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 1
   cardToGive:
     name: Comfort
@@ -40496,8 +40497,11 @@ MonoBehaviour:
     nextSegment: 
   - cardName: 
     nextSegment: 
-  removeCard: 0
-  cardNameToTake: 
+  removeCard: 1
+  cardsToTake:
+  - SweetRedCherry
+  - SourGreenApple
+  - BitterRedCranberies
   giveCard: 0
   cardToGive:
     name: Item
@@ -43640,7 +43644,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -43706,7 +43710,7 @@ MonoBehaviour:
   - cardName: SmallTalk
     nextSegment: SmallTalk
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 1
   cardToGive:
     name: SmallTalk
@@ -43751,7 +43755,7 @@ MonoBehaviour:
   - cardName: Silence
     nextSegment: 2ndSilence
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: SmallTalk
@@ -43788,7 +43792,7 @@ MonoBehaviour:
   - cardName: Silence
     nextSegment: 1stSilence
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: SmallTalk
@@ -43839,7 +43843,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -49708,7 +49712,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -49750,7 +49754,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -49792,7 +49796,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -49834,7 +49838,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -49943,7 +49947,7 @@ MonoBehaviour:
   - cardName: Item
     nextSegment: Item
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -51843,7 +51847,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -51951,7 +51955,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -52124,7 +52128,7 @@ MonoBehaviour:
   - cardName: RealTalk
     nextSegment: RealTalk
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 1
   cardToGive:
     name: RealTalk
@@ -52166,7 +52170,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -52208,7 +52212,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -52250,7 +52254,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -52292,7 +52296,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -52341,7 +52345,7 @@ MonoBehaviour:
   - cardName: RealTalk
     nextSegment: RealTalk
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -54137,7 +54141,7 @@ MonoBehaviour:
   - cardName: Comfort
     nextSegment: Comfort
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -54179,7 +54183,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -54221,7 +54225,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -54263,7 +54267,7 @@ MonoBehaviour:
   nextSegment: Start
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -54298,7 +54302,7 @@ MonoBehaviour:
   nextSegment: Comfort
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -54413,7 +54417,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 1
   cardToGive:
     name: Compliment
@@ -58399,7 +58403,7 @@ MonoBehaviour:
   - cardName: SweetRedCherry
     nextSegment: CorrectItem
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -58469,7 +58473,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -58519,7 +58523,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -58576,7 +58580,7 @@ MonoBehaviour:
   nextSegment: 
   responses: []
   removeCard: 0
-  cardNameToTake: 
+  cardsToTake: []
   giveCard: 0
   cardToGive:
     name: 
@@ -58640,7 +58644,8 @@ MonoBehaviour:
   nextSegment: BuddPanic
   responses: []
   removeCard: 1
-  cardNameToTake: SweetRedCherry
+  cardsToTake:
+  - SweetRedCherry
   giveCard: 0
   cardToGive:
     name: 
@@ -58719,7 +58724,8 @@ MonoBehaviour:
   nextSegment: End
   responses: []
   removeCard: 1
-  cardNameToTake: SweetRedCherry
+  cardsToTake:
+  - SweetRedCherry
   giveCard: 0
   cardToGive:
     name: 

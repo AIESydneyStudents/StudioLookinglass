@@ -34,7 +34,7 @@ public class DialogueSegment : MonoBehaviour
     private int position;
 
     public bool removeCard;
-    public string cardNameToTake;
+    public string[] cardsToTake;
 
     public bool giveCard;
     public Card cardToGive;
@@ -93,7 +93,10 @@ public class DialogueSegment : MonoBehaviour
 
         if (removeCard && player != null)
         {
-            player.GetComponent<PlayerCardManager>().RemoveCard(cardNameToTake);
+            foreach (var card in cardsToTake)
+            {
+                player.GetComponent<PlayerCardManager>().RemoveCard(card);
+            }
         }
 
         if (giveCard && player != null)
