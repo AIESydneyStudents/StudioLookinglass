@@ -162,6 +162,7 @@ public class PlayerCardManager : MonoBehaviour
         notification = Instantiate(notificationPrefab, canvas.transform);
         notification.transform.position = new Vector3(notificationPosition.x, notificationPosition.y, 0);
         notification.GetComponent<Image>().sprite = card.image;
+        notification.transform.SetAsLastSibling();
 
         yield return new WaitForSeconds(notificationDisplayTime);
 

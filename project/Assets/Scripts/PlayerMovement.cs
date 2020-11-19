@@ -17,11 +17,20 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 desiredVelocity;
 
+    private Animator anim;
+
+    [Range(0,1)] public float animationThreshold;
+    public string animationName;
+
+    public bool allowMovement;
+
     // Start is called before the first frame update
     void Start()
     {
         body = gameObject.GetComponent<Rigidbody>();
         desiredVelocity = new Vector3();
+        anim = gameObject.GetComponentInChildren<Animator>();
+        allowMovement = true;
     }
 
     // Update is called once per frame
@@ -33,6 +42,8 @@ public class PlayerMovement : MonoBehaviour
         playerInput.y = Input.GetAxis(forwardAxis);
         playerInput = Vector2.ClampMagnitude(playerInput, 1f);
 
+        anim.SetBool(animationName, playerInput.magnitude > animationThreshold & allowMovement);
+
         // Get velocity
         desiredVelocity = new Vector3(playerInput.x, 0, playerInput.y) * maxVelocity;
         // Rotate velocity for camera direction
@@ -40,16 +51,22 @@ public class PlayerMovement : MonoBehaviour
         desiredVelocity = rotation * desiredVelocity;
 
         // Rotate to face direction of movement
-        Quaternion from = transform.rotation;
-        transform.LookAt(transform.position + desiredVelocity);
-        Quaternion to = transform.rotation;
-        transform.rotation = Quaternion.Slerp(from, to, rotationSpeed);
+        if (allowMovement)
+        {
+            Quaternion from = transform.rotation;
+            transform.LookAt(transform.position + desiredVelocity);
+            Quaternion to = transform.rotation;
+            transform.rotation = Quaternion.Slerp(from, to, rotationSpeed);
+        }
     }
 
     private void FixedUpdate()
     {
-        // Apply velocity to rigidbody
-        body.velocity = desiredVelocity;
+        if (allowMovement)
+        {
+            // Apply velocity to rigidbody
+            body.velocity = desiredVelocity;
+        }
 
         // Handle height changes
         RaycastHit hit;

@@ -36,7 +36,7 @@ public class NPCInteraction : InteractionBase
                         segment.enabled = true;
                         if (lockPlayer)
                         {
-                            player.GetComponent<PlayerMovement>().enabled = false;
+                            player.GetComponent<PlayerMovement>().allowMovement = false;
                             player.GetComponent<Rigidbody>().velocity = Vector3.zero;
                         }
                         this.enabled = false;

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class DoorInteraction : InteractionBase
 {   
@@ -17,6 +18,9 @@ public class DoorInteraction : InteractionBase
     private bool canInteract;
     public float interactTime = 1;
     private float timer;
+    [Space]
+    public UnityEvent openEvent;
+    public UnityEvent closeEvent;
 
     // Start is called before the first frame update
     void Start()
@@ -40,17 +44,14 @@ public class DoorInteraction : InteractionBase
             text.SetActive(true);
             if (Input.GetKeyDown(interactionKey))
             {
-                isOpen = !isOpen;
-                animator.SetBool(animatorParameter, isOpen);
-                if (isOpen && openSound)
+                if (isOpen)
                 {
-                    audioSource.PlayOneShot(openSound);
+                    CloseDoor();
                 }
-                else if (!isOpen && closeSound)
+                else
                 {
-                    audioSource.PlayOneShot(closeSound);
+                    OpenDoor();
                 }
-                canInteract = false;
             }
         }
         else
@@ -70,5 +71,43 @@ public class DoorInteraction : InteractionBase
                 timer = 0;
             }
         }
+    }
+
+    public void OpenDoor()
+    {
+        if (isOpen) return;
+
+        isOpen = true;
+
+        if (openSound)
+        {
+            audioSource.PlayOneShot(openSound);
+        }
+
+        openEvent.Invoke();
+
+        DoorChangeCommon();
+    }
+
+    public void CloseDoor()
+    {
+        if (!isOpen) return;
+
+        isOpen = false;
+
+        if (closeSound)
+        {
+            audioSource.PlayOneShot(closeSound);
+        }
+
+        closeEvent.Invoke();
+
+        DoorChangeCommon();
+    }
+
+    private void DoorChangeCommon()
+    {
+        animator.SetBool(animatorParameter, isOpen);
+        canInteract = false;
     }
 }
