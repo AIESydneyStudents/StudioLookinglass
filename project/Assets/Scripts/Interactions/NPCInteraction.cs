@@ -21,26 +21,37 @@ public class NPCInteraction : InteractionBase
             if (Input.GetKeyDown(interactionKey))
             {
                 // Start segment
-                var allSegments = gameObject.GetComponents<DialogueSegment>();
-                foreach (var segment in allSegments)
-                {
-                    if (segment.textTag == segmentName)
-                    {
-                        segment.enabled = true;
-                        if (lockPlayer)
-                        {
-                            player.GetComponent<PlayerMovement>().StopMovement();
-                            player.GetComponent<Rigidbody>().velocity = Vector3.zero;
-                        }
-                        this.enabled = false;
-                        break;
-                    }
-                }
+                StartSegment();
             }
         }
         else
         {
             HideText();
+        }
+    }
+
+    // Start segment with default name
+    public void StartSegment()
+    {
+        StartSegment(segmentName);
+    }
+
+    // Start segment with specific name
+    public void StartSegment(string name)
+    {
+        var allSegments = gameObject.GetComponents<DialogueSegment>();
+        foreach (var segment in allSegments)
+        {
+            if (segment.textTag == name)
+            {
+                segment.enabled = true;
+                if (lockPlayer)
+                {
+                    player.GetComponent<PlayerMovement>().StopMovement();
+                }
+                this.enabled = false;
+                break;
+            }
         }
     }
 }
