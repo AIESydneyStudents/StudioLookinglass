@@ -20,6 +20,9 @@ public class CardChoice : MonoBehaviour
 
     private PlayerCardManager playerManager;
 
+    public bool returnContol = true;
+    public bool allowInteraction = true;
+
     private void Start()
     {
         canvas = GameObject.FindGameObjectWithTag("uiCanvas");
@@ -77,6 +80,18 @@ public class CardChoice : MonoBehaviour
                 playerManager.AddNewCard(card);
                 break;
             }
+        }
+
+        // Return control to player
+        if (returnContol)
+        {
+            playerManager.gameObject.GetComponent<PlayerMovement>().StartMovement();
+        }
+
+        // Allow interaction with object
+        if (allowInteraction)
+        {
+            gameObject.GetComponent<NPCInteraction>().enabled = true;
         }
     }
 }

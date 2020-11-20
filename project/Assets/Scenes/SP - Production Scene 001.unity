@@ -46232,10 +46232,10 @@ MonoBehaviour:
   openSound: {fileID: 8300000, guid: 770b51cfbcc965544962eb397e01b364, type: 3}
   closeSound: {fileID: 8300000, guid: 94c62486b022059489a18817c433b534, type: 3}
   interactTime: 1
-  openEvent:
+  onOpen:
     m_PersistentCalls:
       m_Calls: []
-  closeEvent:
+  onClose:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &1398868276
@@ -48616,6 +48616,8 @@ MonoBehaviour:
     image: {fileID: 21300000, guid: 765fd0360d1030f4fbe331e309f3b370, type: 3}
   height: 600
   deltaX: 200
+  returnContol: 1
+  allowInteraction: 1
 --- !u!114 &1485988365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48716,8 +48718,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  returnControl: 1
-  allowInteraction: 1
+  returnControl: 0
+  allowInteraction: 0
 --- !u!1001 &1492355035
 PrefabInstance:
   m_ObjectHideFlags: 0
