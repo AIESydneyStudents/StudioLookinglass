@@ -89,7 +89,7 @@ MonoBehaviour:
   - name: Silence
     image: {fileID: 21300000, guid: d717d886ace7d6546a3e18b4304f9863, type: 3}
   cardHeight: 20
-  cardPositionDelta: 120
+  cardPositionDelta: 180
   cardAngleDelta: 5
   receiveSound: {fileID: 0}
   notificationPrefab: {fileID: 5510783269395563879, guid: 543cce23cf8e89648909cb94184f95da,

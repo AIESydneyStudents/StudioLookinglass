@@ -90,12 +90,12 @@ MonoBehaviour:
   textboxPrefab: {fileID: 4327648355452738247, guid: 305affb13da18a24380c8e3792e13879,
     type: 3}
   maxActiveBoxes: 6
-  boxSpawnHeight: 500
+  boxSpawnHeight: 600
   textboxMovement: 200
   portraitPrefab: {fileID: 6716552671375898118, guid: 148a75babc13a3843add8728d327a452,
     type: 3}
-  leftImageOffset: {x: 400, y: 420}
-  rightImageOffset: {x: 400, y: 420}
+  leftImageOffset: {x: 400, y: 500}
+  rightImageOffset: {x: 400, y: 500}
 --- !u!82 &3782805983136580463
 AudioSource:
   m_ObjectHideFlags: 0
