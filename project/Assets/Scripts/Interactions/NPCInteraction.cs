@@ -12,12 +12,25 @@ public class NPCInteraction : InteractionBase
     [Tooltip("Force interaction script on without segments")]
     public bool forceOn;
 
+    public GameObject distantPrefab;
+    private GameObject distant;
+
     protected override void Start()
     {
         base.Start();
+        distant = Instantiate(distantPrefab, GameObject.FindGameObjectWithTag("uiCanvas").transform);
         if (gameObject.GetComponent<DialogueSegment>() == null && !forceOn)
         {
             this.enabled = false;
+        }
+    }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+        if (distant)
+        {
+            distant.SetActive(false);
         }
     }
 
@@ -25,6 +38,10 @@ public class NPCInteraction : InteractionBase
     void Update()
     {
         PositionText();
+
+        // Position distant image
+        Vector3 textWorldPosition = transform.position + textOffset;
+        distant.transform.position = cam.WorldToScreenPoint(textWorldPosition);
 
         // Check if player is close enough
         if (InteractionPossible())
@@ -35,10 +52,12 @@ public class NPCInteraction : InteractionBase
                 // Start segment
                 StartSegment();
             }
+            distant.SetActive(false);
         }
         else
         {
             HideText();
+            distant.SetActive(true);
         }
     }
 
