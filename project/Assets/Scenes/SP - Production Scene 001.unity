@@ -73148,6 +73148,11 @@ PrefabInstance:
       propertyPath: animationThreshold
       value: 0.073
       objectReference: {fileID: 0}
+    - target: {fileID: 4995383761491109129, guid: e1821b788d1771347bfc01b585b68d4b,
+        type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5221015653120543292, guid: e1821b788d1771347bfc01b585b68d4b,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
