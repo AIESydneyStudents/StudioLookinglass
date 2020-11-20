@@ -27251,7 +27251,7 @@ MonoBehaviour:
     image: {fileID: 21300000, guid: 11de0c6edc4ea7741821b5bd7642c54a, type: 3}
   - name: SourGreenApple
     image: {fileID: 21300000, guid: 62da0b5cc7205034baaf3839402a3793, type: 3}
-  - name: BitterRedCranberies
+  - name: BitterRedCranberry
     image: {fileID: 21300000, guid: 765fd0360d1030f4fbe331e309f3b370, type: 3}
   height: 600
   deltaX: 200
@@ -27345,7 +27345,7 @@ MonoBehaviour:
   cardsToTake:
   - SweetRedCherry
   - SourGreenApple
-  - BitterRedCranberies
+  - BitterRedCranberry
   giveCard: 0
   cardToGive:
     name: Item
@@ -40212,7 +40212,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: Oh... Thanks but... I don't really like bitter drinks. Sorry.
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-    leftSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
@@ -40230,8 +40230,8 @@ MonoBehaviour:
   endEvent:
     m_PersistentCalls:
       m_Calls: []
-  returnControl: 0
-  allowInteraction: 0
+  returnControl: 1
+  allowInteraction: 1
 --- !u!114 &2101865104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40255,7 +40255,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: Oh... Thanks but... I don't really like sour drinks. Sorry.
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-    leftSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
@@ -40273,8 +40273,8 @@ MonoBehaviour:
   endEvent:
     m_PersistentCalls:
       m_Calls: []
-  returnControl: 0
-  allowInteraction: 0
+  returnControl: 1
+  allowInteraction: 1
 --- !u!114 &2101865107
 MonoBehaviour:
   m_ObjectHideFlags: 0
