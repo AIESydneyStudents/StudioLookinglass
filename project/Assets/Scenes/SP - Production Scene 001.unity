@@ -5662,12 +5662,8 @@ MonoBehaviour:
   segmentName: Start
   lockPlayer: 1
   forceOn: 0
-<<<<<<< Updated upstream
   distantPrefab: {fileID: 4256984662065948857, guid: dc65823d2713de74ab540e0c37df565b,
     type: 3}
-=======
-  distantPrefab: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!114 &346639406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27277,12 +27273,8 @@ MonoBehaviour:
   segmentName: Start
   lockPlayer: 1
   forceOn: 0
-<<<<<<< Updated upstream
   distantPrefab: {fileID: 4256984662065948857, guid: dc65823d2713de74ab540e0c37df565b,
     type: 3}
-=======
-  distantPrefab: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!114 &1485988366
 MonoBehaviour:
   m_ObjectHideFlags: 0
