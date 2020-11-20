@@ -98,9 +98,6 @@ public class DialogueSegment : MonoBehaviour
     // Action taken when text finishes
     void OnTextEnd()
     {
-        // Invoke end event
-        endEvent.Invoke();
-
         // Remove cards from the player
         if (removeCard)
         {
@@ -131,6 +128,9 @@ public class DialogueSegment : MonoBehaviour
             default:
                 break;
         }
+
+        // Invoke end event
+        endEvent.Invoke();
     }
 
     // Prompt player for cards

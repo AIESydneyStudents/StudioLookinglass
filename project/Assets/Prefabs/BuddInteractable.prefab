@@ -73,6 +73,9 @@ MonoBehaviour:
   textOffset: {x: 0, y: 2, z: 0}
   segmentName: Start
   lockPlayer: 1
+  forceOn: 0
+  distantPrefab: {fileID: 4256984662065948857, guid: dc65823d2713de74ab540e0c37df565b,
+    type: 3}
 --- !u!114 &8862733391178526645
 MonoBehaviour:
   m_ObjectHideFlags: 0

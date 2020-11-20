@@ -16,7 +16,7 @@ public class InteractionBase : MonoBehaviour
     protected GameObject text;
     public Vector3 textOffset;
 
-    private Camera cam;
+    protected Camera cam;
 
     protected virtual void Awake()
     {
@@ -44,7 +44,7 @@ public class InteractionBase : MonoBehaviour
     }
 
     // Position UI text on the canvas
-    protected void PositionText()
+    protected virtual void PositionText()
     {
         Vector3 textWorldPosition = transform.position + textOffset;
         text.transform.position = cam.WorldToScreenPoint(textWorldPosition);
