@@ -14003,7 +14003,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "You know, she can seem a little snappy at times, but she\u2019s a good
-      pal! I- Hold on dude, gotta go."
+      pal! I-"
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -14019,7 +14019,7 @@ MonoBehaviour:
     nextSegment: 
   removeCard: 0
   cardsToTake: []
-  giveCard: 1
+  giveCard: 0
   cardToGive:
     name: Joke
     image: {fileID: 21300000, guid: 4d6495a47a1aa5c44a7c4e42477b8c4e, type: 3}
@@ -14360,8 +14360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: End
   textBoxes:
-  - text: "I\u2019d give you a joke but I\u2019m afraid you\u2019re laugh-tose\u202Fintolerant,
-      hah! Laters!"
+  - text: Anyways dude, cya later.
     boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -41694,6 +41693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: animationThreshold
       value: 0.073
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995383761491109127, guid: e1821b788d1771347bfc01b585b68d4b,
+        type: 3}
+      propertyPath: maxVelocity
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4995383761491109129, guid: e1821b788d1771347bfc01b585b68d4b,
         type: 3}
