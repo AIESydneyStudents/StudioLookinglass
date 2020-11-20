@@ -81,6 +81,12 @@ public class DialogueRenderer : MonoBehaviour
             }
         }
 
+        // Run start if needed
+        if (!canvas)
+        {
+            Start();
+        }
+
         // Create new box
         var newBox = Instantiate(textboxPrefab, canvas.transform);
         newBox.transform.position = new Vector3(centre, boxSpawnHeight, 0);
