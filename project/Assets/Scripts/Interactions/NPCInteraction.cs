@@ -9,6 +9,18 @@ public class NPCInteraction : InteractionBase
 
     public bool lockPlayer = true;
 
+    [Tooltip("Force interaction script on without segments")]
+    public bool forceOn;
+
+    protected override void Start()
+    {
+        base.Start();
+        if (gameObject.GetComponent<DialogueSegment>() == null && !forceOn)
+        {
+            this.enabled = false;
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {

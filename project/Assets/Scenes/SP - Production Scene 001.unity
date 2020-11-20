@@ -5631,6 +5631,7 @@ MonoBehaviour:
   textOffset: {x: 0, y: 2, z: 0}
   segmentName: Start
   lockPlayer: 1
+  forceOn: 0
 --- !u!114 &346639406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27022,6 +27023,7 @@ MonoBehaviour:
   textOffset: {x: 0, y: 2, z: 0}
   segmentName: Start
   lockPlayer: 1
+  forceOn: 0
 --- !u!114 &1485988366
 MonoBehaviour:
   m_ObjectHideFlags: 0
