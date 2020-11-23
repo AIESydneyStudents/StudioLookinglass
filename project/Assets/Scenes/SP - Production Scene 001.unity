@@ -11741,7 +11741,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1998050624}
+    m_TransformParent: {fileID: 724578974}
     m_Modifications:
     - target: {fileID: 8618957282017877411, guid: 09e2f49308eeeff45a1052bdea30d21c,
         type: 3}
@@ -11801,7 +11801,7 @@ PrefabInstance:
     - target: {fileID: 8618957282017877420, guid: 09e2f49308eeeff45a1052bdea30d21c,
         type: 3}
       propertyPath: m_Name
-      value: Steph 8
+      value: Steph 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e2f49308eeeff45a1052bdea30d21c, type: 3}
@@ -11811,6 +11811,83 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 648265565}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &648265567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8618957282017877420, guid: 09e2f49308eeeff45a1052bdea30d21c,
+    type: 3}
+  m_PrefabInstance: {fileID: 648265565}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &648265568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648265567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dea8097a3ae630a4eb0f473cb9b058c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  segment: 
+  delayTime: 5
+--- !u!114 &648265569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648265567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Start
+  textBoxes:
+  - text: 'Phim! Come over here. '
+    boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 3d51aceb8c433e04ea3baa59ee81bc48, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 2
+  nextSegment: 
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 724578973}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1998050623}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  returnControl: 1
+  allowInteraction: 0
 --- !u!1001 &652649469
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12679,7 +12756,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1400497970}
+  - {fileID: 648265566}
   - {fileID: 742303056}
   - {fileID: 946910100}
   m_Father: {fileID: 68774094}
@@ -12907,7 +12984,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1852325536802514583, guid: ccdc1d73e76d65c4b8b34b4c1855b63f, type: 3}
+    - {fileID: 8862733391178526645, guid: ccdc1d73e76d65c4b8b34b4c1855b63f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ccdc1d73e76d65c4b8b34b4c1855b63f, type: 3}
 --- !u!4 &742303056 stripped
 Transform:
@@ -16943,7 +17022,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aurora 7
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6005108999407674331, guid: a00d367a95d638e40aa7adadde862888, type: 3}
+    - {fileID: 6751071917871477628, guid: a00d367a95d638e40aa7adadde862888, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a00d367a95d638e40aa7adadde862888, type: 3}
 --- !u!4 &946910100 stripped
 Transform:
@@ -18367,21 +18448,21 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: That was rough. Are you okay?
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: e39b80a3f632b86468a998e952e52544, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   - text: "I, I messed up... I shouldn\u2019t have even tried. "
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: "So, you\u2019re just going to give up? After all that?"
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: e39b80a3f632b86468a998e952e52544, type: 3}
@@ -18389,7 +18470,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: " I tried my best, but it wasn\u2019t good enough, I\u2019m just not cut
       out for this kind of stuff. "
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -18397,7 +18478,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "Everyone makes mistakes Phim, you don\u2019t always get it right on the
       first go. What's important is that you keep trying.\_"
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -18439,20 +18520,6 @@ MonoBehaviour:
         m_CallState: 2
   returnControl: 1
   allowInteraction: 1
---- !u!114 &1026177264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1026177262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dea8097a3ae630a4eb0f473cb9b058c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  segment: Start
-  delayTime: 5
 --- !u!114 &1026177265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18469,7 +18536,7 @@ MonoBehaviour:
   textBoxes:
   - text: "Try to understand Aurora\u2019s point of view, place yourself in her shoes
       and try to apologise sincerely. "
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: e39b80a3f632b86468a998e952e52544, type: 3}
@@ -18477,21 +18544,21 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: " Y-You really think she will forgive me? I\u2019m pretty sure she hates
       me now..."
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: "You won\u2019t know unless you try.\_"
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 9a2dee6ae3ed23c45bc368504d422d09, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   - text: AAAAHHHHHHH!
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
@@ -18499,7 +18566,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "What was that!? Wanna go check it out for me? Make sure Budd isn\u2019t
       standing on a table or something."
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 3d51aceb8c433e04ea3baa59ee81bc48, type: 3}
@@ -18510,7 +18577,7 @@ MonoBehaviour:
   responses: []
   removeCard: 0
   cardsToTake: []
-  giveCard: 1
+  giveCard: 0
   cardToGive:
     name: Comfort
     image: {fileID: 21300000, guid: 91512474b01e33b48bfcac89a107ca45, type: 3}
@@ -18540,7 +18607,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   returnControl: 1
-  allowInteraction: 1
+  allowInteraction: 0
 --- !u!1001 &1028367787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19988,6 +20055,54 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1115788101}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1115788103 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8618957282017877420, guid: 09e2f49308eeeff45a1052bdea30d21c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1115788101}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1115788104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115788103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Start
+  textBoxes:
+  - text: That didn't look very good.
+    boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 3d51aceb8c433e04ea3baa59ee81bc48, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Try and talk with her, see how she feels.
+    boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 2
+  nextSegment: 
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
 --- !u!1001 &1119162805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23214,7 +23329,7 @@ PrefabInstance:
     - target: {fileID: 37954198776623512, guid: a00d367a95d638e40aa7adadde862888,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 37954198776623512, guid: a00d367a95d638e40aa7adadde862888,
         type: 3}
@@ -25627,7 +25742,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 724578974}
+    m_TransformParent: {fileID: 1998050624}
     m_Modifications:
     - target: {fileID: 8618957282017877411, guid: 09e2f49308eeeff45a1052bdea30d21c,
         type: 3}
@@ -25687,7 +25802,7 @@ PrefabInstance:
     - target: {fileID: 8618957282017877420, guid: 09e2f49308eeeff45a1052bdea30d21c,
         type: 3}
       propertyPath: m_Name
-      value: Steph 7
+      value: Steph 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e2f49308eeeff45a1052bdea30d21c, type: 3}
@@ -32936,7 +33051,7 @@ PrefabInstance:
     - target: {fileID: 9173880729682305058, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9173880729682305058, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
         type: 3}
@@ -35517,7 +35632,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1026177264}
+      - m_Target: {fileID: 648265568}
         m_MethodName: StartTimer
         m_Mode: 1
         m_Arguments:
@@ -35549,17 +35664,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
   returnControl: 0
   allowInteraction: 0
@@ -39114,7 +39218,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 648265566}
+  - {fileID: 1400497970}
   - {fileID: 1682753422}
   - {fileID: 1225455375}
   m_Father: {fileID: 68774094}
@@ -40694,28 +40798,28 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: Ex... excuse me.
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 934be631e80148c4b9a38ddab1609ead, type: 3}
     flipRight: 1
     sound: {fileID: 0}
   - text: ...
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: 'E-Excuse me... '
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: "Oh! Sorry, I didn\u2019t see you there. Need something?  "
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 934be631e80148c4b9a38ddab1609ead, type: 3}
@@ -40762,14 +40866,14 @@ MonoBehaviour:
   textTag: WrongItemCranberry
   textBoxes:
   - text: '*Quietly mumbling* Um... I noticed you were thirsty, so I...  '
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 896fb81a8fba87745ace3e99e15a4557, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: Oh... Thanks but... I don't really like bitter drinks. Sorry.
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -40805,14 +40909,14 @@ MonoBehaviour:
   textTag: WrongItemApple
   textBoxes:
   - text: '*Quietly mumbling* Um... I noticed you were thirsty, so I...  '
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 55f1a7bb8d75521438a868bc51d869d3, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: Oh... Thanks but... I don't really like sour drinks. Sorry.
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -40862,28 +40966,28 @@ MonoBehaviour:
   textTag: Joke
   textBoxes:
   - text: Umm... Knock-knock...
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: e6015c8780f16c74f9c9e1e2865a59cc, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: Oh! I've heard this one from Budd before...
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: "Sorry but if you don\u2019t want anything, I\u2019m kind of busy.  "
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: '*Idle Ramble* Maybe something sweet. '
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 934be631e80148c4b9a38ddab1609ead, type: 3}
@@ -40918,14 +41022,14 @@ MonoBehaviour:
   textTag: SmallTalk
   textBoxes:
   - text: Um... th- this is a ni-
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 934be631e80148c4b9a38ddab1609ead, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   - text: "Sorry but if you don\u2019t want anything, I\u2019m kind of busy.  "
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -40933,7 +41037,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: '*Idle Ramble* I think I saw someone holding a red drink earlier, that
       looked pretty good. '
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 934be631e80148c4b9a38ddab1609ead, type: 3}
@@ -40968,21 +41072,21 @@ MonoBehaviour:
   textTag: Silence
   textBoxes:
   - text: ...
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 934be631e80148c4b9a38ddab1609ead, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   - text: Ok-ay...
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 1
     sound: {fileID: 0}
   - text: " Sorry but if you don\u2019t want anything, I\u2019m kind of busy.  "
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -40990,7 +41094,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: '*Idle Ramble* All this talking is a little making my throat sore. I could
       use a drink soon.'
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 934be631e80148c4b9a38ddab1609ead, type: 3}
@@ -41025,39 +41129,40 @@ MonoBehaviour:
   textTag: End
   textBoxes:
   - text: 'Drinking already? Atta dude blue! '
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: 8e69986aba466de47979b15c9fbfaf4c, type: 3}
     leftSprite: {fileID: 21300000, guid: 4ddfb43db91f4964a8345dd96345195f, type: 3}
     flipLeft: 1
     rightSprite: {fileID: 21300000, guid: 934be631e80148c4b9a38ddab1609ead, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: '*Budd focefully pats Phim''s back in approval. Catching Phim off guard,
-      the drink in their hand flies forward, out of their hand and straight at Aurora.'
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+  - text: Budd appears from nowhere, forcefully patting Phim on the back in approval.
+      Catching Phim off guard, the drink flies forward out of their hand and at Aurora,
+      soaking her and her dress.
+    boxSprite: {fileID: 21300000, guid: 5b06cdbf546cb824cb907d555df0850a, type: 3}
     leftSprite: {fileID: 21300000, guid: 4ddfb43db91f4964a8345dd96345195f, type: 3}
     flipLeft: 1
     rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   - text: Oh... oh no.
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: 8e69986aba466de47979b15c9fbfaf4c, type: 3}
     leftSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
     flipLeft: 1
     rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   - text: Wai- no- I- it was an-
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   - text: Not... another... word... I need to go clean this up. Unbelievable!
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 80ac22f5d543f4a48a10fb3a1b273219, type: 3}
+    rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   action: 2
@@ -41145,7 +41250,7 @@ MonoBehaviour:
   textTag: CorrectItem
   textBoxes:
   - text: '*Quietly mumbling* Um... I noticed you were thirsty, so I...  '
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -41185,6 +41290,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 875213000}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
   returnControl: 0
   allowInteraction: 0
