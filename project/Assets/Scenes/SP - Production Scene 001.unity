@@ -5202,15 +5202,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: SmallTalk
   textBoxes:
-  - text: It's pretty good.
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+  - text: Wh- why do you say that?
+    boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 1
     sound: {fileID: 0}
-  - text: Heck yeah man. Hey guys, lets go get some more drinks.
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+  - text: Huh? What do you mean? Look at all these people having a good time. Everyone
+      is dancing and drinking!
+    boxSprite: {fileID: 21300000, guid: 1b43924fdaf9a774093ae71c0916fea9, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: 'I hear they even hired a DJ, he''s meant to start playing soon. '
+    boxSprite: {fileID: 21300000, guid: 1b43924fdaf9a774093ae71c0916fea9, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: 'Oh, and speaking of drinks... Guys, lets go get another round. '
+    boxSprite: {fileID: 21300000, guid: 1b43924fdaf9a774093ae71c0916fea9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -5278,7 +5293,7 @@ MonoBehaviour:
   textTag: Silence
   textBoxes:
   - text: ...
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -5313,7 +5328,7 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: This party ROCKS!
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: 1b43924fdaf9a774093ae71c0916fea9, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: e7b6c5ac4bbcc8f45aad1e1b04f31134, type: 3}
@@ -5440,8 +5455,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Success
   textBoxes:
-  - text: I can get through now.
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+  - text: 'I guess there are some people who do actually like parties... '
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Well... At least I can get through now.
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -22956,7 +22978,7 @@ PrefabInstance:
     - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.10390651
+      value: -0.1039065
       objectReference: {fileID: 0}
     - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
         type: 3}
@@ -22976,7 +22998,7 @@ PrefabInstance:
     - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.050000012
+      value: -0.05000001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6dc436293e42354799751e2e5923de2, type: 3}
@@ -25904,7 +25926,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 346639401}
+  m_Follow: {fileID: 1076418284}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 3.5
@@ -25928,7 +25950,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459282659}
   m_LocalRotation: {x: 0.0066597145, y: -0.010675512, z: 0.008837327, w: -0.9998818}
-  m_LocalPosition: {x: 14.889819, y: -2.2198396, z: -0.66434956}
+  m_LocalPosition: {x: 15.081247, y: -1.9722955, z: -0.29155064}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2109726474}
@@ -26644,12 +26666,12 @@ PrefabInstance:
     - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.66643447
+      value: -0.6664345
       objectReference: {fileID: 0}
     - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.2408284
+      value: -1.240828
       objectReference: {fileID: 0}
     - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
         type: 3}
@@ -26664,7 +26686,7 @@ PrefabInstance:
     - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.050000012
+      value: -0.05000001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6dc436293e42354799751e2e5923de2, type: 3}
