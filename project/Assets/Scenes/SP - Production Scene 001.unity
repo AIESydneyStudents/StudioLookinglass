@@ -3095,7 +3095,14 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 0c15af30be8476841af5b5da1f0904a4, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: Hey everyone! Who wants to see me play beer pong!
+  - text: HEY! WHO WANTS TO PLAY BEER PONG WITH ME!
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Good luck Phim, you got this.
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -18151,7 +18158,7 @@ GameObject:
   - component: {fileID: 954271938}
   - component: {fileID: 954271937}
   m_Layer: 0
-  m_Name: Shade Movement
+  m_Name: Shade Movement + Pierce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18719,17 +18726,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textTag: Reunited
+  textTag: Comfort
   textBoxes:
-  - text: ' I thought, maybe... you were avoiding me. That, maybe... you hated me.  '
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: b7426cc9d90a12f47abe7164420ec32c, type: 3}
-    flipRight: 0
-    sound: {fileID: 0}
   - text: "N- No that\u2019s not true. How could I hate you?\_"
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: 43339837df9bac44d98e49e9f98f37a6, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -18737,92 +18737,14 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "Well... I\u202Fdid\u202Fkind of leave\u202Fyou back in senior year, I
       didn\u2019t have the courage to say goodbye\u202Fto you in person...\u202F"
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "That doesn\u2019t matter! I actually thought that you might hate me."
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 0}
-    flipRight: 0
-    sound: {fileID: 0}
-  - text: "Phim, you were my best friend. I could never hate you.\u202FI\u2019m\u202Freally
-      sorry\u202Ffor how we left things. I was going through some pretty\u202Fbad\u202Fstuff\u202Fat
-      home and I\u202Fdidn\u2019t\u202Fknow how to tell anyone. In the end, I just
-      ran away.\u202F\u202F "
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 0}
-    flipRight: 0
-    sound: {fileID: 0}
-  - text: ' I wish you had told me, I would have helped. '
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 0}
-    flipRight: 0
-    sound: {fileID: 0}
-  - text: "It wasn\u2019t really that type of problem... I felt completely isolated
-      and just had to escape. But I\u2019m doing really, really great now. I found
-      a place where I can truly be myself. "
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 0}
-    flipRight: 0
-    sound: {fileID: 0}
-  - text: "I\u2019m happy for you."
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 0}
-    flipRight: 0
-    sound: {fileID: 0}
-  - text: "\u2026 You seem... different, more confident. It suits you. I always thought
-      that you looked better with your wings up. "
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
-    flipRight: 0
-    sound: {fileID: 0}
-  - text: "I\u2019ve learnt a lot tonight. Initially, I didn\u2019t even want to
-      leave my room. I thought that you wouldn\u2019t want to see me... but... I
-      kept trying, and I even managed to make some new friends along the way.  "
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 0}
-    flipRight: 0
-    sound: {fileID: 0}
-  - text: " I\u2019m really glad that you did. I think I owe you an explanation. "
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: b7426cc9d90a12f47abe7164420ec32c, type: 3}
-    flipRight: 0
-    sound: {fileID: 0}
-  - text: So... you really aren't mad at me?
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 0}
-    flipRight: 0
-    sound: {fileID: 0}
-  - text: "Of course not! We\u2019re friends after all."
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
-    flipRight: 0
-    sound: {fileID: 0}
-  action: 2
-  nextSegment: 
+  action: 1
+  nextSegment: End
   responses: []
   removeCard: 0
   cardsToTake: []
@@ -18849,23 +18771,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: RealTalk
   textBoxes:
-  - text: Pierce, its... Its me Ph-
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+  - text: I'm really nervous... sorry.
+    boxSprite: {fileID: 21300000, guid: f76eebb011ade234390529504c1ac795, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
-    flipRight: 0
-    sound: {fileID: 0}
-  - text: "PHIM! I can\u2019t believe it's actually you... I\u2019ve been looking
-      all night for you."
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
+    rightSprite: {fileID: 21300000, guid: b7426cc9d90a12f47abe7164420ec32c, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   action: 1
-  nextSegment: Reunited
+  nextSegment: Beginning
   responses: []
   removeCard: 0
   cardsToTake: []
@@ -18892,23 +18806,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Compliment
   textBoxes:
-  - text: Nice moves.
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+  - text: You look good.
+    boxSprite: {fileID: 21300000, guid: 904b3467282f89641ba64ad150e531f8, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "Thanks, I- PHIM! I can\u2019t believe it's actually you... I\u2019ve been
-      looking all night for you. "
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+  - text: So do you...
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   action: 1
-  nextSegment: Reunited
+  nextSegment: Beginning
   responses: []
   removeCard: 0
   cardsToTake: []
@@ -18933,25 +18846,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textTag: Comfort
+  textTag: Compliment2
   textBoxes:
-  - text: 'Hi... sorry for not keeping in contac- '
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+  - text: You look good.
+    boxSprite: {fileID: 21300000, guid: 904b3467282f89641ba64ad150e531f8, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "PHIM! I can\u2019t believe it's actually you... I\u2019ve been looking
-      all night for you. "
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+  - text: So do you...
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   action: 1
-  nextSegment: Reunited
+  nextSegment: End
   responses: []
   removeCard: 0
   cardsToTake: []
@@ -18976,25 +18888,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textTag: Item
+  textTag: Apple
   textBoxes:
-  - text: This is for you...
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+  - text: Would you like this?
+    boxSprite: {fileID: 21300000, guid: 55f1a7bb8d75521438a868bc51d869d3, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "PHIM! \u2026 With alcohol! I can\u2019t believe it's actually you... I\u2019ve
-      been looking all night for you."
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+  - text: Sorry, I don't really drink.
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   action: 1
-  nextSegment: Reunited
+  nextSegment: Beginning
   responses: []
   removeCard: 1
   cardsToTake:
@@ -19023,22 +18934,21 @@ MonoBehaviour:
   textTag: Joke
   textBoxes:
   - text: Knock knock...
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: e6015c8780f16c74f9c9e1e2865a59cc, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Haha, since when do you tell jokes?
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "Who\u2019s ther... PHIM! I can\u2019t believe it's actually you... I\u2019ve
-      been looking all night for you."
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
-    leftSprite: {fileID: 0}
-    flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
-    flipRight: 0
-    sound: {fileID: 0}
   action: 1
-  nextSegment: Reunited
+  nextSegment: Beginning
   responses: []
   removeCard: 0
   cardsToTake: []
@@ -19065,23 +18975,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: SmallTalk
   textBoxes:
-  - text: I love this song.
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+  - text: What are you doing here?
+    boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "Me too--- PHIM! I can\u2019t believe it's actually you... I\u2019ve been
-      looking all night for you."
-    boxSprite: {fileID: 21300000, guid: 93fcdc7fd6267ec4897db16a488b1514, type: 3}
+  - text: Looking for you!
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   action: 1
-  nextSegment: Reunited
+  nextSegment: Beginning
   responses: []
   removeCard: 0
   cardsToTake: []
@@ -19109,22 +19018,21 @@ MonoBehaviour:
   textTag: Silence
   textBoxes:
   - text: ...
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+    boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "PHIM? I can\u2019t believe it's actually you... I\u2019ve been looking
-      all night for you. "
-    boxSprite: {fileID: 0}
+  - text: I need to say something...
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   action: 1
-  nextSegment: Reunited
+  nextSegment: Beginning
   responses: []
   removeCard: 0
   cardsToTake: []
@@ -19151,11 +19059,287 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Start
   textBoxes:
-  - text: '*Phim approaches Pierce*'
-    boxSprite: {fileID: 21300000, guid: 8ad2d1f81baa2f74cbf2ec45e68449d9, type: 3}
+  - text: I guess this is it... What should I say?
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 312ec87d28814094d99f1327ea86c880, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Phim! It's you!
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Beginning
+  responses:
+  - cardName: Silence
+    nextSegment: Silence
+  - cardName: SmallTalk
+    nextSegment: SmallTalk
+  - cardName: Joke
+    nextSegment: Joke
+  - cardName: SourGreenApple
+    nextSegment: Apple
+  - cardName: SweetRedCherry
+    nextSegment: Cherry
+  - cardName: BitterRedCranberry
+    nextSegment: Cranberry
+  - cardName: Comfort
+    nextSegment: Comfort
+  - cardName: Compliment
+    nextSegment: Compliment
+  - cardName: RealTalk
+    nextSegment: RealTalk
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &979957509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979957499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: End
+  textBoxes:
+  - text: I feel like he's trying to tell me something... Maybe I should ask more
+      directly...
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: b7426cc9d90a12f47abe7164420ec32c, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 0
+  nextSegment: 
+  responses:
+  - cardName: Silence
+    nextSegment: Silence2
+  - cardName: SmallTalk
+    nextSegment: SmallTalk2
+  - cardName: Joke
+    nextSegment: Joke2
+  - cardName: Comfort
+    nextSegment: Comfort2
+  - cardName: Compliment
+    nextSegment: Compliment2
+  - cardName: RealTalk
+    nextSegment: RealTalk2
+  - cardName: SourGreenApple
+    nextSegment: Apple2
+  - cardName: SweetRedCherry
+    nextSegment: Cherry2
+  - cardName: BitterRedCranberry
+    nextSegment: Cranberry2
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &979957510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979957499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: RealTalk2
+  textBoxes:
+  - text: I actually thought that you might hate me.
+    boxSprite: {fileID: 21300000, guid: f76eebb011ade234390529504c1ac795, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: "Phim, you were my best friend. I could never hate you.\u202FI\u2019m\u202Freally
+      sorry\u202Ffor how we left things. "
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: "I was going through some pretty\u202Fbad\u202Fstuff\u202Fat home and I\u202Fdidn\u2019t\u202Fknow
+      how to tell anyone. In the end, I just ran away.\u202F\u202F "
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: ' I wish you had told me, I would have helped. '
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: "It wasn\u2019t really that type of problem... I felt completely isolated
+      and just had to escape."
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: "But I\u2019m doing really, really great now. I found a place where I can
+      truly be myself. "
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: "I\u2019m happy for you."
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: "\u2026 You seem... different, more confident. It suits you. I always thought
+      that you looked better with your wings up. "
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: "I\u2019ve learnt a lot tonight. Initially, I didn\u2019t even want to
+      leave my room. I thought that you wouldn\u2019t want to see me... but..."
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: 'I kept trying, and I even managed to make some new friends along the way.  '
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: " I\u2019m really glad that you did find me. I wasn't happy with the way
+      we left things."
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: b7426cc9d90a12f47abe7164420ec32c, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: So... you really aren't don't hate me?
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Of course not Phim. We're friends, ands thats never going to change.
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Well, since were already here... Want to dance?
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Umm... I can't dance...
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Have you ever really tried?
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Well... No.
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Then how would you know? I promise to tell you all about why I left in
+      the morning. For now... just follow my lead.
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 2
+  nextSegment: 
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 0
+  allowInteraction: 0
+--- !u!114 &979957511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979957499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Beginning
+  textBoxes:
+  - text: 'I thought, maybe... you were avoiding me. That, maybe... you hated me.  '
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: b7426cc9d90a12f47abe7164420ec32c, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   action: 0
@@ -19167,14 +19351,272 @@ MonoBehaviour:
     nextSegment: SmallTalk
   - cardName: Joke
     nextSegment: Joke
-  - cardName: Item
-    nextSegment: Item
   - cardName: Comfort
     nextSegment: Comfort
   - cardName: Compliment
     nextSegment: Compliment
   - cardName: RealTalk
     nextSegment: RealTalk
+  - cardName: SourGreenApple
+    nextSegment: Apple
+  - cardName: SweetRedCherry
+    nextSegment: Cherry
+  - cardName: BitterRedCranberry
+    nextSegment: Cranberry
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &979957512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979957499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Cranberry
+  textBoxes:
+  - text: Would you like this?
+    boxSprite: {fileID: 21300000, guid: 896fb81a8fba87745ace3e99e15a4557, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Sorry, I don't really drink.
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Beginning
+  responses: []
+  removeCard: 1
+  cardsToTake:
+  - Item
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &979957513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979957499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Cherry
+  textBoxes:
+  - text: Would you like this?
+    boxSprite: {fileID: 21300000, guid: 0498902b9cace284b91a5b74d610b655, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Sorry, I don't really drink.
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Beginning
+  responses: []
+  removeCard: 1
+  cardsToTake:
+  - Item
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &979957514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979957499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Comfort2
+  textBoxes:
+  - text: If you couldn't even say goodbye to me then it must of been serious...
+    boxSprite: {fileID: 21300000, guid: 43339837df9bac44d98e49e9f98f37a6, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Yeah...
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: End
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &979957515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979957499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: SmallTalk2
+  textBoxes:
+  - text: What are you doing here?
+    boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Looking for you!
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: End
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &979957516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979957499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Joke2
+  textBoxes:
+  - text: Knock knock...
+    boxSprite: {fileID: 21300000, guid: e6015c8780f16c74f9c9e1e2865a59cc, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Haha, since when do you tell jokes?
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: End
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &979957517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979957499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Silence2
+  textBoxes:
+  - text: ...
+    boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: I need to say something...
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: End
+  responses: []
   removeCard: 0
   cardsToTake: []
   giveCard: 0
@@ -40462,7 +40904,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   action: 1
-  nextSegment: Start
+  nextSegment: Start2
   responses:
   - cardName: Silence
     nextSegment: Silence
