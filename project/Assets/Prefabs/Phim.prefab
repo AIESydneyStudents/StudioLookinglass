@@ -63,7 +63,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4995383761491109126}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.11, y: 0.32085085, z: -5.7}
+  m_LocalPosition: {x: 12.205, y: -0.059, z: -8.764}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3934306331222117685}
@@ -114,6 +114,7 @@ MonoBehaviour:
   angle: 180
   rotationSpeed: 0.15
   animationThreshold: 0
+  playerAnimations: {fileID: 0}
   animationName: isWalking
   allowMovement: 1
   changeHeight: 1
@@ -355,17 +356,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 78a0a2de499a86946a5dc4e69c493ae4,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 78a0a2de499a86946a5dc4e69c493ae4,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 78a0a2de499a86946a5dc4e69c493ae4,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 78a0a2de499a86946a5dc4e69c493ae4,
         type: 3}
