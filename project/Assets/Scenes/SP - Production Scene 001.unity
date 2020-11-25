@@ -1035,7 +1035,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Steph 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3488143535135672780, guid: 09e2f49308eeeff45a1052bdea30d21c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 09e2f49308eeeff45a1052bdea30d21c, type: 3}
 --- !u!1 &35180974
 GameObject:
@@ -6258,7 +6259,7 @@ MonoBehaviour:
   segmentName: Start
   lockPlayer: 1
   forceOn: 0
-  distantPrefab: {fileID: 4256984662065948857, guid: dc65823d2713de74ab540e0c37df565b,
+  distantPrefab: {fileID: 4256984662065948857, guid: 1a206c80d8eec3848a4ce4c2a22688a1,
     type: 3}
 --- !u!114 &346639406
 MonoBehaviour:
@@ -7594,7 +7595,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aurora 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6751071917871477628, guid: a00d367a95d638e40aa7adadde862888, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a00d367a95d638e40aa7adadde862888, type: 3}
 --- !u!4 &388147683 stripped
 Transform:
@@ -16457,7 +16459,7 @@ MonoBehaviour:
   segmentName: Start
   lockPlayer: 1
   forceOn: 0
-  distantPrefab: {fileID: 4256984662065948857, guid: dc65823d2713de74ab540e0c37df565b,
+  distantPrefab: {fileID: 4256984662065948857, guid: 1a206c80d8eec3848a4ce4c2a22688a1,
     type: 3}
 --- !u!1001 &875446977
 PrefabInstance:
@@ -17881,7 +17883,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aurora 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6751071917871477628, guid: a00d367a95d638e40aa7adadde862888, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a00d367a95d638e40aa7adadde862888, type: 3}
 --- !u!1001 &928307522
 PrefabInstance:
@@ -19067,7 +19070,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Phim! It's you!
-    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
@@ -20412,6 +20415,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1948692160}
     m_Modifications:
+    - target: {fileID: 3488143535135672780, guid: 09e2f49308eeeff45a1052bdea30d21c,
+        type: 3}
+      propertyPath: distantPrefab
+      value: 
+      objectReference: {fileID: 4256984662065948857, guid: 1a206c80d8eec3848a4ce4c2a22688a1,
+        type: 3}
     - target: {fileID: 8618957282017877411, guid: 09e2f49308eeeff45a1052bdea30d21c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22020,6 +22029,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1266420354}
     m_Modifications:
+    - target: {fileID: 3488143535135672780, guid: 09e2f49308eeeff45a1052bdea30d21c,
+        type: 3}
+      propertyPath: distantPrefab
+      value: 
+      objectReference: {fileID: 4256984662065948857, guid: 1a206c80d8eec3848a4ce4c2a22688a1,
+        type: 3}
     - target: {fileID: 8618957282017877411, guid: 09e2f49308eeeff45a1052bdea30d21c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29251,6 +29266,12 @@ PrefabInstance:
       propertyPath: segmentName
       value: Start
       objectReference: {fileID: 0}
+    - target: {fileID: 3488143535135672780, guid: 09e2f49308eeeff45a1052bdea30d21c,
+        type: 3}
+      propertyPath: distantPrefab
+      value: 
+      objectReference: {fileID: 4256984662065948857, guid: 1a206c80d8eec3848a4ce4c2a22688a1,
+        type: 3}
     - target: {fileID: 8618957282017877411, guid: 09e2f49308eeeff45a1052bdea30d21c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29724,6 +29745,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aurora 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6751071917871477628, guid: a00d367a95d638e40aa7adadde862888,
+        type: 3}
+      propertyPath: distantPrefab
+      value: 
+      objectReference: {fileID: 4256984662065948857, guid: dc65823d2713de74ab540e0c37df565b,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a00d367a95d638e40aa7adadde862888, type: 3}
 --- !u!4 &1451508068 stripped
@@ -40276,11 +40303,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textTag: RealTalk
+  textTag: Compliment2
   textBoxes:
   - text: "It\u2019s impressive that your able to deal with so many people in one
       day. I can't seem to talk to even one. "
-    boxSprite: {fileID: 21300000, guid: f76eebb011ade234390529504c1ac795, type: 3}
+    boxSprite: {fileID: 21300000, guid: 904b3467282f89641ba64ad150e531f8, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 0c15af30be8476841af5b5da1f0904a4, type: 3}
@@ -40886,9 +40913,9 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 80ac22f5d543f4a48a10fb3a1b273219, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: No no no... I should be the one apologising... to tell you the truth, I-...
-      I was one of those people until just now. I never realised that it might be
-      hurting you like that.
+  - text: No... I should be the one apologising... to tell you the truth, I-... I
+      was one of those people until just now. I never realised that it might be hurting
+      you like that.
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -41027,16 +41054,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textTag: Compliment2
+  textTag: RealTalk
   textBoxes:
-  - text: 'Your dress still looks nice. '
-    boxSprite: {fileID: 21300000, guid: 904b3467282f89641ba64ad150e531f8, type: 3}
+  - text: 'You are definitely not what I was expecting. '
+    boxSprite: {fileID: 21300000, guid: f76eebb011ade234390529504c1ac795, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "I don\u2019t know... red isn't really my colour."
+  - text: How so?
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Well, I thought you wouldn't even bother talking to me... Since I'm not
+      popular.
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: 'We''re more alike then you think Phim. I don''t actually like being popular.
+      I would much rather be like you. '
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -41381,7 +41424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Start2
   textBoxes:
-  - text: I think we're finally connecting... Maybe I can ask about Pierce now...
+  - text: I think we're finally connecting. She's a lot nicer then I thought...
     boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -42000,6 +42043,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1877106471}
     m_Modifications:
+    - target: {fileID: 1852325536802514583, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+        type: 3}
+      propertyPath: distantPrefab
+      value: 
+      objectReference: {fileID: 4256984662065948857, guid: 1a206c80d8eec3848a4ce4c2a22688a1,
+        type: 3}
     - target: {fileID: 9173880729682305057, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
         type: 3}
       propertyPath: m_Name
@@ -42231,6 +42280,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1948692160}
     m_Modifications:
+    - target: {fileID: 1852325536802514583, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+        type: 3}
+      propertyPath: distantPrefab
+      value: 
+      objectReference: {fileID: 4256984662065948857, guid: 1a206c80d8eec3848a4ce4c2a22688a1,
+        type: 3}
     - target: {fileID: 9173880729682305057, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
         type: 3}
       propertyPath: m_Name
@@ -45963,6 +46018,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aurora 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6751071917871477628, guid: a00d367a95d638e40aa7adadde862888,
+        type: 3}
+      propertyPath: distantPrefab
+      value: 
+      objectReference: {fileID: 4256984662065948857, guid: 1a206c80d8eec3848a4ce4c2a22688a1,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a00d367a95d638e40aa7adadde862888, type: 3}
 --- !u!33 &210286569094817889
