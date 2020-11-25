@@ -16772,7 +16772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textTag: CorrectItem
+  textTag: Apple
   textBoxes:
   - text: This is for you.
     boxSprite: {fileID: 21300000, guid: 55f1a7bb8d75521438a868bc51d869d3, type: 3}
@@ -16791,8 +16791,9 @@ MonoBehaviour:
   action: 1
   nextSegment: Comfort
   responses: []
-  removeCard: 0
-  cardsToTake: []
+  removeCard: 1
+  cardsToTake:
+  - SourGreenApple
   giveCard: 0
   cardToGive:
     name: 
@@ -16837,7 +16838,56 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  action: 1
+  action: 2
+  nextSegment: Start
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &901473015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901473011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Cherry
+  textBoxes:
+  - text: Wo- would you like this?
+    boxSprite: {fileID: 21300000, guid: 0498902b9cace284b91a5b74d610b655, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: 'Dude, I''ll drink ANYTHING but that. Sorry man, its just not my style. '
+    boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Maybe I can give this to someone else.
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 2
   nextSegment: Start
   responses: []
   removeCard: 0
@@ -16879,7 +16929,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  action: 1
+  action: 2
   nextSegment: Start
   responses: []
   removeCard: 0
@@ -16921,7 +16971,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  action: 1
+  action: 2
   nextSegment: Start
   responses: []
   removeCard: 0
@@ -16967,13 +17017,13 @@ MonoBehaviour:
   - cardName: Joke
     nextSegment: Joke
   - cardName: SourGreenApple
-    nextSegment: CorrectItem
+    nextSegment: Apple
   - cardName: Comfort
     nextSegment: Comfort
   - cardName: SweetRedCherry
-    nextSegment: WrongItem
+    nextSegment: Cherry
   - cardName: BitterRedCranberry
-    nextSegment: WrongItem
+    nextSegment: Cranberry
   removeCard: 0
   cardsToTake: []
   giveCard: 0
@@ -17110,7 +17160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textTag: WrongItem
+  textTag: Cranberry
   textBoxes:
   - text: Wo- would you like this?
     boxSprite: {fileID: 21300000, guid: 896fb81a8fba87745ace3e99e15a4557, type: 3}
@@ -17133,7 +17183,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  action: 1
+  action: 2
   nextSegment: Start
   responses: []
   removeCard: 0
@@ -20298,14 +20348,14 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 896fb81a8fba87745ace3e99e15a4557, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 0}
+    rightSprite: {fileID: 21300000, guid: 9a2dee6ae3ed23c45bc368504d422d09, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   - text: 'Huh? For me? Thanks. Normally I don''t drink but Budd got me into these. '
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 3d51aceb8c433e04ea3baa59ee81bc48, type: 3}
+    rightSprite: {fileID: 21300000, guid: 9a2dee6ae3ed23c45bc368504d422d09, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   action: 2
@@ -29398,8 +29448,8 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: '*Phim is at a loss for words.'
-    boxSprite: {fileID: 21300000, guid: 5b06cdbf546cb824cb907d555df0850a, type: 3}
+  - text: I don't know what to say...
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -38645,8 +38695,8 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: '*Phim is at a loss for words.'
-    boxSprite: {fileID: 21300000, guid: 5b06cdbf546cb824cb907d555df0850a, type: 3}
+  - text: I don't know what to say...
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -39973,7 +40023,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 0}
+    rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   action: 1
@@ -40349,7 +40399,7 @@ MonoBehaviour:
     nextSegment: SmallTalk
   - cardName: Joke
     nextSegment: Joke
-  - cardName: SweetRedherry
+  - cardName: SweetRedCherry
     nextSegment: Cherry
   - cardName: Comfort
     nextSegment: Comfort
@@ -40512,6 +40562,411 @@ MonoBehaviour:
   action: 1
   nextSegment: Start
   responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &1885309160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Compliment2
+  textBoxes:
+  - text: 'Your dress still looks nice. '
+    boxSprite: {fileID: 21300000, guid: 904b3467282f89641ba64ad150e531f8, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: "I don\u2019t know... red isn't really my colour."
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &1885309161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Comfort3
+  textBoxes:
+  - text: If you ever want to talk to anyone, you can speak with me... If you want
+      to that is...
+    boxSprite: {fileID: 21300000, guid: 43339837df9bac44d98e49e9f98f37a6, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Thanks, I just might do that.
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &1885309162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Apple2
+  textBoxes:
+  - text: Here, you can have this.
+    boxSprite: {fileID: 21300000, guid: 55f1a7bb8d75521438a868bc51d869d3, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: "NO! NO! That\u2019s fine, I\u2019m still wearing the last one.\_"
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &1885309163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Cranberry2
+  textBoxes:
+  - text: Here, you can have this.
+    boxSprite: {fileID: 21300000, guid: 896fb81a8fba87745ace3e99e15a4557, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: "NO! NO! That\u2019s fine, I\u2019m still wearing the last one.\_"
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &1885309164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Cherry2
+  textBoxes:
+  - text: Here, you can have this.
+    boxSprite: {fileID: 21300000, guid: 896fb81a8fba87745ace3e99e15a4557, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: "NO! NO! That\u2019s fine, I\u2019m still wearing the last one.\_"
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &1885309165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Joke2
+  textBoxes:
+  - text: Knock, knock...
+    boxSprite: {fileID: 21300000, guid: e6015c8780f16c74f9c9e1e2865a59cc, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: "You\u2019ve been spending too much time with Budd... "
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &1885309166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: SmallTalk2
+  textBoxes:
+  - text: Do you come to parties like this a lot?
+    boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Not really, I'm usually studying.
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Actually, it was Budd who invited me to this one. Something about "getting
+      out and having some fun".
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &1885309167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Silence2
+  textBoxes:
+  - text: ...
+    boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: What's wrong?
+    boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: I should say something.
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &1885309168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885309148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Start2
+  textBoxes:
+  - text: I think we're finally connecting... Maybe I can ask about Pierce now...
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 0c15af30be8476841af5b5da1f0904a4, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 0
+  nextSegment: 
+  responses:
+  - cardName: Silence
+    nextSegment: Silence2
+  - cardName: SmallTalk
+    nextSegment: SmallTalk2
+  - cardName: Joke
+    nextSegment: Joke2
+  - cardName: SweetRedCherry
+    nextSegment: Cherry2
+  - cardName: Comfort
+    nextSegment: Comfort3
+  - cardName: Compliment
+    nextSegment: Compliment2
+  - cardName: RealTalk
+    nextSegment: RealTalk
+  - cardName: SourGreenApple
+    nextSegment: Apple2
+  - cardName: BitterRedCranberry
+    nextSegment: Cranberry2
   removeCard: 0
   cardsToTake: []
   giveCard: 0
@@ -44019,7 +44474,7 @@ MonoBehaviour:
       Catching Phim off guard, the drink flies forward out of their hand and at Aurora,
       soaking her and her dress.
     boxSprite: {fileID: 21300000, guid: 5b06cdbf546cb824cb907d555df0850a, type: 3}
-    leftSprite: {fileID: 21300000, guid: 4ddfb43db91f4964a8345dd96345195f, type: 3}
+    leftSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
     flipLeft: 1
     rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
     flipRight: 0
@@ -44141,7 +44596,7 @@ MonoBehaviour:
   textTag: CorrectItem
   textBoxes:
   - text: '*Quietly mumbling* Um... I noticed you were thirsty, so I...  '
-    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
+    boxSprite: {fileID: 21300000, guid: 0498902b9cace284b91a5b74d610b655, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 0}
