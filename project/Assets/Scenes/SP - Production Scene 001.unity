@@ -1130,21 +1130,18 @@ Transform:
   m_LocalPosition: {x: 27.03, y: 0, z: 0.28}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
+  - {fileID: 1884653919}
   - {fileID: 1964700500}
   - {fileID: 357072276}
   - {fileID: 1445952136}
-  - {fileID: 658293933}
   - {fileID: 326842728}
   - {fileID: 1122732498}
   - {fileID: 906124167}
   - {fileID: 1391704702}
   - {fileID: 1230850052}
-  - {fileID: 886454692}
-  - {fileID: 900688125}
   - {fileID: 1768891727}
   - {fileID: 491792315}
   - {fileID: 1156213687}
-  - {fileID: 1860686486}
   - {fileID: 1408613727}
   - {fileID: 1691654392}
   - {fileID: 2098072861}
@@ -1574,6 +1571,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1648,6 +1650,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -1818,6 +1825,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -2121,8 +2133,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128609236}
-  m_LocalRotation: {x: 0.044642597, y: -0.93165344, z: 0.33909404, w: 0.12265456}
-  m_LocalPosition: {x: 16.27, y: 8.3, z: 1.6994224}
+  m_LocalRotation: {x: -0.048433803, y: 0.9320977, z: -0.33224204, w: -0.13587993}
+  m_LocalPosition: {x: 8.601234, y: 6.3252645, z: 5.5430374}
   m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2316,6 +2328,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2390,6 +2407,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -2942,6 +2964,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -4099,6 +4126,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4222,7 +4254,7 @@ PrefabInstance:
     - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
         type: 3}
@@ -5193,7 +5225,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326842727}
   m_LocalRotation: {x: -0, y: -0, z: 0.14776732, w: 0.9890222}
-  m_LocalPosition: {x: -6.9188013, y: 1.1128, z: -5.906}
+  m_LocalPosition: {x: -6.9188013, y: 1.1658, z: -5.906}
   m_LocalScale: {x: 0.01961, y: 0.36262, z: 0.62701}
   m_Children: []
   m_Father: {fileID: 48716712}
@@ -5953,6 +5985,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6043,11 +6080,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357072275}
   m_LocalRotation: {x: -0, y: -0, z: 0.000001952052, w: 1}
-  m_LocalPosition: {x: -6.8690014, y: 1.167, z: -5.906}
+  m_LocalPosition: {x: -6.8690014, y: 1.22, z: -5.906}
   m_LocalScale: {x: 0.12457, y: 0.055639997, z: 0.062319998}
   m_Children: []
   m_Father: {fileID: 48716712}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &357072277
 BoxCollider:
@@ -6119,7 +6156,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: c4293d01de2954945a74334bd5d1dcd9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.95
+      value: 12.932
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c4293d01de2954945a74334bd5d1dcd9,
         type: 3}
@@ -6621,6 +6658,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6941,6 +6983,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -7320,6 +7367,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -7945,6 +7997,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -8579,11 +8636,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491792314}
   m_LocalRotation: {x: -0, y: -0.24087183, z: -0, w: 0.970557}
-  m_LocalPosition: {x: -7.0133014, y: 0.75, z: -5.306}
+  m_LocalPosition: {x: -7.0133014, y: 0.803, z: -5.306}
   m_LocalScale: {x: 0.019609999, y: 0.36262, z: 0.62701}
   m_Children: []
   m_Father: {fileID: 48716712}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -27.876, z: 0}
 --- !u!65 &491792316
 BoxCollider:
@@ -8821,6 +8878,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -10164,6 +10226,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10332,6 +10399,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -11274,6 +11346,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11998,7 +12075,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 655517655}
-  - component: {fileID: 655517657}
   - component: {fileID: 655517659}
   - component: {fileID: 655517658}
   - component: {fileID: 655517656}
@@ -12022,11 +12098,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655517654}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.091, y: 0.894, z: -5.872}
+  m_LocalPosition: {x: -6.92, y: 0.704, z: -5.618}
   m_LocalScale: {x: 0.4625, y: 1, z: 1.9605083}
   m_Children: []
   m_Father: {fileID: 48716712}
-  m_RootOrder: 18
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &655517656
 MonoBehaviour:
@@ -12074,19 +12150,6 @@ MonoBehaviour:
         m_CallState: 2
   returnControl: 0
   allowInteraction: 0
---- !u!65 &655517657
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 655517654}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &655517658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12099,7 +12162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb55958134e514a4da68d686b627edf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionDistance: 2
+  interactionDistance: 2.5
   interactionKey: 101
   textPrefab: {fileID: 4296914676108268686, guid: 7e5c82679f4e4654da7687c20b1856ef,
     type: 3}
@@ -12339,99 +12402,6 @@ MonoBehaviour:
       m_Calls: []
   returnControl: 1
   allowInteraction: 0
---- !u!1 &658293932
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 658293933}
-  - component: {fileID: 658293936}
-  - component: {fileID: 658293935}
-  - component: {fileID: 658293934}
-  m_Layer: 0
-  m_Name: Cube (17)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &658293933
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658293932}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.694001, y: 0.147, z: -5.94}
-  m_LocalScale: {x: 0.49188998, y: 0.30595, z: 0.49365997}
-  m_Children: []
-  m_Father: {fileID: 48716712}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &658293934
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658293932}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &658293935
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658293932}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 9c77911421f93914788b08867aedbd2e, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &658293936
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658293932}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &678396203
 GameObject:
   m_ObjectHideFlags: 0
@@ -13711,6 +13681,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14390,6 +14365,140 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 37954199583501962}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &820957431
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 48716712}
+    m_Modifications:
+    - target: {fileID: -4664691225399913179, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.397
+      objectReference: {fileID: 0}
+    - target: {fileID: -4664691225399913179, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.514
+      objectReference: {fileID: 0}
+    - target: {fileID: -4664691225399913179, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00076386
+      objectReference: {fileID: 0}
+    - target: {fileID: -4664691225399913179, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 52.865204
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.913334
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0005094163
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.8000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: -3026962384052003461, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_Name
+      value: BedroomProps
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1110597344107030722, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.709
+      objectReference: {fileID: 0}
+    - target: {fileID: 2208337431849477944, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363312802722568779, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.4742613
+      objectReference: {fileID: 0}
+    - target: {fileID: 9151305354274270114, guid: da1bf66613136b746b01d3715b17fde7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: da1bf66613136b746b01d3715b17fde7, type: 3}
 --- !u!1 &834725680
 GameObject:
   m_ObjectHideFlags: 0
@@ -15660,192 +15769,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 878294152}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &886454691
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 886454692}
-  - component: {fileID: 886454695}
-  - component: {fileID: 886454694}
-  - component: {fileID: 886454693}
-  m_Layer: 0
-  m_Name: Cube (16)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &886454692
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 886454691}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.095001, y: 0.25, z: -5.906}
-  m_LocalScale: {x: 0.59999996, y: 0.5, z: 2.2}
-  m_Children: []
-  m_Father: {fileID: 48716712}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &886454693
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 886454691}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &886454694
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 886454691}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 9c77911421f93914788b08867aedbd2e, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &886454695
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 886454691}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &900688124
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 900688125}
-  - component: {fileID: 900688128}
-  - component: {fileID: 900688127}
-  - component: {fileID: 900688126}
-  m_Layer: 0
-  m_Name: Cube (18)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &900688125
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900688124}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.9055014, y: 0.551, z: -5.94}
-  m_LocalScale: {x: 0.0676, y: 0.502, z: 0.49365997}
-  m_Children: []
-  m_Father: {fileID: 48716712}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &900688126
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900688124}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &900688127
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900688124}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 9c77911421f93914788b08867aedbd2e, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &900688128
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900688124}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &901473011 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9173880729682305057, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
@@ -16318,7 +16241,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906124166}
   m_LocalRotation: {x: -0.18300997, y: 0.68301404, z: -0.68301344, w: -0.18300802}
-  m_LocalPosition: {x: -6.914, y: 0.757, z: -6.552}
+  m_LocalPosition: {x: -6.914, y: 0.81, z: -6.552}
   m_LocalScale: {x: 0.23623, y: 0.055639993, z: 0.062319998}
   m_Children: []
   m_Father: {fileID: 48716712}
@@ -16395,6 +16318,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -17424,6 +17352,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18283,6 +18216,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18878,6 +18816,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -20389,6 +20332,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20776,7 +20724,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122732497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.865001, y: 0.75, z: -5.906}
+  m_LocalPosition: {x: -6.865001, y: 0.803, z: -5.906}
   m_LocalScale: {x: 0.019609999, y: 0.36262, z: 0.62701}
   m_Children: []
   m_Father: {fileID: 48716712}
@@ -21223,11 +21171,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156213686}
   m_LocalRotation: {x: -0, y: 0.24086945, z: -0, w: 0.9705575}
-  m_LocalPosition: {x: -7.0133014, y: 0.75, z: -6.5024}
+  m_LocalPosition: {x: -7.0133014, y: 0.803, z: -6.5024}
   m_LocalScale: {x: 0.019609999, y: 0.36262, z: 0.62701}
   m_Children: []
   m_Father: {fileID: 48716712}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 27.876001, z: 0}
 --- !u!65 &1156213688
 BoxCollider:
@@ -21300,6 +21248,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -21560,6 +21513,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -22161,6 +22119,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -24226,6 +24189,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24798,6 +24766,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25077,6 +25050,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -25529,6 +25507,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25603,6 +25586,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -25878,6 +25866,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26046,6 +26039,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26169,7 +26167,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391704701}
   m_LocalRotation: {x: -0, y: 0.090398714, z: -0, w: 0.9959057}
-  m_LocalPosition: {x: -7.1400013, y: 0.516, z: -6.235}
+  m_LocalPosition: {x: -7.315, y: 0.56899995, z: -6.235}
   m_LocalScale: {x: 0.12683998, y: 0.03882, z: 0.06931999}
   m_Children: []
   m_Father: {fileID: 48716712}
@@ -26758,11 +26756,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408613726}
   m_LocalRotation: {x: 0.5000011, y: 0.49999756, z: -0.49999905, w: 0.50000244}
-  m_LocalPosition: {x: -6.8360014, y: 0.757, z: -5.906}
+  m_LocalPosition: {x: -6.8360014, y: 0.81, z: -5.906}
   m_LocalScale: {x: 1.3677199, y: 0.055639997, z: 0.062319998}
   m_Children: []
   m_Father: {fileID: 48716712}
-  m_RootOrder: 15
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: -90.00001}
 --- !u!65 &1408613728
 BoxCollider:
@@ -26835,6 +26833,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -26910,6 +26913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -27791,11 +27799,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445952135}
   m_LocalRotation: {x: -0, y: -0, z: -0.70710427, w: 0.70710933}
-  m_LocalPosition: {x: -6.8360014, y: 0.822, z: -5.906}
+  m_LocalPosition: {x: -6.8360014, y: 0.875, z: -5.906}
   m_LocalScale: {x: 0.65424, y: 0.055639997, z: 0.062319998}
   m_Children: []
   m_Father: {fileID: 48716712}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.00001}
 --- !u!65 &1445952137
 BoxCollider:
@@ -28409,6 +28417,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -29309,6 +29322,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29797,6 +29815,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -30463,6 +30486,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30537,6 +30565,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -32200,6 +32233,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32599,6 +32637,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32943,6 +32986,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -34088,6 +34136,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34563,11 +34616,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691654391}
   m_LocalRotation: {x: -0.18300664, y: -0.6830144, z: 0.68301433, w: -0.18300663}
-  m_LocalPosition: {x: -6.914001, y: 0.757, z: -5.247}
+  m_LocalPosition: {x: -6.914001, y: 0.81, z: -5.247}
   m_LocalScale: {x: 0.23622999, y: 0.05563999, z: 0.062319998}
   m_Children: []
   m_Father: {fileID: 48716712}
-  m_RootOrder: 16
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 209.999}
 --- !u!65 &1691654393
 BoxCollider:
@@ -34640,6 +34693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -35227,6 +35285,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35664,11 +35727,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768891726}
   m_LocalRotation: {x: -0, y: -0.05365823, z: -0, w: 0.99855936}
-  m_LocalPosition: {x: -7.141001, y: 0.516, z: -5.799}
+  m_LocalPosition: {x: -7.3160005, y: 0.56899995, z: -5.799}
   m_LocalScale: {x: 0.20993, y: 0.03882, z: 0.59288996}
   m_Children: []
   m_Father: {fileID: 48716712}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -6.1520004, z: 0}
 --- !u!65 &1768891728
 BoxCollider:
@@ -36247,6 +36310,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36321,6 +36389,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -37328,99 +37401,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 18.884315, y: 2.8986998, z: 11.352533}
   m_Center: {x: 16.359978, y: 0.00000047683716, z: -0.3450899}
---- !u!1 &1860686485
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1860686486}
-  - component: {fileID: 1860686489}
-  - component: {fileID: 1860686488}
-  - component: {fileID: 1860686487}
-  m_Layer: 0
-  m_Name: Cube (30)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &1860686486
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860686485}
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: -10.66, y: 0.282, z: -3.41}
-  m_LocalScale: {x: 2.27281, y: 0.59202, z: 0.65073997}
-  m_Children: []
-  m_Father: {fileID: 48716712}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
---- !u!65 &1860686487
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860686485}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1860686488
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860686485}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 9c77911421f93914788b08867aedbd2e, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1860686489
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860686485}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1869623121
 GameObject:
   m_ObjectHideFlags: 0
@@ -37760,6 +37740,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38029,6 +38014,12 @@ Transform:
   m_Father: {fileID: 1913022893}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1884653919 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: da1bf66613136b746b01d3715b17fde7,
+    type: 3}
+  m_PrefabInstance: {fileID: 820957431}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1885309146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39521,6 +39512,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40736,6 +40732,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40965,6 +40966,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -41449,6 +41455,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasticCup
       objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41523,6 +41534,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
@@ -41699,7 +41715,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: bac0d2f13815050458d7687cfbbb9396,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: bac0d2f13815050458d7687cfbbb9396,
         type: 3}
@@ -43307,6 +43323,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasticCup
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801977, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
         type: 3}
