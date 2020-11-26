@@ -5408,7 +5408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Start
   textBoxes:
-  - text: " I\u2019m so sorry about him... he\u2019s such an oaf but he means well."
+  - text: "I\u2019m so sorry about him... he\u2019s such an oaf but he means well."
     speaker: Steph
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
@@ -5427,7 +5427,7 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 3d51aceb8c433e04ea3baa59ee81bc48, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "I don\u2019t... know what to say to him... what if he\u2019s completely
+  - text: "I don\u2019t... Know what to say to him... What if he\u2019s completely
       different..."
     speaker: Phim
     namePosition: 0
@@ -6686,6 +6686,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
     type: 3}
   m_PrefabInstance: {fileID: 334302727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &345631475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1281770245}
+    m_Modifications:
+    - target: {fileID: 275273182622801972, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_Name
+      value: PlasticCup (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4028
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.648
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb5d095dcff234e4ca9201565d4630c3, type: 3}
+--- !u!4 &345631476 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 345631475}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &346639400
 GameObject:
@@ -14128,7 +14203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: End
   textBoxes:
-  - text: "I'm\u202Fjus- just\u202Fgonna\u202Flay down... here.\u202F"
+  - text: "I'm\u202Fjus- just\u202Fgonna\u202Flay down... Here.\u202F"
     speaker: Shade
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 1b43924fdaf9a774093ae71c0916fea9, type: 3}
@@ -18457,7 +18532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textTag: Comfort
+  textTag: Comfort2
   textBoxes:
   - text: "Don\u2019t worry, Aurora is mad at me, not you."
     speaker: Phim
@@ -18490,7 +18565,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   action: 1
-  nextSegment: Comfort2
+  nextSegment: Comfort3
   responses: []
   removeCard: 0
   cardsToTake: []
@@ -18535,8 +18610,18 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: b2f74137996125440b8c91b8566413a5, type: 3}
     flipRight: 0
     sound: {fileID: 0}
+  - text: "You know what\u2026 I don\u2019t feel as bad anymore\u2026 sorry for freaking
+      out on you like that. I can get a little stressed sometimes you know?"
+    speaker: Budd
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: b2f74137996125440b8c91b8566413a5, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
   action: 1
-  nextSegment: Comfort
+  nextSegment: Start2
   responses: []
   removeCard: 1
   cardsToTake:
@@ -18573,7 +18658,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: Haaha...
+  - text: "\u2026"
     speaker: Budd
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
@@ -18582,7 +18667,9 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 4ddfb43db91f4964a8345dd96345195f, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: Wait, there's no time for jokes Blue!
+  - text: "Okay... That was actually pretty funny, haha. You know what\u2026 I don\u2019t
+      feel as bad anymore\u2026 sorry for freaking out on you like that. I can get
+      a little stressed sometimes you know?"
     speaker: Budd
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
@@ -18591,8 +18678,8 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  action: 2
-  nextSegment: Start
+  action: 1
+  nextSegment: Start2
   responses: []
   removeCard: 0
   cardsToTake: []
@@ -18660,6 +18747,52 @@ MonoBehaviour:
       m_Calls: []
   returnControl: 1
   allowInteraction: 1
+--- !u!114 &901473016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901473011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Comfort
+  textBoxes:
+  - text: It's going to be okay
+    speaker: Phim
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: 43339837df9bac44d98e49e9f98f37a6, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: No man, I really messed up!
+    speaker: Budd
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 2
+  nextSegment: Start
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
 --- !u!114 &901473017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18683,7 +18816,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "Because I\u2019m FREAKING OUT dude. I really messed up with Aurora.  "
+  - text: "Because I\u2019m FREAKING OUT dude. I don't know what to do."
     speaker: Budd
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
@@ -18768,12 +18901,21 @@ MonoBehaviour:
   textBoxes:
   - text: "Blue! What am I going to do? Do you think Aurora hates me now? I\u2019m
       stressing out dude. "
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: He seems really stressed out... maybe I could relieve the tension a little...
+    speaker: Phim
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   action: 0
@@ -18804,6 +18946,99 @@ MonoBehaviour:
       m_Calls: []
   returnControl: 1
   allowInteraction: 1
+--- !u!114 &901473020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901473011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Apple2
+  textBoxes:
+  - text: This is for you.
+    speaker: Phim
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: 55f1a7bb8d75521438a868bc51d869d3, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: 'Huh, this is for me? This is exactly what I need. Thank you, dude. '
+    speaker: Budd
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: b2f74137996125440b8c91b8566413a5, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
+  responses: []
+  removeCard: 1
+  cardsToTake:
+  - SourGreenApple
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &901473021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901473011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Joke2
+  textBoxes:
+  - text: Knock kn-ock
+    speaker: Phim
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: e6015c8780f16c74f9c9e1e2865a59cc, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Haha
+    speaker: Budd
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 4ddfb43db91f4964a8345dd96345195f, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
 --- !u!114 &901473022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18816,7 +19051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textTag: Comfort2
+  textTag: Comfort3
   textBoxes:
   - text: " I tried to apologise, but I think I just made it worse. I hope she isn\u2019t
       too upset.  "
@@ -18898,8 +19133,8 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  action: 2
-  nextSegment: 
+  action: 1
+  nextSegment: Start2
   responses: []
   removeCard: 0
   cardsToTake: []
@@ -18977,6 +19212,260 @@ MonoBehaviour:
     sound: {fileID: 0}
   action: 2
   nextSegment: Start
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &901473024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901473011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: SmallTalk2
+  textBoxes:
+  - text: I didn't think that you got stressed out...
+    speaker: Phim
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: 'Everyone gets stressed Blue, its perfectly normal. '
+    speaker: Budd
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &901473025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901473011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Silence2
+  textBoxes:
+  - text: ...
+    speaker: Phim
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: fc8e334e6e834a04c831c8d9bcbf3b4c, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: '*Sigh* What am I going to do blue?'
+    speaker: Budd
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &901473026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901473011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Start2
+  textBoxes:
+  - text: He seems to have calmed down a little... I should try to make him feel
+      better.
+    speaker: Phim
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 0
+  nextSegment: 
+  responses:
+  - cardName: Silence
+    nextSegment: Silence2
+  - cardName: SmallTalk
+    nextSegment: SmallTalk2
+  - cardName: Joke
+    nextSegment: Joke2
+  - cardName: SourGreenApple
+    nextSegment: Apple2
+  - cardName: Comfort
+    nextSegment: Comfort2
+  - cardName: SweetRedCherry
+    nextSegment: Cherry2
+  - cardName: BitterRedCranberry
+    nextSegment: Cranberry2
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &901473027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901473011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Cherry2
+  textBoxes:
+  - text: Wo- would you like this?
+    speaker: Phim
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: 0498902b9cace284b91a5b74d610b655, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: 'Dude, I''ll drink ANYTHING but that. Sorry man, its just not my style. '
+    speaker: Budd
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Maybe I can give this to someone else.
+    speaker: 
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
+  responses: []
+  removeCard: 0
+  cardsToTake: []
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &901473028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901473011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Cranberry2
+  textBoxes:
+  - text: Wo- would you like this?
+    speaker: Phim
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: 896fb81a8fba87745ace3e99e15a4557, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: 'Dude, I''ll drink ANYTHING but that. Sorry man, its just not my style. '
+    speaker: Budd
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Maybe I can give this to someone else.
+    speaker: 
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: Start2
   responses: []
   removeCard: 0
   cardsToTake: []
@@ -22615,19 +23104,8 @@ MonoBehaviour:
   endEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 724578973}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1998050623}
-        m_MethodName: SetActive
+      - m_Target: {fileID: 1682753423}
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24921,6 +25399,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122732497}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1129590633
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1281770245}
+    m_Modifications:
+    - target: {fileID: 275273182622801972, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_Name
+      value: PlasticCup (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.408
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4028
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.5039997
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb5d095dcff234e4ca9201565d4630c3, type: 3}
+--- !u!4 &1129590634 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1129590633}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1149646547 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: bac0d2f13815050458d7687cfbbb9396,
@@ -29514,6 +30067,10 @@ Transform:
   - {fileID: 1301528557}
   - {fileID: 1346640086}
   - {fileID: 532382457}
+  - {fileID: 1422946591}
+  - {fileID: 345631476}
+  - {fileID: 1352959648}
+  - {fileID: 1129590634}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -30745,6 +31302,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346640085}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1352959647
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1281770245}
+    m_Modifications:
+    - target: {fileID: 275273182622801972, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_Name
+      value: PlasticCup (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4028
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.648
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb5d095dcff234e4ca9201565d4630c3, type: 3}
+--- !u!4 &1352959648 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1352959647}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1369173310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32024,6 +32656,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421069474}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1422946590
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1281770245}
+    m_Modifications:
+    - target: {fileID: 275273182622801972, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_Name
+      value: PlasticCup (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.787
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3519
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.337
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb5d095dcff234e4ca9201565d4630c3, type: 3}
+--- !u!4 &1422946591 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 275273182622801979, guid: eb5d095dcff234e4ca9201565d4630c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1422946590}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1426058197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32999,7 +33706,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 3d51aceb8c433e04ea3baa59ee81bc48, type: 3}
+    rightSprite: {fileID: 21300000, guid: 9a2dee6ae3ed23c45bc368504d422d09, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   action: 2
@@ -33414,7 +34121,7 @@ PrefabInstance:
         type: 3}
       propertyPath: distantPrefab
       value: 
-      objectReference: {fileID: 4256984662065948857, guid: dc65823d2713de74ab540e0c37df565b,
+      objectReference: {fileID: 4256984662065948857, guid: 1a206c80d8eec3848a4ce4c2a22688a1,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a00d367a95d638e40aa7adadde862888, type: 3}
@@ -33909,7 +34616,7 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 2cc4cc0404bde5b45a53dda3ac54cd2f, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: So... what can I getchu
+  - text: So... What can I getchu
     speaker: Shade
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 1b43924fdaf9a774093ae71c0916fea9, type: 3}
@@ -40265,6 +40972,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1998050624}
     m_Modifications:
+    - target: {fileID: 1852325536802514583, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9173880729682305057, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
         type: 3}
       propertyPath: m_Name
@@ -40333,6 +41045,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1682753421}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1682753423 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1852325536802514583, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1682753421}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901473011}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb55958134e514a4da68d686b627edf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1689662084
 GameObject:
   m_ObjectHideFlags: 0
@@ -49222,7 +49946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Start
   textBoxes:
-  - text: Ex... excuse me.
+  - text: Ex... Excuse me.
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
@@ -49488,7 +50212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: SmallTalk
   textBoxes:
-  - text: Um... th- this is a ni-
+  - text: Um... Th- this is a ni-
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
@@ -49562,7 +50286,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 1
     sound: {fileID: 0}
-  - text: " Sorry but if you don\u2019t want anything, I\u2019m kind of busy.  "
+  - text: "Sorry but if you don\u2019t want anything, I\u2019m kind of busy.  "
     speaker: Aurora
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
@@ -49571,8 +50295,8 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 1
     sound: {fileID: 0}
-  - text: '*Idle Ramble* All this talking is a little making my throat sore. I could
-      use a drink soon.'
+  - text: '*Idle Ramble* All this talking is a making my throat a little sore. I
+      could use a drink soon.'
     speaker: Aurora
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
@@ -49613,7 +50337,7 @@ MonoBehaviour:
     speaker: Budd
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 8e69986aba466de47979b15c9fbfaf4c, type: 3}
-    leftSprite: {fileID: 21300000, guid: 4ddfb43db91f4964a8345dd96345195f, type: 3}
+    leftSprite: {fileID: 21300000, guid: 83223b3c0e80a064fb5c06662930feca, type: 3}
     flipLeft: 1
     rightSprite: {fileID: 21300000, guid: 934be631e80148c4b9a38ddab1609ead, type: 3}
     flipRight: 0
@@ -49629,11 +50353,11 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: Oh... oh no.
+  - text: Oh... Oh no.
     speaker: Budd
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 8e69986aba466de47979b15c9fbfaf4c, type: 3}
-    leftSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
+    leftSprite: {fileID: 21300000, guid: bcbdb6d843a486e49b393fccebc9b9dc, type: 3}
     flipLeft: 1
     rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
     flipRight: 0
@@ -49642,12 +50366,12 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
-    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    leftSprite: {fileID: 21300000, guid: bcbdb6d843a486e49b393fccebc9b9dc, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: Not... another... word... I need to go clean this up. Unbelievable!
+  - text: Not... Another... Word... I need to go clean this up. Unbelievable!
     speaker: Aurora
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
