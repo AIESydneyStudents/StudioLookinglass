@@ -29229,7 +29229,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1cb4ebe45cd515c4c8929d6a1db35b58, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
@@ -50158,6 +50158,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shade (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 6544284976796269790, guid: d6dc436293e42354799751e2e5923de2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 39d541ed1eeb5dd4f8ec05d2bd6a8f74, type: 2}
     - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
         type: 3}
       propertyPath: m_LocalRotation.x
