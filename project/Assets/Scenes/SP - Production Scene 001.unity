@@ -16310,7 +16310,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: He just keeps talking...
-    speaker: Phim
+    speaker: 
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -33657,8 +33657,8 @@ MonoBehaviour:
   textBoxes:
   - text: 'Remember, if you ever get lost or don''t know what to do, come and talk
       to me. '
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -44485,8 +44485,8 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: Hey! Why so blue, friend?
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
