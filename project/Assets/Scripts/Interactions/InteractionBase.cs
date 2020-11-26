@@ -58,7 +58,14 @@ public class InteractionBase : MonoBehaviour
 
     protected void ShowText()
     {
-        text.SetActive(true);
+        if (Time.timeScale > 0)
+        {
+            text.SetActive(true);
+        }
+        else
+        {
+            text.SetActive(false);
+        }
     }
 
     protected void HideText()

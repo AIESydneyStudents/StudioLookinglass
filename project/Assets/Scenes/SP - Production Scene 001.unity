@@ -5409,8 +5409,8 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: " I\u2019m so sorry about him... he\u2019s such an oaf but he means well."
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -5419,8 +5419,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "Look, don\u2019t let him ruin your night... just go find your friend and
       try again.  "
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -5429,7 +5429,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "I don\u2019t... know what to say to him... what if he\u2019s completely
       different..."
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
@@ -5438,7 +5438,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "Maybe he doesn\u2019t even want to talk to me anymore.  "
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
@@ -5447,8 +5447,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Listen, the best way to gain more confidence is to dive right in.
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -5457,8 +5457,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "There\u2019s a girl over there named\u202FAurora, she's usually surrounded
       by a crowd of followers. (I don\u2019t really understand popular people)"
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -5467,8 +5467,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "I\u2019ve seen\u202Fher and Pierce\u202Fhanging out\u202Fsometimes\u202Fso
       she might know more about him."
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -5477,8 +5477,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: 'If you ever get lost or need to see a friendly face, just come back here
       and talk with me. I''ll help you figure out what to do next. '
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -5792,7 +5792,7 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: Ex... excuse me.
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -5801,8 +5801,8 @@ MonoBehaviour:
     flipRight: 1
     sound: {fileID: 0}
   - text: ...
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -5810,7 +5810,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: 'E-Excuse me... '
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
@@ -6133,8 +6133,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 419507853}
-  - {fileID: 1825173585}
+  - {fileID: 1210658369}
   m_Father: {fileID: 72806837}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8415,57 +8414,6 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 625323203}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &419507852
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 419507853}
-  - component: {fileID: 419507854}
-  m_Layer: 0
-  m_Name: Lower Crowd
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &419507853
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419507852}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.27, y: 0, z: 4.39}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 302950173}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &419507854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419507852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
-    type: 3}
-  text: s too many people. I can't get through.rough.
-  image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
-  distance: 6
-  offset: {x: 0, y: 2, z: 0}
-  cooldown: 0
-  followPlayer: 1
 --- !u!1001 &428343830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15208,7 +15156,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1556884756}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &738969512
 MonoBehaviour:
@@ -16274,7 +16222,7 @@ MonoBehaviour:
   textTag: Silence
   textBoxes:
   - text: ...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -16283,7 +16231,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: He just keeps talking...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -16292,8 +16240,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: '*Blah Blah Blah...*'
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -16335,7 +16283,7 @@ MonoBehaviour:
   textTag: SmallTalk
   textBoxes:
   - text: " I-I\u2019ve actually met Steph..."
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -16344,7 +16292,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "We\u2019re in the some of the same classes... actually.  "
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -16353,8 +16301,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: 'OH! Is that so my dude? '
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -16363,8 +16311,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "You know, she can seem a little snappy at times, but she\u2019s a good
       pal! I-"
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -16459,7 +16407,7 @@ MonoBehaviour:
   textTag: SilenceAlt
   textBoxes:
   - text: ...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -16468,7 +16416,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: He just keeps talking...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -16477,8 +16425,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: '*Blah Blah Blah...*'
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -16537,8 +16485,8 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: Haha! Get it...
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -16546,8 +16494,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: 'Because... Yeah you get it. '
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -16555,8 +16503,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "It\u2019s a joke my dude. I\u2019m Buddy, but everyone just calls me Budd. "
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -16596,7 +16544,7 @@ MonoBehaviour:
   textTag: Joke2
   textBoxes:
   - text: Kn- Knock knock...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: e6015c8780f16c74f9c9e1e2865a59cc, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -16605,8 +16553,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "Haha! \u2026 I still don\u2019t get it... "
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -16648,7 +16596,7 @@ MonoBehaviour:
   textTag: Joke
   textBoxes:
   - text: Kn- Knock knock...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: e6015c8780f16c74f9c9e1e2865a59cc, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -16657,8 +16605,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "Haha! \u2026 I don\u2019t get it... "
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -16700,8 +16648,8 @@ MonoBehaviour:
   textTag: 2
   textBoxes:
   - text: " You... Don\u2019t talk much... Huh?"
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -16710,8 +16658,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "That\u2019s all good, I\u2019ll fill in the silence. You\u2019d make great
       friends with Steph over there.   "
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -16762,8 +16710,8 @@ MonoBehaviour:
   textTag: End
   textBoxes:
   - text: Anyways dude, see ya later.
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -17759,7 +17707,7 @@ MonoBehaviour:
   textTag: CorrectItem
   textBoxes:
   - text: Wo- would you like this?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 55f1a7bb8d75521438a868bc51d869d3, type: 3}
     leftSprite: {fileID: 0}
@@ -17768,8 +17716,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Dude! Yes!
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -17777,8 +17725,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: I was just about to go get one of these.
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -17786,7 +17734,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Wait, aren't you already holding a drink?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
@@ -17795,8 +17743,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: '... '
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -17804,8 +17752,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: I don't really see your point. But thanks again dude!
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -17842,7 +17790,7 @@ MonoBehaviour:
   textTag: Joke
   textBoxes:
   - text: Kno-ck knock...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: e6015c8780f16c74f9c9e1e2865a59cc, type: 3}
     leftSprite: {fileID: 0}
@@ -17851,8 +17799,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: 'Hahaha... '
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -17860,8 +17808,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Why does that sound familiar?
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -17897,7 +17845,7 @@ MonoBehaviour:
   textTag: SmallTalk
   textBoxes:
   - text: How did you guys meet?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
     leftSprite: {fileID: 0}
@@ -17907,8 +17855,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: Well you see... I- Hmm... Don't recall. You'd be better off asking Steph
       about that one my dude.
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -17963,7 +17911,7 @@ MonoBehaviour:
   textTag: Silence
   textBoxes:
   - text: ...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -17972,8 +17920,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Cool story dude.
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -18010,8 +17958,8 @@ MonoBehaviour:
   textBoxes:
   - text: I saw you talking with Steph. Me and her go way back, like, at least 3
       months or something.
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -18080,7 +18028,7 @@ MonoBehaviour:
   textTag: WrongItem
   textBoxes:
   - text: Wo- would you like this?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 896fb81a8fba87745ace3e99e15a4557, type: 3}
     leftSprite: {fileID: 0}
@@ -18089,8 +18037,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: 'Dude, I''ll drink ANYTHING but that. Sorry man, its just not my style. '
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -24477,8 +24425,8 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: 'It was nice meeting you dude. '
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -24486,8 +24434,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: 'Say hello to Steph for me. '
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -27483,6 +27431,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1210658368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1210658369}
+  - component: {fileID: 1210658370}
+  m_Layer: 0
+  m_Name: Hallway
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1210658369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210658368}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9, y: 0, z: -1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 302950173}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1210658370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210658368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 351fe1b3f7f5db34c8e6bd07b9bfc526,
+    type: 3}
+  text: There's so many people...
+  image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
+  distance: 2
+  offset: {x: 0, y: 0, z: 0}
+  cooldown: 3600
+  followPlayer: 1
 --- !u!1001 &1214706390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32969,8 +32968,8 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: 'Go find Aurora, she''s surrounded by that big group of people over there. '
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -35973,7 +35972,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1971412805}
   - {fileID: 738969511}
   m_Father: {fileID: 1631648804}
   m_RootOrder: 3
@@ -37525,7 +37523,7 @@ MonoBehaviour:
   textTag: SmallTalk
   textBoxes:
   - text: "Parties aren\u2019t... really my thing."
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
     leftSprite: {fileID: 0}
@@ -37534,8 +37532,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: So what are you doing here?
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -37543,7 +37541,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "Uh...\u202FI,\u202FI live here...\u202F"
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
@@ -37552,8 +37550,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "So... I guess we\u2019re both stuck here then"
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -37611,7 +37609,7 @@ MonoBehaviour:
   textTag: 2ndSilence
   textBoxes:
   - text: ...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 0}
@@ -37620,8 +37618,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "I think I\u2019ve seen you in class before, you\u2019re Phim right?"
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -37749,7 +37747,7 @@ MonoBehaviour:
   textTag: 4thSilence
   textBoxes:
   - text: ...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 0}
@@ -37758,8 +37756,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: You... Going to say anything?
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -37799,7 +37797,7 @@ MonoBehaviour:
   textTag: 3rdSilence
   textBoxes:
   - text: ...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 0}
@@ -37808,8 +37806,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: You... Going to say anything?
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -37849,8 +37847,8 @@ MonoBehaviour:
   textTag: End
   textBoxes:
   - text: Do you know him?
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -37859,7 +37857,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "Use to... actually, he was my best friend... we haven\u2019t spoken in
       over a year. It didn\u2019t really end well.  "
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
@@ -37869,8 +37867,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "You should go talk to him.  Look... what\u2019s the worst that could happen?
       Just go talk to him, then, come back and let me know how it went. "
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -43793,57 +43791,6 @@ Transform:
   m_Father: {fileID: 937276504}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1825173584
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1825173585}
-  - component: {fileID: 1825173586}
-  m_Layer: 0
-  m_Name: Upper Crowd
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1825173585
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825173584}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.98, y: 0, z: 0.29}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 302950173}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1825173586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825173584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
-    type: 3}
-  text: s too many people. I can't get through.rough.
-  image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
-  distance: 6
-  offset: {x: 0, y: 2, z: 0}
-  cooldown: 0
-  followPlayer: 1
 --- !u!1 &1840907314
 GameObject:
   m_ObjectHideFlags: 0
@@ -46767,6 +46714,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1877106471}
     m_Modifications:
+    - target: {fileID: 1252804682257586067, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+        type: 3}
+      propertyPath: m_Pitch
+      value: 1.33
+      objectReference: {fileID: 0}
     - target: {fileID: 1852325536802514583, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
         type: 3}
       propertyPath: distantPrefab
@@ -47256,57 +47208,6 @@ MonoBehaviour:
     type: 3}
   leftImageOffset: {x: 400, y: 500}
   rightImageOffset: {x: 400, y: 500}
---- !u!1 &1971412804
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1971412805}
-  - component: {fileID: 1971412806}
-  m_Layer: 0
-  m_Name: Lower Crowd
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1971412805
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971412804}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.27, y: 0, z: 4.39}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1556884756}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1971412806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971412804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
-    type: 3}
-  text: s too many people. I can't get through.rough.
-  image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
-  distance: 6
-  offset: {x: 0, y: 2, z: 0}
-  cooldown: 0
-  followPlayer: 1
 --- !u!1 &1973395977
 GameObject:
   m_ObjectHideFlags: 0
@@ -49572,7 +49473,7 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: Ex... excuse me.
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -49581,8 +49482,8 @@ MonoBehaviour:
     flipRight: 1
     sound: {fileID: 0}
   - text: ...
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -49590,7 +49491,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: 'E-Excuse me... '
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
@@ -49599,8 +49500,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "Oh! Sorry, I didn\u2019t see you there. Need something?  "
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -49648,7 +49549,7 @@ MonoBehaviour:
   textTag: WrongItemCranberry
   textBoxes:
   - text: '*Quietly mumbling* Um... I noticed you were thirsty, so I...  '
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 896fb81a8fba87745ace3e99e15a4557, type: 3}
     leftSprite: {fileID: 0}
@@ -49657,9 +49558,18 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Oh... Thanks but... I don't really like bitter drinks. Sorry.
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Maybe I could give this to someone else...
+    speaker: 
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -49695,7 +49605,7 @@ MonoBehaviour:
   textTag: WrongItemApple
   textBoxes:
   - text: '*Quietly mumbling* Um... I noticed you were thirsty, so I...  '
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 55f1a7bb8d75521438a868bc51d869d3, type: 3}
     leftSprite: {fileID: 0}
@@ -49704,9 +49614,18 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Oh... Thanks but... I don't really like sour drinks. Sorry.
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    flipLeft: 0
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    sound: {fileID: 0}
+  - text: Maybe I could give this to someone else...
+    speaker: 
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 0}
@@ -49756,7 +49675,7 @@ MonoBehaviour:
   textTag: Joke
   textBoxes:
   - text: Umm... Knock-knock...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: e6015c8780f16c74f9c9e1e2865a59cc, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -49765,8 +49684,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Oh! I've heard this one from Budd before...
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -49774,8 +49693,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "Sorry but if you don\u2019t want anything, I\u2019m kind of busy.  "
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -49783,8 +49702,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: '*Idle Ramble* Maybe something sweet. '
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -49820,7 +49739,7 @@ MonoBehaviour:
   textTag: SmallTalk
   textBoxes:
   - text: Um... th- this is a ni-
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -49829,8 +49748,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "Sorry but if you don\u2019t want anything, I\u2019m kind of busy.  "
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -49839,8 +49758,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: '*Idle Ramble* I think I saw someone holding a red drink earlier, that
       looked pretty good. '
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -49876,7 +49795,7 @@ MonoBehaviour:
   textTag: Silence
   textBoxes:
   - text: ...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -49885,8 +49804,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Ok-ay...
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -49894,8 +49813,8 @@ MonoBehaviour:
     flipRight: 1
     sound: {fileID: 0}
   - text: " Sorry but if you don\u2019t want anything, I\u2019m kind of busy.  "
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -49904,8 +49823,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: '*Idle Ramble* All this talking is a little making my throat sore. I could
       use a drink soon.'
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -49941,7 +49860,7 @@ MonoBehaviour:
   textTag: End
   textBoxes:
   - text: 'Drinking already? Atta dude blue! '
-    speaker: 
+    speaker: Budd
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 8e69986aba466de47979b15c9fbfaf4c, type: 3}
     leftSprite: {fileID: 21300000, guid: 4ddfb43db91f4964a8345dd96345195f, type: 3}
@@ -49961,7 +49880,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Oh... oh no.
-    speaker: 
+    speaker: Budd
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 8e69986aba466de47979b15c9fbfaf4c, type: 3}
     leftSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
@@ -49970,7 +49889,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Wai- no- I- it was an-
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -49979,8 +49898,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Not... another... word... I need to go clean this up. Unbelievable!
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -50083,7 +50002,7 @@ MonoBehaviour:
   textTag: CorrectItem
   textBoxes:
   - text: '*Quietly mumbling* Um... I noticed you were thirsty, so I...  '
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0498902b9cace284b91a5b74d610b655, type: 3}
     leftSprite: {fileID: 0}

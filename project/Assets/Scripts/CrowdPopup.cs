@@ -45,7 +45,7 @@ public class CrowdPopup : MonoBehaviour
             if (allowDisplay)
             {
                 Position();
-                popup.SetActive(true);
+                ShowPopup();
                 hasActivated = true;
             }
         }
@@ -79,5 +79,17 @@ public class CrowdPopup : MonoBehaviour
     {
         yield return new WaitForSeconds(cooldown);
         allowDisplay = true;
+    }
+
+    private void ShowPopup()
+    {
+        if (Time.timeScale > 0)
+        {
+            popup.SetActive(true);
+        }
+        else
+        {
+            popup.SetActive(false);
+        }
     }
 }
