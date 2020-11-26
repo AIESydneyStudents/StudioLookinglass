@@ -21,7 +21,8 @@ public class PauseButton : MonoBehaviour
         {
             if (!isPaused)
             {
-                Pause();
+                // Prevent pausing if player is in dialogue
+                if (!CheckDialogue()) { Pause(); }
             }
             else
             {
@@ -42,5 +43,11 @@ public class PauseButton : MonoBehaviour
         Time.timeScale = 1;
         isPaused = false;
         pauseMenu.SetActive(false);
+    }
+
+    // Get whether a dialogue box exists
+    private bool CheckDialogue()
+    {
+        return (GameObject.Find("Canvas/Textbox"));
     }
 }

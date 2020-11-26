@@ -104,6 +104,7 @@ public class DialogueRenderer : MonoBehaviour
 
         // Create new box
         var newBox = Instantiate(textboxPrefab, canvas.transform);
+        newBox.name = "Textbox";
         newBox.transform.position = new Vector3(centre, boxSpawnHeight, 0);
 
         // Get text fields
