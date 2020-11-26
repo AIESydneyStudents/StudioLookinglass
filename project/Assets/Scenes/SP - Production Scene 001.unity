@@ -22589,7 +22589,7 @@ MonoBehaviour:
   distance: 2.6
   offset: {x: 0, y: 0, z: 0}
   maxTime: 0
-  cooldown: 3600
+  cooldown: 1800
   followPlayer: 1
 --- !u!1 &1018374626
 GameObject:
@@ -27925,9 +27925,9 @@ MonoBehaviour:
   text: There's so many people...
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 2
-  offset: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 3, z: 0}
   maxTime: 0
-  cooldown: 3600
+  cooldown: 1800
   followPlayer: 1
 --- !u!1001 &1214706390
 PrefabInstance:
