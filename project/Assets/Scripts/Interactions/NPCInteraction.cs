@@ -57,7 +57,7 @@ public class NPCInteraction : InteractionBase
         else
         {
             HideText();
-            distant.SetActive(true);
+            ShowDistant();
         }
     }
 
@@ -83,6 +83,18 @@ public class NPCInteraction : InteractionBase
                 this.enabled = false;
                 break;
             }
+        }
+    }
+
+    private void ShowDistant()
+    {
+        if (Time.timeScale > 0)
+        {
+            distant.SetActive(true);
+        }
+        else
+        {
+            distant.SetActive(false);
         }
     }
 }
