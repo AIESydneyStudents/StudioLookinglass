@@ -4358,6 +4358,7 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 6
   offset: {x: 0, y: 2, z: 0}
+  maxTime: 0
   cooldown: 0
   followPlayer: 1
 --- !u!1 &236586594
@@ -8711,6 +8712,7 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 6
   offset: {x: 0, y: 2, z: 0}
+  maxTime: 0
   cooldown: 0
   followPlayer: 1
 --- !u!1 &444248749
@@ -10631,6 +10633,7 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 6
   offset: {x: 0, y: 2, z: 0}
+  maxTime: 0
   cooldown: 0
   followPlayer: 1
 --- !u!1001 &521122208
@@ -15251,6 +15254,7 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 6
   offset: {x: 0, y: 2, z: 0}
+  maxTime: 0
   cooldown: 0
   followPlayer: 1
 --- !u!1001 &741456287
@@ -21310,7 +21314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: RealTalk
   textBoxes:
-  - text: I'm really nervous... sorry.
+  - text: I'm really nervous... Sorry.
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: f76eebb011ade234390529504c1ac795, type: 3}
@@ -21773,7 +21777,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: ' I wish you had told me, I would have helped. '
+  - text: 'I wish you had told me, I would have helped. '
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
@@ -21811,7 +21815,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "\u2026 You seem... different, more confident. It suits you. I always thought
+  - text: "\u2026 You seem... Different, more confident. It suits you. I always thought
       that you looked better with your wings up. "
     speaker: Pierce
     namePosition: 1
@@ -21840,7 +21844,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: " I\u2019m really glad that you did find me. I wasn't happy with the way
+  - text: "I\u2019m really glad that you did find me. I wasn't happy with the way
       we left things."
     speaker: Pierce
     namePosition: 1
@@ -21850,7 +21854,7 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: b7426cc9d90a12f47abe7164420ec32c, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: So... you really aren't don't hate me?
+  - text: So... You really don't hate me?
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
@@ -21886,7 +21890,7 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: Dude, look around... everyone is literally just jumping up and down.
+  - text: Dude, look around... Everyone is literally just jumping up and down.
     speaker: Pierce
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
@@ -21895,7 +21899,7 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: No one knows how to dance
+  - text: No one knows how to dance.
     speaker: Pierce
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
@@ -21904,7 +21908,7 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: I promise to tell you all about why I left in the morning. For now... just
+  - text: I promise to tell you all about why I left in the morning. For now... Just
       follow my lead.
     speaker: Pierce
     namePosition: 1
@@ -22648,6 +22652,7 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 7e87d69f221817f4eb390a00b9502bc6, type: 3}
   distance: 2.6
   offset: {x: 0, y: 0, z: 0}
+  maxTime: 0
   cooldown: 3600
   followPlayer: 1
 --- !u!1 &1018374626
@@ -25222,6 +25227,7 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 6
   offset: {x: 0, y: 2, z: 0}
+  maxTime: 0
   cooldown: 0
   followPlayer: 1
 --- !u!1001 &1119162805
@@ -28059,6 +28065,7 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 2
   offset: {x: 0, y: 0, z: 0}
+  maxTime: 0
   cooldown: 3600
   followPlayer: 1
 --- !u!1001 &1214706390
@@ -36482,6 +36489,7 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 6
   offset: {x: 0, y: 2, z: 0}
+  maxTime: 0
   cooldown: 0
   followPlayer: 1
 --- !u!1 &1576086374
@@ -43496,6 +43504,7 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 6
   offset: {x: 0, y: 2, z: 0}
+  maxTime: 0
   cooldown: 0
   followPlayer: 1
 --- !u!1 &1804060602
@@ -45208,7 +45217,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "Phim... did he ever tell you why he moved during senior year? It not my
+  - text: "Phim... Did he ever tell you why he moved during senior year? It not my
       place to say, but listen, whatever you think you did. Trust me it wasn\u2019t
       because of you. "
     speaker: Aurora
@@ -45340,7 +45349,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "I don\u2019t know... red isn't really my colour."
+  - text: "I don\u2019t know... Red isn't really my colour."
     speaker: Aurora
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
@@ -45398,8 +45407,8 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: c3e897407d441c249b26da9547214ece, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: 'I... overheard you mention that you were thirsty... so I was trying to
-      get you a drink. '
+  - text: 'I overheard you mention that you were thirsty... So I was trying to get
+      you a drink. '
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
@@ -45408,7 +45417,7 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 80ac22f5d543f4a48a10fb3a1b273219, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "That\u2019s... very thoughtful actually. We haven't met before... have
+  - text: "That\u2019s... Very thoughtful actually. We haven't met before... Have
       we? "
     speaker: Aurora
     namePosition: 1
@@ -45419,7 +45428,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "No, I don\u2019t really get out much. My name\u2019s Phim, I usually don't...
-      leave my... room."
+      Leave my room..."
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
@@ -45428,7 +45437,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: " I\u2019m Aurora. "
+  - text: "I\u2019m Aurora. "
     speaker: Aurora
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
@@ -45466,7 +45475,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "It\u2019s okay, I understand. If I was surrounded by that many strangers,
-      I... honestly wouldn\u2019t know what to do."
+      I... Honestly wouldn\u2019t know what to do."
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
@@ -45505,7 +45514,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: ' It can be really stressful at times, having all these people place unrealistic
+  - text: 'It can be really stressful at times, having all these people place unrealistic
       expectations on me.  '
     speaker: Aurora
     namePosition: 1
@@ -45516,7 +45525,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "A lot of people just assume \u2018she must have it all, her life must
-      be so easy\u2019. Well... it's not, and to tell you the truth. I\u2019m terrified
+      be so easy\u2019. Well... It's not, and to tell you the truth. I\u2019m terrified
       of not living up to those expectations.  "
     speaker: Aurora
     namePosition: 1
@@ -45669,7 +45678,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: It's a small kitchen... they're over there enjoying themselves.
+  - text: It's a small kitchen... They're over there enjoying themselves.
     speaker: Aurora
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
@@ -45817,7 +45826,7 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 80ac22f5d543f4a48a10fb3a1b273219, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: No... I should be the one apologising... to tell you the truth, I-... I
+  - text: No... I should be the one apologising... To tell you the truth, I-... I
       was one of those people until just now. I never realised that it might be hurting
       you like that.
     speaker: Phim
@@ -45987,7 +45996,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: Well, I thought you wouldn't even bother talking to me... Since I'm not
@@ -45997,7 +46006,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   - text: 'We''re more alike then you think Phim. I don''t actually like being popular.
@@ -46007,7 +46016,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
   action: 1
@@ -50338,7 +50347,7 @@ MonoBehaviour:
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 8e69986aba466de47979b15c9fbfaf4c, type: 3}
     leftSprite: {fileID: 21300000, guid: 83223b3c0e80a064fb5c06662930feca, type: 3}
-    flipLeft: 1
+    flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 934be631e80148c4b9a38ddab1609ead, type: 3}
     flipRight: 0
     sound: {fileID: 0}
@@ -50349,7 +50358,7 @@ MonoBehaviour:
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 5b06cdbf546cb824cb907d555df0850a, type: 3}
     leftSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
-    flipLeft: 1
+    flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
     flipRight: 0
     sound: {fileID: 0}
@@ -50358,7 +50367,7 @@ MonoBehaviour:
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 8e69986aba466de47979b15c9fbfaf4c, type: 3}
     leftSprite: {fileID: 21300000, guid: bcbdb6d843a486e49b393fccebc9b9dc, type: 3}
-    flipLeft: 1
+    flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
     flipRight: 0
     sound: {fileID: 0}
