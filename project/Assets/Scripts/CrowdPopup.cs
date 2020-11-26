@@ -44,7 +44,7 @@ public class CrowdPopup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(player.transform.position, transform.position) < distance && displayTime < maxTime)
+        if (Vector3.Distance(player.transform.position, transform.position) < distance && !AboveMaxTime())
         {
             if (allowDisplay)
             {
@@ -56,7 +56,7 @@ public class CrowdPopup : MonoBehaviour
         }
         else
         {
-            if ((allowDisplay && hasActivated) || displayTime > maxTime)
+            if ((allowDisplay && hasActivated) || AboveMaxTime())
             {
                 StartCoroutine(Cooldown());
                 allowDisplay = false;
@@ -89,8 +89,8 @@ public class CrowdPopup : MonoBehaviour
 
     IEnumerator Cooldown()
     {
-        yield return new WaitForSeconds(cooldown);
         displayTime = 0;
+        yield return new WaitForSeconds(cooldown);
         allowDisplay = true;
     }
 
@@ -104,5 +104,18 @@ public class CrowdPopup : MonoBehaviour
         {
             popup.SetActive(false);
         }
+    }
+
+    private bool AboveMaxTime()
+    {
+        if (maxTime == 0)
+        {
+            return false;
+        }
+        else if (displayTime > maxTime)
+        {
+            return true;
+        }
+        return false;
     }
 }

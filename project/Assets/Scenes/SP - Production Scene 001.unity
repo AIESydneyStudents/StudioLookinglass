@@ -44232,6 +44232,7 @@ GameObject:
   - component: {fileID: 1869623126}
   - component: {fileID: 1869623125}
   - component: {fileID: 1869623123}
+  - component: {fileID: 1869623128}
   m_Layer: 2
   m_Name: 2-3
   m_TagString: Untagged
@@ -44348,7 +44349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   segment: Start
-  delayTime: 3
+  delayTime: 1.5
 --- !u!114 &1869623127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44430,6 +44431,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1869623128}
+        m_MethodName: StartTimer
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1.2
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onTriggerExit:
     m_PersistentCalls:
       m_Calls:
@@ -44444,6 +44456,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1869623128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869623121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fffccea07cd6644a2c527dc612e6ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  params:
+  - anim: {fileID: 2119278601}
+    parameter: buddIsWalking
 --- !u!1 &1871508790
 GameObject:
   m_ObjectHideFlags: 0
@@ -50605,6 +50632,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2119278601 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1276688465096391747, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+    type: 3}
+  m_PrefabInstance: {fileID: 785616869}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2122206247
 GameObject:
   m_ObjectHideFlags: 0
