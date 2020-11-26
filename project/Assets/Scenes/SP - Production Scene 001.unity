@@ -5778,7 +5778,7 @@ MonoBehaviour:
     speaker: Budd
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
-    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    leftSprite: {fileID: 21300000, guid: 7b362981964a8ed47a5aca4c4bb92923, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
@@ -5904,7 +5904,7 @@ MonoBehaviour:
     speaker: 
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 5b06cdbf546cb824cb907d555df0850a, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: 2d06870f1c26a794ca7633a3198816e8, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 21300000, guid: 934be631e80148c4b9a38ddab1609ead, type: 3}
@@ -23361,7 +23361,7 @@ MonoBehaviour:
     speaker: Steph
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
-    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    leftSprite: {fileID: 0}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 0}
@@ -23423,7 +23423,7 @@ MonoBehaviour:
     speaker: Steph
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
-    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    leftSprite: {fileID: 21300000, guid: 2d06870f1c26a794ca7633a3198816e8, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 21300000, guid: e39b80a3f632b86468a998e952e52544, type: 3}
@@ -23457,7 +23457,7 @@ MonoBehaviour:
     speaker: Budd
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
@@ -24077,7 +24077,7 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: 7b362981964a8ed47a5aca4c4bb92923, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 21300000, guid: e39b80a3f632b86468a998e952e52544, type: 3}
@@ -24099,7 +24099,7 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 21300000, guid: e39b80a3f632b86468a998e952e52544, type: 3}
@@ -45597,7 +45597,7 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: 27a82cc285217c54fa7beca230764fbf, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 0}
@@ -45644,7 +45644,7 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 0}
@@ -45860,7 +45860,7 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 43339837df9bac44d98e49e9f98f37a6, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: 2d06870f1c26a794ca7633a3198816e8, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 0}
@@ -45885,7 +45885,7 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 21300000, guid: 80ac22f5d543f4a48a10fb3a1b273219, type: 3}
@@ -46233,7 +46233,7 @@ MonoBehaviour:
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
-    rightSprite: {fileID: 0}
+    rightSprite: {fileID: 21300000, guid: 2d06870f1c26a794ca7633a3198816e8, type: 3}
     flipRight: 0
     rightOffset: {x: 0, y: 0}
     sound: {fileID: 0}
@@ -46516,7 +46516,7 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: f76eebb011ade234390529504c1ac795, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 0}
@@ -46591,7 +46591,7 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 43339837df9bac44d98e49e9f98f37a6, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 0}
@@ -46602,7 +46602,7 @@ MonoBehaviour:
     speaker: Aurora
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: 27a82cc285217c54fa7beca230764fbf, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 0}
