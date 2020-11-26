@@ -2385,8 +2385,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128609236}
-  m_LocalRotation: {x: -0.048433803, y: 0.9320977, z: -0.33224204, w: -0.13587993}
-  m_LocalPosition: {x: 8.601234, y: 6.3252645, z: 5.5430374}
+  m_LocalRotation: {x: 0.044642597, y: -0.93165344, z: 0.33909404, w: 0.12265456}
+  m_LocalPosition: {x: 9.84267, y: 6.4278746, z: 5.6494474}
   m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 0}
@@ -20775,7 +20775,7 @@ MonoBehaviour:
   textTag: Comfort
   textBoxes:
   - text: "N- No that\u2019s not true. How could I hate you?\_"
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 43339837df9bac44d98e49e9f98f37a6, type: 3}
     leftSprite: {fileID: 0}
@@ -20785,8 +20785,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "Well... I\u202Fdid\u202Fkind of leave\u202Fyou back in senior year, I
       didn\u2019t have the courage to say goodbye\u202Fto you in person...\u202F"
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -20822,7 +20822,7 @@ MonoBehaviour:
   textTag: RealTalk
   textBoxes:
   - text: I'm really nervous... sorry.
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: f76eebb011ade234390529504c1ac795, type: 3}
     leftSprite: {fileID: 0}
@@ -20859,7 +20859,7 @@ MonoBehaviour:
   textTag: Compliment
   textBoxes:
   - text: You look good.
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 904b3467282f89641ba64ad150e531f8, type: 3}
     leftSprite: {fileID: 0}
@@ -20868,8 +20868,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: So do you...
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -20905,7 +20905,7 @@ MonoBehaviour:
   textTag: Compliment2
   textBoxes:
   - text: You look good.
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 904b3467282f89641ba64ad150e531f8, type: 3}
     leftSprite: {fileID: 0}
@@ -20914,8 +20914,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: So do you...
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -20951,7 +20951,7 @@ MonoBehaviour:
   textTag: Apple
   textBoxes:
   - text: Would you like this?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 55f1a7bb8d75521438a868bc51d869d3, type: 3}
     leftSprite: {fileID: 0}
@@ -20960,8 +20960,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Sorry, I don't really drink.
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -20998,7 +20998,7 @@ MonoBehaviour:
   textTag: Joke
   textBoxes:
   - text: Knock knock...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: e6015c8780f16c74f9c9e1e2865a59cc, type: 3}
     leftSprite: {fileID: 0}
@@ -21007,8 +21007,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Haha, since when do you tell jokes?
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21044,7 +21044,7 @@ MonoBehaviour:
   textTag: SmallTalk
   textBoxes:
   - text: What are you doing here?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
     leftSprite: {fileID: 0}
@@ -21053,8 +21053,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Looking for you!
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21090,7 +21090,7 @@ MonoBehaviour:
   textTag: Silence
   textBoxes:
   - text: ...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 0}
@@ -21145,8 +21145,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Phim! It's you!
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -21256,7 +21256,7 @@ MonoBehaviour:
   textTag: RealTalk2
   textBoxes:
   - text: I actually thought that you might hate me.
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: f76eebb011ade234390529504c1ac795, type: 3}
     leftSprite: {fileID: 0}
@@ -21266,8 +21266,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "Phim, you were my best friend. I could never hate you.\u202FI\u2019m\u202Freally
       sorry\u202Ffor how we left things. "
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21276,8 +21276,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "I was going through some pretty\u202Fbad\u202Fstuff\u202Fat home and I\u202Fdidn\u2019t\u202Fknow
       how to tell anyone. In the end, I just ran away.\u202F\u202F "
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21285,7 +21285,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: ' I wish you had told me, I would have helped. '
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
@@ -21295,8 +21295,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "It wasn\u2019t really that type of problem... I felt completely isolated
       and just had to escape."
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21305,8 +21305,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "But I\u2019m doing really, really great now. I found a place where I can
       truly be myself. "
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21314,7 +21314,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "I\u2019m happy for you."
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
@@ -21324,8 +21324,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "\u2026 You seem... different, more confident. It suits you. I always thought
       that you looked better with your wings up. "
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21334,7 +21334,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "I\u2019ve learnt a lot tonight. Initially, I didn\u2019t even want to
       leave my room. I thought that you wouldn\u2019t want to see me... but..."
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
@@ -21343,7 +21343,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: 'I kept trying, and I even managed to make some new friends along the way.  '
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
@@ -21353,8 +21353,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: " I\u2019m really glad that you did find me. I wasn't happy with the way
       we left things."
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21362,7 +21362,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: So... you really aren't don't hate me?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
@@ -21371,8 +21371,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Of course not Phim. We're friends, ands thats never going to change.
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21380,16 +21380,16 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Well, since were already here... Want to dance?
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: Umm... I can't dance...
-    speaker: 
+  - text: I can't dance.
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
@@ -21397,28 +21397,28 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: Have you ever really tried?
-    speaker: 
-    namePosition: 0
+  - text: Dude, look around... everyone is literally just jumping up and down.
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: Well... No.
-    speaker: 
-    namePosition: 0
-    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
+  - text: No one knows how to dance
+    speaker: Pierce
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 9ca6b64cfc66e654d8b84037036867ef, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: Then how would you know? I promise to tell you all about why I left in
-      the morning. For now... just follow my lead.
-    speaker: 
-    namePosition: 0
+  - text: I promise to tell you all about why I left in the morning. For now... just
+      follow my lead.
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21498,8 +21498,8 @@ MonoBehaviour:
   textTag: Beginning
   textBoxes:
   - text: 'I thought, maybe... you were avoiding me. That, maybe... you hated me.  '
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21553,7 +21553,7 @@ MonoBehaviour:
   textTag: Cranberry
   textBoxes:
   - text: Would you like this?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 896fb81a8fba87745ace3e99e15a4557, type: 3}
     leftSprite: {fileID: 0}
@@ -21562,8 +21562,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Sorry, I don't really drink.
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21600,7 +21600,7 @@ MonoBehaviour:
   textTag: Cherry
   textBoxes:
   - text: Would you like this?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0498902b9cace284b91a5b74d610b655, type: 3}
     leftSprite: {fileID: 0}
@@ -21609,8 +21609,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Sorry, I don't really drink.
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21647,7 +21647,7 @@ MonoBehaviour:
   textTag: Comfort2
   textBoxes:
   - text: If you couldn't even say goodbye to me then it must of been serious...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 43339837df9bac44d98e49e9f98f37a6, type: 3}
     leftSprite: {fileID: 0}
@@ -21656,8 +21656,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Yeah...
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21693,7 +21693,7 @@ MonoBehaviour:
   textTag: SmallTalk2
   textBoxes:
   - text: What are you doing here?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
     leftSprite: {fileID: 0}
@@ -21702,8 +21702,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Looking for you!
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21739,7 +21739,7 @@ MonoBehaviour:
   textTag: Joke2
   textBoxes:
   - text: Knock knock...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: e6015c8780f16c74f9c9e1e2865a59cc, type: 3}
     leftSprite: {fileID: 0}
@@ -21748,8 +21748,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Haha, since when do you tell jokes?
-    speaker: 
-    namePosition: 0
+    speaker: Pierce
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -21785,7 +21785,7 @@ MonoBehaviour:
   textTag: Silence2
   textBoxes:
   - text: ...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 0}
