@@ -1147,6 +1147,7 @@ Transform:
   - {fileID: 1691654392}
   - {fileID: 2098072861}
   - {fileID: 655517655}
+  - {fileID: 1005988517}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12493,12 +12494,12 @@ PrefabInstance:
     - target: {fileID: -5749776590971403740, guid: 2503010b14956b645af139bede4e8d76,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 1.6914394e-14
       objectReference: {fileID: 0}
     - target: {fileID: -5749776590971403740, guid: 2503010b14956b645af139bede4e8d76,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -112.000015
+      value: -125.00001
       objectReference: {fileID: 0}
     - target: {fileID: -5749776590971403740, guid: 2503010b14956b645af139bede4e8d76,
         type: 3}
@@ -12559,6 +12560,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -5163886050010331741, guid: 2503010b14956b645af139bede4e8d76,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -5096394099530796775, guid: 2503010b14956b645af139bede4e8d76,
         type: 3}
@@ -13507,6 +13513,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 637438551}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &642258389 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7623372238697341666, guid: d6dc436293e42354799751e2e5923de2,
+    type: 3}
+  m_PrefabInstance: {fileID: 260199210}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &645025288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14094,17 +14106,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1398850436}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1248042393}
         m_MethodName: Play
         m_Mode: 1
@@ -14138,6 +14139,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1398850434}
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Cutscene
+          m_BoolArgument: 1
+        m_CallState: 2
   returnControl: 0
   allowInteraction: 0
 --- !u!114 &655517662
@@ -14169,7 +14181,7 @@ MonoBehaviour:
   textTag: End
   textBoxes:
   - text: "I'm\u202Fjus- just\u202Fgonna\u202Flay down... here.\u202F"
-    speaker: Drunk Party-Goer
+    speaker: Shade
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 1b43924fdaf9a774093ae71c0916fea9, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -14203,6 +14215,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1964700502}
         m_MethodName: StartTimer
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 642258389}
+        m_MethodName: set_enabled
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -22113,6 +22136,57 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1005532547}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1005988516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1005988517}
+  - component: {fileID: 1005988518}
+  m_Layer: 0
+  m_Name: Controls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1005988517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005988516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.997, y: 0, z: -6.167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 48716712}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1005988518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005988516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: af7dab9db5803a041a0dd0c7cc1f92c6,
+    type: 3}
+  text: 
+  image: {fileID: 21300000, guid: 7e87d69f221817f4eb390a00b9502bc6, type: 3}
+  distance: 2.6
+  offset: {x: 0, y: 0, z: 0}
+  cooldown: 3600
+  followPlayer: 1
 --- !u!1 &1018374626
 GameObject:
   m_ObjectHideFlags: 0
@@ -47136,9 +47210,31 @@ MonoBehaviour:
     image: {fileID: 0}
   endEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1398850434}
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Idle
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1398850436}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   returnControl: 1
-  allowInteraction: 1
+  allowInteraction: 0
 --- !u!114 &1964700504
 MonoBehaviour:
   m_ObjectHideFlags: 0
