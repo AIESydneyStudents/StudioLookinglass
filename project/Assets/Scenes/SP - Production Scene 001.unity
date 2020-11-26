@@ -5727,8 +5727,8 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: Oh no... What have I done!
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -6744,7 +6744,7 @@ MonoBehaviour:
   textTag: SmallTalk
   textBoxes:
   - text: Wh- why do you say that?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -6754,8 +6754,8 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: Huh? What do you mean? Look at all these people having a good time. Everyone
       is dancing and drinking!
-    speaker: 
-    namePosition: 0
+    speaker: Shades
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 1b43924fdaf9a774093ae71c0916fea9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -6763,8 +6763,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: 'I hear they even hired a DJ, he''s meant to start playing soon. '
-    speaker: 
-    namePosition: 0
+    speaker: Shades
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 1b43924fdaf9a774093ae71c0916fea9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -6772,8 +6772,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: 'Oh, and speaking of drinks... Guys, lets go get another round. '
-    speaker: 
-    namePosition: 0
+    speaker: Shades
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 1b43924fdaf9a774093ae71c0916fea9, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -6842,7 +6842,7 @@ MonoBehaviour:
   textTag: Silence
   textBoxes:
   - text: ...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 0}
@@ -6879,8 +6879,8 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: This party ROCKS!
-    speaker: 
-    namePosition: 0
+    speaker: Shades
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 1b43924fdaf9a774093ae71c0916fea9, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -24638,8 +24638,8 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: That didn't look very good.
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -24647,8 +24647,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Try and talk with her, see how she feels.
-    speaker: 
-    namePosition: 0
+    speaker: Steph
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -34151,8 +34151,8 @@ MonoBehaviour:
   textTag: Start
   textBoxes:
   - text: 'H-ey there pal, you look like you could *hick* use a drink. '
-    speaker: 
-    namePosition: 0
+    speaker: Shade
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 1b43924fdaf9a774093ae71c0916fea9, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -34160,8 +34160,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: So... what can I getchu
-    speaker: 
-    namePosition: 0
+    speaker: Shade
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 1b43924fdaf9a774093ae71c0916fea9, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -43364,7 +43364,7 @@ MonoBehaviour:
   textTag: Cherry
   textBoxes:
   - text: Wo-would you like this?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0498902b9cace284b91a5b74d610b655, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -43373,8 +43373,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: I'm really, REALLY, not in the mood right now.
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -43410,7 +43410,7 @@ MonoBehaviour:
   textTag: Joke
   textBoxes:
   - text: Umm... Kno-ck kn....
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: e6015c8780f16c74f9c9e1e2865a59cc, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -43418,9 +43418,9 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: I'm really, REALLY, not in the mood right now.
-    speaker: 
-    namePosition: 0
+  - text: I'm really, REALLY, not in the mood for jokes right now.
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -43456,7 +43456,7 @@ MonoBehaviour:
   textTag: SmallTalk
   textBoxes:
   - text: I... I think there's someone in there already.
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -43465,8 +43465,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Is that seriously all you have to say to me?
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -43502,7 +43502,7 @@ MonoBehaviour:
   textTag: Silence
   textBoxes:
   - text: ...
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -43652,7 +43652,7 @@ MonoBehaviour:
   textTag: Apple
   textBoxes:
   - text: Wo-would you like this?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 55f1a7bb8d75521438a868bc51d869d3, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -43661,8 +43661,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: I'm really, REALLY, not in the mood right now.
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
@@ -43698,7 +43698,7 @@ MonoBehaviour:
   textTag: Cranberry
   textBoxes:
   - text: Wo-would you like this?
-    speaker: 
+    speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 896fb81a8fba87745ace3e99e15a4557, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -43707,8 +43707,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: I'm really, REALLY, not in the mood right now.
-    speaker: 
-    namePosition: 0
+    speaker: Aurora
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 7f8f0a598dae2c4409c5ad5eab98867a, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
