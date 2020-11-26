@@ -2385,8 +2385,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128609236}
-  m_LocalRotation: {x: 0.044642597, y: -0.93165344, z: 0.33909404, w: 0.12265456}
-  m_LocalPosition: {x: 9.84267, y: 6.4278746, z: 5.6494474}
+  m_LocalRotation: {x: -0.048433803, y: 0.9320977, z: -0.33224204, w: -0.13587993}
+  m_LocalPosition: {x: 8.601234, y: 6.3252645, z: 5.5430374}
   m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 0}
@@ -21840,7 +21840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Credits
-  time: 0
+  time: 12
 --- !u!1 &990878236
 GameObject:
   m_ObjectHideFlags: 0
