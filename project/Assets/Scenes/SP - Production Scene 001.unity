@@ -22989,7 +22989,7 @@ MonoBehaviour:
     speaker: Steph
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
-    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    leftSprite: {fileID: 21300000, guid: 2d06870f1c26a794ca7633a3198816e8, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 3d51aceb8c433e04ea3baa59ee81bc48, type: 3}
     flipRight: 0
@@ -23000,7 +23000,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: e39b80a3f632b86468a998e952e52544, type: 3}
+    rightSprite: {fileID: 21300000, guid: 9a2dee6ae3ed23c45bc368504d422d09, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   - text: "So, you\u2019re just going to give up? After all that?"
@@ -23027,7 +23027,7 @@ MonoBehaviour:
     speaker: Steph
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 0}
     flipRight: 0
@@ -25198,7 +25198,7 @@ MonoBehaviour:
     speaker: Steph
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
-    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    leftSprite: {fileID: 21300000, guid: 2d06870f1c26a794ca7633a3198816e8, type: 3}
     flipLeft: 0
     rightSprite: {fileID: 21300000, guid: 3d51aceb8c433e04ea3baa59ee81bc48, type: 3}
     flipRight: 0
@@ -25209,7 +25209,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 0}
+    rightSprite: {fileID: 21300000, guid: e39b80a3f632b86468a998e952e52544, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   action: 2
