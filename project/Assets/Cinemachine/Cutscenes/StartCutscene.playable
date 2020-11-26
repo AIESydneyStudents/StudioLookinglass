@@ -84,13 +84,13 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 2573390819546831964}
-    m_Duration: 2
+    m_Duration: 1.5
     m_TimeScale: 1
     m_ParentTrack: {fileID: 327674866941627748}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 1.0166666666666666
+    m_BlendOutDuration: 1
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -150,7 +150,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: VCam - Phim'sBedroom
   - m_Version: 1
-    m_Start: 5.5
+    m_Start: 5.016666666666668
     m_ClipIn: 0
     m_Asset: {fileID: 554798106818941912}
     m_Duration: 2.5
@@ -158,7 +158,7 @@ MonoBehaviour:
     m_ParentTrack: {fileID: 327674866941627748}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.5
+    m_BlendInDuration: 1.4999999999999982
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -219,7 +219,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: VCam - Phim'sBedroom
   - m_Version: 1
-    m_Start: 0.9833333333333333
+    m_Start: 0.5
     m_ClipIn: 0
     m_Asset: {fileID: -2568639315625274743}
     m_Duration: 6.016666666666667
@@ -227,8 +227,8 @@ MonoBehaviour:
     m_ParentTrack: {fileID: 327674866941627748}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.0166666666666666
-    m_BlendOutDuration: 1.5
+    m_BlendInDuration: 1
+    m_BlendOutDuration: 1.4999999999999982
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
