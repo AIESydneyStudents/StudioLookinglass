@@ -17,11 +17,15 @@ public class CrowdPopup : MonoBehaviour
 
     private Camera cam;
 
+    [Min(0)] public float maxTime;
     [Min(0)] public float cooldown;
     private bool allowDisplay;
     private bool hasActivated;
 
     public bool followPlayer;
+
+    private float displayTime;
+    private bool isDisplaying;
 
     void Awake()
     {
@@ -40,23 +44,31 @@ public class CrowdPopup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(player.transform.position, transform.position) < distance)
+        if (Vector3.Distance(player.transform.position, transform.position) < distance && displayTime < maxTime)
         {
             if (allowDisplay)
             {
                 Position();
                 ShowPopup();
                 hasActivated = true;
+                isDisplaying = true;
             }
         }
         else
         {
-            if (allowDisplay && hasActivated)
+            if ((allowDisplay && hasActivated) || displayTime > maxTime)
             {
                 StartCoroutine(Cooldown());
                 allowDisplay = false;
+                isDisplaying = false;
             }
             popup.SetActive(false);
+        }
+
+        // Increment time if displaying and a max time is set
+        if (popup.activeSelf && isDisplaying && maxTime > 0)
+        {
+            displayTime += Time.deltaTime;
         }
     }
 
@@ -78,6 +90,7 @@ public class CrowdPopup : MonoBehaviour
     IEnumerator Cooldown()
     {
         yield return new WaitForSeconds(cooldown);
+        displayTime = 0;
         allowDisplay = true;
     }
 
