@@ -29704,7 +29704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1266420354
 Transform:
   m_ObjectHideFlags: 0
@@ -37770,7 +37770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: SmallTalk
   textBoxes:
-  - text: "Parties aren\u2019t... really my thing."
+  - text: "Parties aren\u2019t... Really my thing."
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 66ff3f8ee3a37564dacbe75a2198288a, type: 3}
@@ -37915,7 +37915,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: Well anyway, I don't want to be here either... friend of mine dragged me
+  - text: Well anyway, I don't want to be here either... Friend of mine dragged me
       here, I say dragged, but it's more like we are attached at the hip.
     speaker: Steph
     namePosition: 1
@@ -38103,7 +38103,7 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 9a2dee6ae3ed23c45bc368504d422d09, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "Use to... actually, he was my best friend... we haven\u2019t spoken in
+  - text: "Use to... Actually, he was my best friend... We haven\u2019t spoken in
       over a year. It didn\u2019t really end well.  "
     speaker: Phim
     namePosition: 0
@@ -38113,7 +38113,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "You should go talk to him.  Look... what\u2019s the worst that could happen?
+  - text: "You should go talk to him.  Look... What\u2019s the worst that could happen?
       Just go talk to him, then, come back and let me know how it went. "
     speaker: Steph
     namePosition: 1
