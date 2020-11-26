@@ -3363,6 +3363,21 @@ MonoBehaviour:
         m_CallState: 2
   returnControl: 1
   allowInteraction: 0
+--- !u!114 &161594262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161594257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fffccea07cd6644a2c527dc612e6ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  params:
+  - anim: {fileID: 749231113}
+    parameter: auroraIsWalking
 --- !u!114 &161594264 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6751071917871477628, guid: a00d367a95d638e40aa7adadde862888,
@@ -3486,6 +3501,12 @@ Transform:
   m_Father: {fileID: 1877106471}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &182288805 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1276688465096391747, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+    type: 3}
+  m_PrefabInstance: {fileID: 62775306}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &186733228
 GameObject:
   m_ObjectHideFlags: 0
@@ -5770,8 +5791,34 @@ MonoBehaviour:
           m_StringArgument: Move2
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 282091416}
+        m_MethodName: StartTimer
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 5
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   returnControl: 0
   allowInteraction: 1
+--- !u!114 &282091416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282091407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fffccea07cd6644a2c527dc612e6ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  params:
+  - anim: {fileID: 496875686}
+    parameter: buddIsWalking
 --- !u!1 &283495197 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 37954198776623515, guid: a00d367a95d638e40aa7adadde862888,
@@ -10428,6 +10475,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
     type: 3}
   m_PrefabInstance: {fileID: 492329782}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &496875686 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1276688465096391747, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1783700708}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &504730215
 PrefabInstance:
@@ -15414,6 +15467,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 742303055}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &745676316 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1276688465096391747, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1941214167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &749231113 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2208963199021220006, guid: a00d367a95d638e40aa7adadde862888,
+    type: 3}
+  m_PrefabInstance: {fileID: 1885309146}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &764884003
 GameObject:
   m_ObjectHideFlags: 0
@@ -16778,6 +16843,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1094712953}
+        m_MethodName: StartTimer
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1.2
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   returnControl: 1
   allowInteraction: 1
 --- !u!114 &801254726
@@ -18083,6 +18159,21 @@ MonoBehaviour:
       m_Calls: []
   returnControl: 1
   allowInteraction: 1
+--- !u!114 &875212999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875212988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fffccea07cd6644a2c527dc612e6ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  params:
+  - anim: {fileID: 182288805}
+    parameter: buddIsWalking
 --- !u!114 &875213000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19511,6 +19602,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 903775942}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &905065314 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2208963199021220006, guid: a00d367a95d638e40aa7adadde862888,
+    type: 3}
+  m_PrefabInstance: {fileID: 1507673267}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &906124166
 GameObject:
   m_ObjectHideFlags: 0
@@ -24901,6 +24998,21 @@ MonoBehaviour:
       m_Calls: []
   returnControl: 1
   allowInteraction: 1
+--- !u!114 &1094712953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094712946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fffccea07cd6644a2c527dc612e6ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  params:
+  - anim: {fileID: 745676316}
+    parameter: buddIsWalking
 --- !u!1001 &1108507361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38728,6 +38840,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616147005}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &1616395108 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2208963199021220006, guid: a00d367a95d638e40aa7adadde862888,
+    type: 3}
+  m_PrefabInstance: {fileID: 1225455374}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1618028039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43841,6 +43959,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2008279023}
+        m_MethodName: StartTimer
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 4
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1266420353}
         m_MethodName: SetActive
         m_Mode: 6
@@ -44026,6 +44155,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1811955979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811955966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fffccea07cd6644a2c527dc612e6ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  params:
+  - anim: {fileID: 905065314}
+    parameter: auroraIsWalking
 --- !u!1 &1815724365
 GameObject:
   m_ObjectHideFlags: 0
@@ -45101,14 +45245,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1948692159}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 161594262}
+        m_MethodName: StartTimer
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -45125,6 +45269,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 161594264}
         m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1948692159}
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -48307,6 +48462,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2008279023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008279021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fffccea07cd6644a2c527dc612e6ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  params:
+  - anim: {fileID: 1616395108}
+    parameter: auroraIsWalking
 --- !u!1001 &2017916411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50256,8 +50426,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 444248749}
-        m_MethodName: SetActive
+      - m_Target: {fileID: 1811955979}
+        m_MethodName: StartTimer
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 6
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1811955976}
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -50267,8 +50448,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1811955976}
-        m_MethodName: set_enabled
+      - m_Target: {fileID: 444248749}
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -50349,14 +50530,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 875212999}
+        m_MethodName: StartTimer
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 3
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
