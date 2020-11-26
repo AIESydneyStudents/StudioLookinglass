@@ -20,8 +20,10 @@ public class TextBox
     public Sprite boxSprite;
     public Sprite leftSprite;
     public bool flipLeft;
+    public Vector2 leftOffset;
     public Sprite rightSprite;
     public bool flipRight;
+    public Vector2 rightOffset;
     public AudioClip sound;
 }
 
@@ -43,9 +45,11 @@ public class DialogueRenderer : MonoBehaviour
 
     public Vector2 leftImageOffset;
     private Image leftImage;
+    private Vector3 leftOrigin;
 
     public Vector2 rightImageOffset;
     private Image rightImage;
+    private Vector3 rightOrigin;
 
     private GameObject canvas;
     private List<GameObject> activeBoxes;
@@ -144,10 +148,12 @@ public class DialogueRenderer : MonoBehaviour
         if (box.leftSprite != null)
         {
             SetLeftImage(box.leftSprite, box.flipLeft);
+            leftImage.transform.position = new Vector3(leftOrigin.x + box.leftOffset.x, leftOrigin.y + box.leftOffset.y, leftOrigin.z);
         }
         if (box.rightSprite != null)
         {
             SetRightImage(box.rightSprite, box.flipRight);
+            rightImage.transform.position = new Vector3(rightOrigin.x + box.rightOffset.x, rightOrigin.y + box.rightOffset.y, rightOrigin.z);
         }
 
         // Remove old box past maximum
@@ -186,7 +192,8 @@ public class DialogueRenderer : MonoBehaviour
         if (leftImage == null)
         {
             leftImage = Instantiate(portraitPrefab, canvas.transform).GetComponent<Image>();
-            leftImage.gameObject.transform.position = new Vector3(centre - leftImageOffset.x, leftImageOffset.y, 0);
+            leftOrigin = new Vector3(centre - leftImageOffset.x, leftImageOffset.y, 0);
+            leftImage.transform.position = leftOrigin;
         }
 
         // Change sprite
@@ -209,7 +216,8 @@ public class DialogueRenderer : MonoBehaviour
         if (rightImage == null)
         {
             rightImage = Instantiate(portraitPrefab, canvas.transform).GetComponent<Image>();
-            rightImage.gameObject.transform.position = new Vector3(centre + rightImageOffset.x, rightImageOffset.y, 0);
+            rightOrigin = new Vector3(centre + rightImageOffset.x, rightImageOffset.y, 0);
+            rightImage.transform.position = rightOrigin;
         }
 
         // Change sprite
