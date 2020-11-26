@@ -18543,7 +18543,7 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: "What do you mean? It was totally my fault. Wait... you didn\u2019t tell
+  - text: "What do you mean? It was totally my fault. Wait... You didn\u2019t tell
       her? Blue... I don\u2019t know what to say dude."
     speaker: Budd
     namePosition: 1
@@ -18561,7 +18561,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: b2f74137996125440b8c91b8566413a5, type: 3}
+    rightSprite: {fileID: 21300000, guid: 4ddfb43db91f4964a8345dd96345195f, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   action: 1
@@ -18664,7 +18664,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 4ddfb43db91f4964a8345dd96345195f, type: 3}
+    rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   - text: "Okay... That was actually pretty funny, haha. You know what\u2026 I don\u2019t
@@ -18675,7 +18675,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
+    rightSprite: {fileID: 21300000, guid: 4ddfb43db91f4964a8345dd96345195f, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   action: 1
@@ -18863,8 +18863,8 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: Oh no.... is it that bad?
-    speaker: 
-    namePosition: 0
+    speaker: Budd
+    namePosition: 1
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
@@ -18910,7 +18910,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: He seems really stressed out... maybe I could relieve the tension a little...
-    speaker: Phim
+    speaker: 
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
@@ -19053,7 +19053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Comfort3
   textBoxes:
-  - text: " I tried to apologise, but I think I just made it worse. I hope she isn\u2019t
+  - text: "I tried to apologise, but I think I just made it worse. I hope she isn\u2019t
       too upset.  "
     speaker: Phim
     namePosition: 0
@@ -19106,7 +19106,7 @@ MonoBehaviour:
     flipRight: 0
     sound: {fileID: 0}
   - text: "Alright, I think I owe Aurora a proper apology. Oh, and also- um, Budd...
-      thank you \u2026 dude."
+      Thank you \u2026 Dude."
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
@@ -19121,7 +19121,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 0}
+    rightSprite: {fileID: 21300000, guid: b2f74137996125440b8c91b8566413a5, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   - text: 'Right back atcha blue. '
@@ -19130,10 +19130,10 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 046293d2d61066247a63d00f03914e8a, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-    rightSprite: {fileID: 0}
+    rightSprite: {fileID: 21300000, guid: 4ddfb43db91f4964a8345dd96345195f, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  action: 1
+  action: 2
   nextSegment: Start2
   responses: []
   removeCard: 0
@@ -19332,12 +19332,12 @@ MonoBehaviour:
   textBoxes:
   - text: He seems to have calmed down a little... I should try to make him feel
       better.
-    speaker: Phim
+    speaker: 
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
     leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
-    rightSprite: {fileID: 21300000, guid: 0a1c8b3e44c95b94cabad92f25440c22, type: 3}
+    rightSprite: {fileID: 21300000, guid: b2f74137996125440b8c91b8566413a5, type: 3}
     flipRight: 0
     sound: {fileID: 0}
   action: 0
@@ -22974,7 +22974,7 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: e39b80a3f632b86468a998e952e52544, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: " I tried my best, but it wasn\u2019t good enough, I\u2019m just not cut
+  - text: "I tried my best, but it wasn\u2019t good enough, I\u2019m just not cut
       out for this kind of stuff. "
     speaker: Phim
     namePosition: 0
@@ -23054,7 +23054,7 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: e39b80a3f632b86468a998e952e52544, type: 3}
     flipRight: 0
     sound: {fileID: 0}
-  - text: " Y-You really think she will forgive me? I\u2019m pretty sure she hates
+  - text: "Y-You really think she will forgive me? I\u2019m pretty sure she hates
       me now..."
     speaker: Phim
     namePosition: 0
