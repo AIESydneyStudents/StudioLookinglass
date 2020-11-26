@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
+
+// From https://unity3d.college/2017/09/07/replace-gameobjects-or-prefabs-with-another-prefab/
 public class ReplaceWithPrefab : EditorWindow
 {
     [SerializeField] private GameObject prefab;

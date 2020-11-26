@@ -4,10 +4,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+public enum TextPosition
+{
+    Left,
+    Right
+}
+
+
 [Serializable]
 public class TextBox
 {
     [TextArea] public string text;
+    public string speaker;
+    public TextPosition namePosition;
     public Sprite boxSprite;
     public Sprite leftSprite;
     public bool flipLeft;
@@ -43,6 +52,9 @@ public class DialogueRenderer : MonoBehaviour
 
     private AudioSource source;
 
+    static private readonly int main = 0;
+    static private readonly int speaker = 1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -55,11 +67,14 @@ public class DialogueRenderer : MonoBehaviour
     // Show a default text box from a string
     public void ShowTextBox(string text)
     {
-        TextBox t = new TextBox();
-        t.text = text;
-        t.boxSprite = null;
-        t.leftSprite = null;
-        t.rightSprite = null;
+        TextBox t = new TextBox
+        {
+            text = text,
+            speaker = string.Empty,
+            boxSprite = null,
+            leftSprite = null,
+            rightSprite = null
+        };
         ShowTextBox(t);
     }
 
@@ -90,8 +105,31 @@ public class DialogueRenderer : MonoBehaviour
         // Create new box
         var newBox = Instantiate(textboxPrefab, canvas.transform);
         newBox.transform.position = new Vector3(centre, boxSpawnHeight, 0);
-        newBox.GetComponentInChildren<Text>().text = box.text;
+
+        // Get text fields
+        var childrenText = newBox.GetComponentsInChildren<Text>();
+
+        // Add main text
+        childrenText[main].text = box.text;
+
+        // Add speaker text
+        childrenText[speaker].text = box.speaker;
+        if (box.namePosition == TextPosition.Right)
+        {
+            // Bad hardcoded numbers
+            // I SHOULD be able to just invert the x component
+            // but Unity says no
+            childrenText[speaker].transform.position = new Vector3(175,62,0) + newBox.transform.position;
+        }
+        else
+        {
+            childrenText[speaker].transform.position = new Vector3(-175, 62, 0) + newBox.transform.position;
+        }
+
+        // Change image
         newBox.GetComponent<Image>().sprite = box.boxSprite;
+
+        // Add to active list
         activeBoxes.Add(newBox);
 
         // Play sound

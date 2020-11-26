@@ -29,7 +29,7 @@ public class DialogueSegment : MonoBehaviour
     public string nextSegment;
     public CardResponse[] responses;
 
-    private KeyCode advanceKey = KeyCode.Space;
+    private readonly KeyCode advanceKey = KeyCode.Space;
     private DialogueRenderer dialogueRenderer;
     private int position;
 
