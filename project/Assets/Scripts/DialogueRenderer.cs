@@ -115,16 +115,17 @@ public class DialogueRenderer : MonoBehaviour
 
         // Add speaker text
         childrenText[speaker].text = box.speaker;
+
+        // Detach position from parent
+        Vector3 position = childrenText[speaker].transform.position - newBox.transform.position;
         if (box.namePosition == TextPosition.Right)
         {
-            // Bad hardcoded numbers
-            // I SHOULD be able to just invert the x component
-            // but Unity says no
-            childrenText[speaker].transform.position = new Vector3(175,62,0) + newBox.transform.position;
+            position.x *= -1;
+            childrenText[speaker].transform.position = position + newBox.transform.position;
         }
         else
         {
-            childrenText[speaker].transform.position = new Vector3(-175, 62, 0) + newBox.transform.position;
+            childrenText[speaker].transform.position = position + newBox.transform.position;
         }
 
         // Change image
