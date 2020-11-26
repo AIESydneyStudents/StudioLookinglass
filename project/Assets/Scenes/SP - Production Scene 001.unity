@@ -2378,8 +2378,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128609236}
-  m_LocalRotation: {x: 0.044642597, y: -0.93165344, z: 0.33909404, w: 0.12265456}
-  m_LocalPosition: {x: 9.84267, y: 6.4278746, z: 5.6494474}
+  m_LocalRotation: {x: -0.048433803, y: 0.9320977, z: -0.33224204, w: -0.13587993}
+  m_LocalPosition: {x: 8.601234, y: 6.3252645, z: 5.5430374}
   m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3094,8 +3094,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 928108168607943593, guid: 8ca94cd410730c247a6254e1d5000992,
-        type: 3}
+      objectReference: {fileID: 2100000, guid: f87b01f655a892c48881ec91bf49f535, type: 2}
     - target: {fileID: -1504981713932161579, guid: 46087d87a65a5064695b8b6f2a8c6b6c,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -29284,7 +29283,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1cb4ebe45cd515c4c8929d6a1db35b58, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
@@ -50138,6 +50137,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shade (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 6544284976796269790, guid: d6dc436293e42354799751e2e5923de2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 39d541ed1eeb5dd4f8ec05d2bd6a8f74, type: 2}
     - target: {fileID: 6657053838896487366, guid: d6dc436293e42354799751e2e5923de2,
         type: 3}
       propertyPath: m_LocalRotation.x
