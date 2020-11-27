@@ -38343,6 +38343,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 10.724579
       objectReference: {fileID: 0}
+    - target: {fileID: 1453362252609014699, guid: 09e2f49308eeeff45a1052bdea30d21c,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 35b61fd74d11ab24db06d43150cc4cff, type: 3}
     - target: {fileID: 1724357981163708242, guid: 09e2f49308eeeff45a1052bdea30d21c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -39352,7 +39357,18 @@ MonoBehaviour:
     image: {fileID: 21300000, guid: fdf2038fcab51524b9df9d76fac7a6d1, type: 3}
   endEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1591100561}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   returnControl: 1
   allowInteraction: 1
 --- !u!114 &1591100556
@@ -39557,6 +39573,12 @@ MonoBehaviour:
       m_Calls: []
   returnControl: 1
   allowInteraction: 1
+--- !u!82 &1591100561 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1453362252609014699, guid: 09e2f49308eeeff45a1052bdea30d21c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1591100551}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1591100563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51930,7 +51952,7 @@ MonoBehaviour:
     rightSprite: {fileID: 21300000, guid: 996ccc64beb7ea5438520fa6145f0d66, type: 3}
     flipRight: 0
     rightOffset: {x: 0, y: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 4910b84c53ace9147a6a7521b7c5de8f, type: 3}
   - text: Oh... Oh no.
     speaker: Budd
     namePosition: 0
@@ -54027,6 +54049,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.9320045
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923415955397059989, guid: e1821b788d1771347bfc01b585b68d4b,
+        type: 3}
+      propertyPath: notificationDisplayTime
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3927671671024686924, guid: e1821b788d1771347bfc01b585b68d4b,
         type: 3}
