@@ -24117,6 +24117,7 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
+    leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 21300000, guid: e39b80a3f632b86468a998e952e52544, type: 3}
     flipRight: 0
     rightOffset: {x: 0, y: 0}
@@ -24148,7 +24149,7 @@ MonoBehaviour:
       go. What's important is that you keep trying.
     speaker: Steph
     namePosition: 1
-    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
+    boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
@@ -24161,10 +24162,10 @@ MonoBehaviour:
   responses: []
   removeCard: 0
   cardsToTake: []
-  giveCard: 0
+  giveCard: 1
   cardToGive:
-    name: 
-    image: {fileID: 0}
+    name: Comfort
+    image: {fileID: 21300000, guid: 91512474b01e33b48bfcac89a107ca45, type: 3}
   endEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -35630,6 +35631,9 @@ MonoBehaviour:
   deltaX: 200
   returnContol: 1
   allowInteraction: 1
+  onSelected:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1485988365
 MonoBehaviour:
   m_ObjectHideFlags: 0
