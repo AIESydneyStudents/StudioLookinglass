@@ -622,6 +622,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &8421885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8421886}
+  - component: {fileID: 8421887}
+  m_Layer: 0
+  m_Name: Aurora's Fans
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8421886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8421885}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.157, y: 0.115, z: 2.475}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1324582043}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8421887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8421885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: "They ruined Aurora\u2019s dress"
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1 &19250308
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,6 +766,58 @@ Transform:
   m_Father: {fileID: 1913022893}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &26965598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 26965599}
+  - component: {fileID: 26965600}
+  m_Layer: 0
+  m_Name: Toilet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &26965599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26965598}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13, y: 0, z: -2.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1324582043}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &26965600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26965598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: Occupied
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!23 &29499560 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 8580014181140555959, guid: 2503010b14956b645af139bede4e8d76,
@@ -1286,6 +1390,12 @@ Transform:
   - {fileID: 443488086}
   - {fileID: 553711216}
   - {fileID: 1589428025}
+  - {fileID: 249756692}
+  - {fileID: 468267481}
+  - {fileID: 1929740899}
+  - {fileID: 1997907013}
+  - {fileID: 753990001}
+  - {fileID: 1591951105}
   m_Father: {fileID: 444248750}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1794,6 +1904,58 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6dc436293e42354799751e2e5923de2, type: 3}
+--- !u!1 &87958970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 87958971}
+  - component: {fileID: 87958972}
+  m_Layer: 0
+  m_Name: ShadeMisc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &87958971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87958970}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.423, y: 0, z: 4.518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1324582043}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &87958972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87958970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: 'Having fun? '
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1001 &92649860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2074,7 +2236,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101424648}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.56, y: 0, z: 2.19}
+  m_LocalPosition: {x: -19.65, y: 0, z: 2.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 169124961}
@@ -2095,9 +2257,9 @@ MonoBehaviour:
   popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
     type: 3}
   text: I love this song
-  image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
-  distance: 7
-  offset: {x: 0, y: 2, z: 0}
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 8
+  offset: {x: -0.5, y: 1.5, z: 0}
   maxTime: 0
   cooldown: 1
   followPlayer: 0
@@ -3565,10 +3727,64 @@ Transform:
   - {fileID: 460778174}
   - {fileID: 1652692002}
   - {fileID: 101424649}
-  - {fileID: 1810706795}
+  - {fileID: 2014459666}
+  - {fileID: 708287382}
+  - {fileID: 989431307}
   m_Father: {fileID: 1877106471}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &173338411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 173338412}
+  - component: {fileID: 173338413}
+  m_Layer: 0
+  m_Name: Aurora's Fans 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &173338412
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173338411}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.434, y: 0.115, z: 0.496}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1324582043}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &173338413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173338411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: "I\u2019ve never seen her this mad "
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!95 &182288805 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1276688465096391747, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
@@ -5852,6 +6068,110 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 247664108}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &248483406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 248483407}
+  - component: {fileID: 248483408}
+  m_Layer: 0
+  m_Name: Dance FloorShade3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &248483407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248483406}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -19.65, y: 0, z: 2.23}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1079774880}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &248483408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248483406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: I love this song
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 8
+  offset: {x: -0.5, y: 1.5, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
+--- !u!1 &249756691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 249756692}
+  - component: {fileID: 249756693}
+  m_Layer: 0
+  m_Name: Dance FloorShade1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &249756692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249756691}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.07, y: 0, z: 0.34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 56035135}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &249756693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249756691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: This DJ is amazing
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 4
+  offset: {x: 0, y: 1, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!1 &259837322
 GameObject:
   m_ObjectHideFlags: 0
@@ -7059,6 +7379,8 @@ Transform:
   m_Children:
   - {fileID: 1210658369}
   - {fileID: 492639858}
+  - {fileID: 1607036504}
+  - {fileID: 518057579}
   m_Father: {fileID: 72806837}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8641,6 +8963,58 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 361660033}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &367950032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 367950033}
+  - component: {fileID: 367950034}
+  m_Layer: 0
+  m_Name: Dance FloorShade2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &367950033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367950032}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16, y: 0, z: 5.77}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2027635143}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &367950034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367950032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: I love jumping
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 4
+  offset: {x: 0, y: 2, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!1001 &373502898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9355,6 +9729,58 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 625323203}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &416031601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416031602}
+  - component: {fileID: 416031603}
+  m_Layer: 0
+  m_Name: Dance FloorShade1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416031602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416031601}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.07, y: 0, z: 0.34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1393649994}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &416031603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416031601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: This DJ is amazing
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 4
+  offset: {x: 0, y: 1, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!1001 &428343830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9576,7 +10002,7 @@ MonoBehaviour:
   text: There's too many people, I can't get through
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 6
-  offset: {x: 0, y: 2, z: 0}
+  offset: {x: 0, y: 2.5, z: 0}
   maxTime: 0
   cooldown: 0
   followPlayer: 1
@@ -9878,7 +10304,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460778173}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.72, y: 0, z: 0.68}
+  m_LocalPosition: {x: -16.07, y: 0, z: 0.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 169124961}
@@ -9899,9 +10325,9 @@ MonoBehaviour:
   popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
     type: 3}
   text: This DJ is amazing
-  image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
-  distance: 2
-  offset: {x: 0, y: 2, z: 0}
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 4
+  offset: {x: 0, y: 1, z: 0}
   maxTime: 0
   cooldown: 1
   followPlayer: 0
@@ -10202,6 +10628,58 @@ Transform:
   m_Father: {fileID: 1913022893}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &468267480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 468267481}
+  - component: {fileID: 468267482}
+  m_Layer: 0
+  m_Name: Dance FloorShade2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &468267481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468267480}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16, y: 0, z: 5.77}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 56035135}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &468267482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468267480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: I love jumping
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 4
+  offset: {x: 0, y: 2, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!1 &468830822
 GameObject:
   m_ObjectHideFlags: 0
@@ -11471,7 +11949,7 @@ MonoBehaviour:
   distance: 2
   offset: {x: 0, y: 2, z: 0}
   maxTime: 6
-  cooldown: 60
+  cooldown: 30
   followPlayer: 0
 --- !u!95 &496875686 stripped
 Animator:
@@ -11611,6 +12089,110 @@ MonoBehaviour:
   maxTime: 0
   cooldown: 0
   followPlayer: 1
+--- !u!1 &508686647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 508686648}
+  - component: {fileID: 508686649}
+  m_Layer: 0
+  m_Name: ShadeMisc2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &508686648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508686647}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.114, y: 0, z: 5.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1324582043}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &508686649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508686647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: What are you doing this weekend?
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
+--- !u!1 &518057578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 518057579}
+  - component: {fileID: 518057580}
+  m_Layer: 0
+  m_Name: ShadeMisc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &518057579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518057578}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.423, y: 0, z: 4.518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 302950173}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &518057580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518057578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: Nice party
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1001 &521122208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12501,7 +13083,7 @@ MonoBehaviour:
   distance: 2
   offset: {x: 0, y: 2, z: 0}
   maxTime: 6
-  cooldown: 60
+  cooldown: 30
   followPlayer: 0
 --- !u!1 &555855651
 GameObject:
@@ -12917,6 +13499,32 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 593506714}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &595431645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 2503010b14956b645af139bede4e8d76,
+    type: 3}
+  m_PrefabInstance: {fileID: 625323203}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &595431649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595431645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 0}
+  text: 
+  image: {fileID: 0}
+  distance: 0
+  offset: {x: 0, y: 0, z: 0}
+  maxTime: 0
+  cooldown: 0
+  followPlayer: 0
 --- !u!1 &598147624
 GameObject:
   m_ObjectHideFlags: 0
@@ -13360,6 +13968,58 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 605078255}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &612199127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 612199128}
+  - component: {fileID: 612199129}
+  m_Layer: 0
+  m_Name: Dance FloorShade2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &612199128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612199127}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16, y: 0, z: 5.77}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1324582043}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &612199129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612199127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: I love jumping
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 4
+  offset: {x: 0, y: 2, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!1 &616509181
 GameObject:
   m_ObjectHideFlags: 0
@@ -14566,6 +15226,58 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 637438551}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &637549811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 637549812}
+  - component: {fileID: 637549813}
+  m_Layer: 0
+  m_Name: Dance FloorShade1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &637549812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637549811}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.07, y: 0, z: 0.34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1079774880}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &637549813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637549811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: This DJ is amazing
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 4
+  offset: {x: 0, y: 1, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!95 &642258389 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 7623372238697341666, guid: d6dc436293e42354799751e2e5923de2,
@@ -14727,6 +15439,58 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 645025288}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &647293657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 647293658}
+  - component: {fileID: 647293659}
+  m_Layer: 0
+  m_Name: ShadeMisc2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &647293658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647293657}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.114, y: 0, z: 5.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1079774880}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &647293659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647293657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: What are you doing this weekend?
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1001 &648265565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16113,6 +16877,58 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 708003561}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &708287381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 708287382}
+  - component: {fileID: 708287383}
+  m_Layer: 0
+  m_Name: ShadeMisc2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &708287382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708287381}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.114, y: 0, z: 5.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 169124961}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &708287383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708287381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: What are you doing this weekend?
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1 &724578973
 GameObject:
   m_ObjectHideFlags: 0
@@ -16478,6 +17294,110 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 1941214167}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &753990000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 753990001}
+  - component: {fileID: 753990002}
+  m_Layer: 0
+  m_Name: ShadeMisc2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &753990001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753990000}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.114, y: 0, z: 5.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 56035135}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &753990002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753990000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: "I\u2019m going to grab a drink, does anyone else want one? "
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
+--- !u!1 &754182294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 754182295}
+  - component: {fileID: 754182296}
+  m_Layer: 0
+  m_Name: Dance FloorShade3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &754182295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754182294}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -19.65, y: 0, z: 2.23}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1324582043}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &754182296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754182294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: I love this song
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 8
+  offset: {x: -0.5, y: 1.5, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!1 &764884003
 GameObject:
   m_ObjectHideFlags: 0
@@ -18019,6 +18939,58 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 37954199583501962}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &816861069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 816861070}
+  - component: {fileID: 816861071}
+  m_Layer: 0
+  m_Name: Toilet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &816861070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816861069}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13, y: 0, z: -2.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2027635143}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &816861071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816861069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: Does ayone have any toilet paper?
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1001 &820957431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23827,6 +24799,58 @@ MonoBehaviour:
       m_Calls: []
   returnControl: 1
   allowInteraction: 1
+--- !u!1 &989431306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 989431307}
+  - component: {fileID: 989431308}
+  m_Layer: 0
+  m_Name: Toilet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &989431307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989431306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13, y: 0, z: -2.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 169124961}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &989431308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989431306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: Occupied
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1 &990878236
 GameObject:
   m_ObjectHideFlags: 0
@@ -25511,6 +26535,58 @@ MonoBehaviour:
       m_Calls: []
   returnControl: 1
   allowInteraction: 1
+--- !u!1 &1033349250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1033349251}
+  - component: {fileID: 1033349252}
+  m_Layer: 0
+  m_Name: Toilet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1033349251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033349250}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13, y: 0, z: -2.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1079774880}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1033349252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033349250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: Occupied
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1001 &1035242399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26204,6 +27280,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1559435960}
+  - {fileID: 637549812}
+  - {fileID: 1212151879}
+  - {fileID: 248483407}
+  - {fileID: 1712427686}
+  - {fileID: 647293658}
+  - {fileID: 1033349251}
   m_Father: {fileID: 1998050624}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26894,6 +27976,58 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1119162805}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1122431987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1122431988}
+  - component: {fileID: 1122431989}
+  m_Layer: 0
+  m_Name: Dance FloorShade1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1122431988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122431987}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.07, y: 0, z: 0.34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1324582043}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1122431989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122431987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: This DJ is amazing
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 4
+  offset: {x: 0, y: 1, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!1 &1122732497
 GameObject:
   m_ObjectHideFlags: 0
@@ -28640,6 +29774,58 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1195761029}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1208130953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1208130954}
+  - component: {fileID: 1208130955}
+  m_Layer: 0
+  m_Name: ShadeMisc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1208130954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208130953}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.423, y: 0, z: 4.518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2027635143}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1208130955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208130953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: "How\u2019s that drink? "
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1 &1210281865
 GameObject:
   m_ObjectHideFlags: 0
@@ -29576,6 +30762,58 @@ MonoBehaviour:
   maxTime: 0
   cooldown: 1800
   followPlayer: 1
+--- !u!1 &1212151878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1212151879}
+  - component: {fileID: 1212151880}
+  m_Layer: 0
+  m_Name: Dance FloorShade2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1212151879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212151878}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16, y: 0, z: 5.77}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1079774880}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1212151880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212151878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: I love jumping
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 4
+  offset: {x: 0, y: 2, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!1001 &1214706390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32356,6 +33594,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 234402281}
+  - {fileID: 1122431988}
+  - {fileID: 612199128}
+  - {fileID: 754182295}
+  - {fileID: 87958971}
+  - {fileID: 508686648}
+  - {fileID: 8421886}
+  - {fileID: 173338412}
+  - {fileID: 26965599}
   m_Father: {fileID: 1266420354}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -32944,7 +34190,7 @@ MonoBehaviour:
   distance: 2
   offset: {x: 0, y: 2, z: 0}
   maxTime: 6
-  cooldown: 60
+  cooldown: 30
   followPlayer: 0
 --- !u!1 &1381021386
 GameObject:
@@ -33460,6 +34706,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1117021193}
+  - {fileID: 416031602}
+  - {fileID: 1918363616}
+  - {fileID: 1566350682}
+  - {fileID: 1429612030}
+  - {fileID: 1657255895}
+  - {fileID: 1818692240}
   m_Father: {fileID: 1948692160}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -34814,6 +36066,58 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1429225975}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1429612029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1429612030}
+  - component: {fileID: 1429612031}
+  m_Layer: 0
+  m_Name: ShadeMisc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1429612030
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429612029}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.423, y: 0, z: 4.518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1393649994}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1429612031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429612029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: "How\u2019s that drink? "
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1001 &1434773532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35061,7 +36365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439334378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.25, y: 0, z: 1.5}
+  m_LocalPosition: {x: -4.52, y: 0, z: 0.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 169124961}
@@ -35084,9 +36388,9 @@ MonoBehaviour:
   text: She's so pretty
   image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
   distance: 2
-  offset: {x: 0, y: 2, z: 0}
+  offset: {x: 0, y: 2.5, z: 0}
   maxTime: 6
-  cooldown: 60
+  cooldown: 30
   followPlayer: 0
 --- !u!1001 &1442131826
 PrefabInstance:
@@ -35978,6 +37282,58 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1464664044}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1475795339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1475795340}
+  - component: {fileID: 1475795341}
+  m_Layer: 0
+  m_Name: Dance FloorShade1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1475795340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475795339}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.07, y: 0, z: 0.34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2027635143}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1475795341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475795339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: This DJ is amazing
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 4
+  offset: {x: 0, y: 1, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!1 &1485053439
 GameObject:
   m_ObjectHideFlags: 3
@@ -38150,6 +39506,58 @@ MonoBehaviour:
   maxTime: 0
   cooldown: 0
   followPlayer: 1
+--- !u!1 &1566350681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1566350682}
+  - component: {fileID: 1566350683}
+  m_Layer: 0
+  m_Name: Dance FloorShade3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1566350682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566350681}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -19.65, y: 0, z: 2.23}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1393649994}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1566350683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566350681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: I love this song
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 8
+  offset: {x: -0.5, y: 1.5, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!1 &1576086374
 GameObject:
   m_ObjectHideFlags: 0
@@ -38675,7 +40083,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589428024}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.5, y: 0, z: 1.5}
+  m_LocalPosition: {x: -4.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 56035135}
@@ -38698,9 +40106,9 @@ MonoBehaviour:
   text: It's golden girl
   image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
   distance: 2
-  offset: {x: 0, y: 2, z: 0}
+  offset: {x: 0, y: 2.5, z: 0}
   maxTime: 6
-  cooldown: 60
+  cooldown: 30
   followPlayer: 0
 --- !u!1001 &1591100551
 PrefabInstance:
@@ -40132,6 +41540,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   segment: End
   delayTime: 6.6
+--- !u!1 &1591951104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1591951105}
+  - component: {fileID: 1591951106}
+  m_Layer: 0
+  m_Name: Toilet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1591951105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591951104}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13, y: 0, z: -2.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 56035135}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1591951106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591951104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: Does ayone have any toilet paper?
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1001 &1593655927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40616,6 +42076,58 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1606031607}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1607036503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1607036504}
+  - component: {fileID: 1607036505}
+  m_Layer: 0
+  m_Name: Drink Shades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1607036504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607036503}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.62, y: 0, z: 5.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 302950173}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1607036505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607036503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: What should we get?
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1 &1616147005
 GameObject:
   m_ObjectHideFlags: 0
@@ -41165,6 +42677,58 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 625323203}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1630155108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1630155109}
+  - component: {fileID: 1630155110}
+  m_Layer: 0
+  m_Name: ShadeMisc2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1630155109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630155108}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.114, y: 0, z: 5.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2027635143}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1630155110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630155108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: "I\u2019m going to grab a drink, does anyone else want one? "
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1 &1631648803
 GameObject:
   m_ObjectHideFlags: 0
@@ -41799,7 +43363,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652692001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16, y: 0, z: 4.8}
+  m_LocalPosition: {x: -16, y: 0, z: 5.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 169124961}
@@ -41820,8 +43384,8 @@ MonoBehaviour:
   popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
     type: 3}
   text: I love jumping
-  image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
-  distance: 2
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 4
   offset: {x: 0, y: 2, z: 0}
   maxTime: 0
   cooldown: 1
@@ -41918,6 +43482,58 @@ Transform:
   m_Father: {fileID: 1913022893}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1657255894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657255895}
+  - component: {fileID: 1657255896}
+  m_Layer: 0
+  m_Name: ShadeMisc2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1657255895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657255894}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.114, y: 0, z: 5.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1393649994}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1657255896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657255894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: "I\u2019m going to grab a drink, does anyone else want one? "
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1 &1657499147
 GameObject:
   m_ObjectHideFlags: 0
@@ -43407,6 +45023,58 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711093869}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1712427685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1712427686}
+  - component: {fileID: 1712427687}
+  m_Layer: 0
+  m_Name: ShadeMisc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1712427686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712427685}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.423, y: 0, z: 4.518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1079774880}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1712427687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712427685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: 'Having fun? '
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1 &1713105183
 GameObject:
   m_ObjectHideFlags: 0
@@ -45330,7 +46998,7 @@ MonoBehaviour:
   text: There's too many people, I can't get through
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 6
-  offset: {x: 0, y: 2, z: 0}
+  offset: {x: 0, y: 2.5, z: 0}
   maxTime: 0
   cooldown: 0
   followPlayer: 1
@@ -45498,6 +47166,58 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1807626148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1807626149}
+  - component: {fileID: 1807626150}
+  m_Layer: 0
+  m_Name: Dance FloorShade3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1807626149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807626148}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -19.65, y: 0, z: 2.23}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2027635143}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1807626150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807626148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: I love this song
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 8
+  offset: {x: -0.5, y: 1.5, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!1001 &1810420847
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45653,58 +47373,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1810420847}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1810706794
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1810706795}
-  - component: {fileID: 1810706796}
-  m_Layer: 0
-  m_Name: Dance FloorShade4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1810706795
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810706794}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.04, y: 0, z: 6.68}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 169124961}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1810706796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810706794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
-    type: 3}
-  text: 'Check out my sick moves '
-  image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
-  distance: 7
-  offset: {x: 0, y: 2, z: 0}
-  maxTime: 0
-  cooldown: 1
-  followPlayer: 0
 --- !u!1 &1811955966 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 37954198776623515, guid: a00d367a95d638e40aa7adadde862888,
@@ -46205,6 +47873,58 @@ Transform:
   m_Father: {fileID: 937276504}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1818692239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1818692240}
+  - component: {fileID: 1818692241}
+  m_Layer: 0
+  m_Name: Toilet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1818692240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818692239}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13, y: 0, z: -2.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1393649994}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1818692241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818692239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: Does ayone have any toilet paper?
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1 &1840907314
 GameObject:
   m_ObjectHideFlags: 0
@@ -49129,6 +50849,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1918363615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1918363616}
+  - component: {fileID: 1918363617}
+  m_Layer: 0
+  m_Name: Dance FloorShade2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1918363616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918363615}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16, y: 0, z: 5.77}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1393649994}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1918363617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918363615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: I love jumping
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 4
+  offset: {x: 0, y: 2, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!1 &1920311022
 GameObject:
   m_ObjectHideFlags: 0
@@ -49222,6 +50994,58 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920311022}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1929740898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1929740899}
+  - component: {fileID: 1929740900}
+  m_Layer: 0
+  m_Name: Dance FloorShade3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1929740899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929740898}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -19.65, y: 0, z: 2.23}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 56035135}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1929740900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929740898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: I love this song
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 8
+  offset: {x: -0.5, y: 1.5, z: 0}
+  maxTime: 0
+  cooldown: 1
+  followPlayer: 0
 --- !u!1 &1930722993
 GameObject:
   m_ObjectHideFlags: 0
@@ -50332,6 +52156,58 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992807970}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1997907012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1997907013}
+  - component: {fileID: 1997907014}
+  m_Layer: 0
+  m_Name: ShadeMisc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1997907013
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997907012}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.423, y: 0, z: 4.518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 56035135}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1997907014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997907012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: "How\u2019s that drink? "
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1 &1998050623
 GameObject:
   m_ObjectHideFlags: 0
@@ -50654,6 +52530,58 @@ MonoBehaviour:
   params:
   - anim: {fileID: 1616395108}
     parameter: auroraIsWalking
+--- !u!1 &2014459665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2014459666}
+  - component: {fileID: 2014459667}
+  m_Layer: 0
+  m_Name: ShadeMisc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2014459666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014459665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.423, y: 0, z: 4.518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 169124961}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2014459667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014459665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: 'Having fun? '
+  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
+  distance: 2
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1001 &2017916411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50846,6 +52774,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 505979278}
+  - {fileID: 1475795340}
+  - {fileID: 367950033}
+  - {fileID: 1807626149}
+  - {fileID: 1208130954}
+  - {fileID: 1630155109}
+  - {fileID: 816861070}
   m_Father: {fileID: 724578974}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

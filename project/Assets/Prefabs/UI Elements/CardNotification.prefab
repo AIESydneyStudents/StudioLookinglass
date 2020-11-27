@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -181.48012, y: -0.0025101}
-  m_SizeDelta: {x: 231.36, y: 180}
+  m_AnchoredPosition: {x: -196.42, y: -0.0025101}
+  m_SizeDelta: {x: 261.22, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7549704786664295652
 CanvasRenderer:
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 26
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -78,7 +78,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'You recieved a new
 
-    talking point card!'
+    social card!'
 --- !u!1 &5510783269395563879
 GameObject:
   m_ObjectHideFlags: 0
