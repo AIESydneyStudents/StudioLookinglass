@@ -47175,10 +47175,10 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
-    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    leftSprite: {fileID: 21300000, guid: 2d06870f1c26a794ca7633a3198816e8, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
-    rightSprite: {fileID: 21300000, guid: 2d06870f1c26a794ca7633a3198816e8, type: 3}
+    rightSprite: {fileID: 0}
     flipRight: 0
     rightOffset: {x: 0, y: 0}
     sound: {fileID: 0}
