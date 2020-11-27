@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class CardChoice : MonoBehaviour
 {
@@ -22,6 +23,8 @@ public class CardChoice : MonoBehaviour
 
     public bool returnContol = true;
     public bool allowInteraction = true;
+
+    public UnityEvent onSelected;
 
     private void Start()
     {
@@ -81,6 +84,9 @@ public class CardChoice : MonoBehaviour
                 break;
             }
         }
+
+        // Invoke event
+        onSelected.Invoke();
 
         // Return control to player
         if (returnContol)
