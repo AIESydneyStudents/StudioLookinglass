@@ -21873,7 +21873,7 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: a45b28c5936e69a4b91eea19987166f8, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: 2d06870f1c26a794ca7633a3198816e8, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 0}
@@ -21884,7 +21884,7 @@ MonoBehaviour:
     speaker: 
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 0}
@@ -21934,7 +21934,7 @@ MonoBehaviour:
     speaker: Pierce
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
-    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
+    leftSprite: {fileID: 21300000, guid: 27a82cc285217c54fa7beca230764fbf, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
@@ -22049,7 +22049,7 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: f76eebb011ade234390529504c1ac795, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: 2d06870f1c26a794ca7633a3198816e8, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 0}
@@ -22084,7 +22084,7 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 0}
@@ -22119,7 +22119,7 @@ MonoBehaviour:
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: 0e4598bdcb35f5546b57d9757fc8627a, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 0}
@@ -22338,7 +22338,7 @@ MonoBehaviour:
     speaker: Pierce
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
-    leftSprite: {fileID: 0}
+    leftSprite: {fileID: 21300000, guid: f4226922f1dbadb4f9bac2c370538286, type: 3}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
     rightSprite: {fileID: 21300000, guid: b7426cc9d90a12f47abe7164420ec32c, type: 3}
@@ -23328,12 +23328,12 @@ MonoBehaviour:
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
-	leftOffset: {x: 0, y: 0}
-    rightSprite: {fileID: 21300000, guid: 9a2dee6ae3ed23c45bc368504d422d09, type: 3}
+    leftOffset: {x: 0, y: 0}
+    rightSprite: {fileID: 0}
     flipRight: 0
     rightOffset: {x: 0, y: 0}
     sound: {fileID: 0}
-  - text: "So, you\u2019re just going to give up? After all that?"
+  - text: So, you're just going to give up? After all that?
     speaker: Steph
     namePosition: 1
     boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
@@ -23344,8 +23344,8 @@ MonoBehaviour:
     flipRight: 0
     rightOffset: {x: 0, y: 0}
     sound: {fileID: 0}
-  - text: "I tried my best, but it wasn\u2019t good enough, I\u2019m just not cut
-      out for this kind of stuff. "
+  - text: I tried my best, but it wasn't good enoug, I'm just not cut out for this
+      kind of stuff.
     speaker: Phim
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
@@ -23356,11 +23356,11 @@ MonoBehaviour:
     flipRight: 0
     rightOffset: {x: 0, y: 0}
     sound: {fileID: 0}
-  - text: "Everyone makes mistakes Phim, you don\u2019t always get it right on the
-      first go. What's important is that you keep trying.\_"
+  - text: Everyone makes mistakes Phim, you don't always get it right on the first
+      go. What's important is that you keep trying.
     speaker: Steph
     namePosition: 1
-    boxSprite: {fileID: 21300000, guid: 332a3d78858d58a49b12119a9d9c21e7, type: 3}
+    boxSprite: {fileID: 21300000, guid: 0dd9959891b241c44be98ce266636268, type: 3}
     leftSprite: {fileID: 0}
     flipLeft: 0
     leftOffset: {x: 0, y: 0}
@@ -23373,35 +23373,13 @@ MonoBehaviour:
   responses: []
   removeCard: 0
   cardsToTake: []
-  giveCard: 1
+  giveCard: 0
   cardToGive:
-    name: Comfort
-    image: {fileID: 21300000, guid: 91512474b01e33b48bfcac89a107ca45, type: 3}
+    name: 
+    image: {fileID: 0}
   endEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 724578973}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1998050623}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
   returnControl: 1
   allowInteraction: 1
 --- !u!114 &1026177265
