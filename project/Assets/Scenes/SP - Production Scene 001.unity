@@ -22517,7 +22517,7 @@ MonoBehaviour:
   action: 1
   nextSegment: Beginning
   responses: []
-  removeCard: 1
+  removeCard: 0
   cardsToTake:
   - Item
   giveCard: 0
@@ -23190,7 +23190,7 @@ MonoBehaviour:
   action: 1
   nextSegment: Beginning
   responses: []
-  removeCard: 1
+  removeCard: 0
   cardsToTake:
   - Item
   giveCard: 0
@@ -23241,7 +23241,7 @@ MonoBehaviour:
   action: 1
   nextSegment: Beginning
   responses: []
-  removeCard: 1
+  removeCard: 0
   cardsToTake:
   - Item
   giveCard: 0
@@ -23482,6 +23482,159 @@ MonoBehaviour:
   params:
   - anim: {fileID: 102536734}
     parameter: pierceIsWalking
+--- !u!114 &979957520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979957499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Cherry2
+  textBoxes:
+  - text: Would you like this?
+    speaker: Phim
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: 0498902b9cace284b91a5b74d610b655, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    leftOffset: {x: 0, y: 0}
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    rightOffset: {x: 0, y: 0}
+    sound: {fileID: 0}
+  - text: Sorry, I don't really drink.
+    speaker: Pierce
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    leftOffset: {x: 0, y: 0}
+    rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
+    flipRight: 0
+    rightOffset: {x: 0, y: 0}
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: End
+  responses: []
+  removeCard: 0
+  cardsToTake:
+  - Item
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &979957521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979957499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Cranberry2
+  textBoxes:
+  - text: Would you like this?
+    speaker: Phim
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: 896fb81a8fba87745ace3e99e15a4557, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    leftOffset: {x: 0, y: 0}
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    rightOffset: {x: 0, y: 0}
+    sound: {fileID: 0}
+  - text: Sorry, I don't really drink.
+    speaker: Pierce
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    leftOffset: {x: 0, y: 0}
+    rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
+    flipRight: 0
+    rightOffset: {x: 0, y: 0}
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: End
+  responses: []
+  removeCard: 0
+  cardsToTake:
+  - Item
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
+--- !u!114 &979957522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979957499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286d027b39b9d964f8542b806c46dcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textTag: Apple2
+  textBoxes:
+  - text: Would you like this?
+    speaker: Phim
+    namePosition: 0
+    boxSprite: {fileID: 21300000, guid: 55f1a7bb8d75521438a868bc51d869d3, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    leftOffset: {x: 0, y: 0}
+    rightSprite: {fileID: 0}
+    flipRight: 0
+    rightOffset: {x: 0, y: 0}
+    sound: {fileID: 0}
+  - text: Sorry, I don't really drink.
+    speaker: Pierce
+    namePosition: 1
+    boxSprite: {fileID: 21300000, guid: ab8b61df8d552ec4a945fbe4b3b84148, type: 3}
+    leftSprite: {fileID: 0}
+    flipLeft: 0
+    leftOffset: {x: 0, y: 0}
+    rightSprite: {fileID: 21300000, guid: 821775080a2adfc428796505f3d4d2a9, type: 3}
+    flipRight: 0
+    rightOffset: {x: 0, y: 0}
+    sound: {fileID: 0}
+  action: 1
+  nextSegment: End
+  responses: []
+  removeCard: 0
+  cardsToTake:
+  - Item
+  giveCard: 0
+  cardToGive:
+    name: 
+    image: {fileID: 0}
+  endEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  returnControl: 1
+  allowInteraction: 1
 --- !u!1 &990878236
 GameObject:
   m_ObjectHideFlags: 0
@@ -24133,7 +24286,7 @@ MonoBehaviour:
     flipRight: 0
     rightOffset: {x: 0, y: 0}
     sound: {fileID: 0}
-  - text: I tried my best, but it wasn't good enoug, I'm just not cut out for this
+  - text: I tried my best, but it wasn't good enough, I'm just not cut out for this
       kind of stuff.
     speaker: Phim
     namePosition: 0
