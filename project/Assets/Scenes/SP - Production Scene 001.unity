@@ -1389,13 +1389,13 @@ Transform:
   m_Children:
   - {fileID: 443488086}
   - {fileID: 553711216}
-  - {fileID: 1589428025}
   - {fileID: 249756692}
   - {fileID: 468267481}
   - {fileID: 1929740899}
   - {fileID: 1997907013}
   - {fileID: 753990001}
   - {fileID: 1591951105}
+  - {fileID: 1700708130}
   m_Father: {fileID: 444248750}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2456,6 +2456,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118757797}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &122694296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 122694297}
+  m_Layer: 0
+  m_Name: Crowd Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &122694297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122694296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1487073467}
+  m_Father: {fileID: 1390908674}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &124418718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3730,6 +3761,7 @@ Transform:
   - {fileID: 2014459666}
   - {fileID: 708287382}
   - {fileID: 989431307}
+  - {fileID: 1791269026}
   m_Father: {fileID: 1877106471}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5442,7 +5474,7 @@ MonoBehaviour:
   text: There's too many people, I can't get through
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 6
-  offset: {x: 0, y: 2, z: 0}
+  offset: {x: 0, y: 2.5, z: 0}
   maxTime: 0
   cooldown: 0
   followPlayer: 1
@@ -5542,6 +5574,58 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236586594}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &236828586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 236828587}
+  - component: {fileID: 236828588}
+  m_Layer: 0
+  m_Name: Budd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &236828587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236828586}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.41, y: 0, z: -3.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1324582043}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &236828588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236828586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: What am I going to do...
+  image: {fileID: 21300000, guid: 815dd100b5a7aae498dcf2aeac587c55, type: 3}
+  distance: 2.5
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1001 &238627167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6149,7 +6233,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 56035135}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &249756693
 MonoBehaviour:
@@ -8072,6 +8156,17 @@ MonoBehaviour:
       - m_Target: {fileID: 346639409}
         m_MethodName: StartTimer
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1607036503}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10657,7 +10752,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 56035135}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &468267482
 MonoBehaviour:
@@ -11947,9 +12042,9 @@ MonoBehaviour:
   text: So comfy
   image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
   distance: 2
-  offset: {x: 0, y: 2, z: 0}
+  offset: {x: 0, y: 2.5, z: 0}
   maxTime: 6
-  cooldown: 30
+  cooldown: 15
   followPlayer: 0
 --- !u!95 &496875686 stripped
 Animator:
@@ -12085,7 +12180,7 @@ MonoBehaviour:
   text: There's too many people, I can't get through
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 6
-  offset: {x: 0, y: 2, z: 0}
+  offset: {x: 0, y: 2.5, z: 0}
   maxTime: 0
   cooldown: 0
   followPlayer: 1
@@ -17323,7 +17418,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 56035135}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &753990002
 MonoBehaviour:
@@ -27891,7 +27986,7 @@ MonoBehaviour:
   text: There's too many people, I can't get through
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 6
-  offset: {x: 0, y: 2, z: 0}
+  offset: {x: 0, y: 2.5, z: 0}
   maxTime: 0
   cooldown: 0
   followPlayer: 1
@@ -30758,7 +30853,7 @@ MonoBehaviour:
   text: There's so many people...
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 2
-  offset: {x: 0, y: 3, z: 0}
+  offset: {x: 0, y: 2.5, z: 0}
   maxTime: 0
   cooldown: 1800
   followPlayer: 1
@@ -33602,6 +33697,7 @@ Transform:
   - {fileID: 8421886}
   - {fileID: 173338412}
   - {fileID: 26965599}
+  - {fileID: 236828587}
   m_Father: {fileID: 1266420354}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -34582,6 +34678,7 @@ Transform:
   - {fileID: 124418719}
   - {fileID: 373502899}
   - {fileID: 161594256}
+  - {fileID: 122694297}
   m_Father: {fileID: 68774094}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -37776,6 +37873,58 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486317376}
   m_Mesh: {fileID: -8402572214021322311, guid: 2503010b14956b645af139bede4e8d76, type: 3}
+--- !u!1 &1487073466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1487073467}
+  - component: {fileID: 1487073468}
+  m_Layer: 0
+  m_Name: Budd + Steph
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1487073467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487073466}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.5, y: 0, z: -3.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 122694297}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1487073468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487073466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: Knock knock...
+  image: {fileID: 21300000, guid: 815dd100b5a7aae498dcf2aeac587c55, type: 3}
+  distance: 2.5
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 1
+  followPlayer: 0
 --- !u!1001 &1498270442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39502,7 +39651,7 @@ MonoBehaviour:
   text: There's too many people, I can't get through
   image: {fileID: 21300000, guid: 81d3e51b027e38648bff3f1258f0e8d3, type: 3}
   distance: 6
-  offset: {x: 0, y: 2, z: 0}
+  offset: {x: 0, y: 2.5, z: 0}
   maxTime: 0
   cooldown: 0
   followPlayer: 1
@@ -40058,58 +40207,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1588721267}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1589428024
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1589428025}
-  - component: {fileID: 1589428026}
-  m_Layer: 0
-  m_Name: Aurora Fans 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1589428025
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589428024}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 56035135}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1589428026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589428024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
-    type: 3}
-  text: It's golden girl
-  image: {fileID: 21300000, guid: a701c6b03b32c6a439781ec87a506410, type: 3}
-  distance: 2
-  offset: {x: 0, y: 2.5, z: 0}
-  maxTime: 6
-  cooldown: 30
-  followPlayer: 0
 --- !u!1001 &1591100551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41569,7 +41666,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 56035135}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1591951106
 MonoBehaviour:
@@ -44930,6 +45027,59 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1700279758}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1700708129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1700708130}
+  - component: {fileID: 1700708131}
+  m_Layer: 0
+  m_Name: Budd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1700708130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700708129}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.31, y: 0, z: -0.202}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 56035135}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1700708131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700708129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: 'Did you see that guy who wrote pants on the wall? I want to meet that guy.
+    Oh wait, it was me! '
+  image: {fileID: 21300000, guid: 815dd100b5a7aae498dcf2aeac587c55, type: 3}
+  distance: 4
+  offset: {x: 0, y: 3, z: 0}
+  maxTime: 8
+  cooldown: 6
+  followPlayer: 0
 --- !u!1 &1711093869
 GameObject:
   m_ObjectHideFlags: 0
@@ -46784,6 +46934,58 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1786117897}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1791269025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791269026}
+  - component: {fileID: 1791269027}
+  m_Layer: 0
+  m_Name: Budd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1791269026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791269025}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.97, y: 0, z: -4.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 169124961}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791269027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791269025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: I love this show!
+  image: {fileID: 21300000, guid: 815dd100b5a7aae498dcf2aeac587c55, type: 3}
+  distance: 3
+  offset: {x: 0, y: 3, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1001 &1793341684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48315,6 +48517,17 @@ MonoBehaviour:
   onTriggerExit:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1791269025}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 1869623121}
         m_MethodName: SetActive
         m_Mode: 6
@@ -51023,7 +51236,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 56035135}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1929740900
 MonoBehaviour:
@@ -52185,7 +52398,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 56035135}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1997907014
 MonoBehaviour:
@@ -52780,6 +52993,7 @@ Transform:
   - {fileID: 1208130954}
   - {fileID: 1630155109}
   - {fileID: 816861070}
+  - {fileID: 2068262949}
   m_Father: {fileID: 724578974}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -53421,6 +53635,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2068262948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2068262949}
+  - component: {fileID: 2068262950}
+  m_Layer: 0
+  m_Name: Budd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2068262949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068262948}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.49, y: 0, z: -3.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2027635143}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2068262950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068262948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c33dc343d0617e4ba24693848fc7aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPrefab: {fileID: 8468820315772999415, guid: 72cc7d38473ac444a8a1940a6fe57083,
+    type: 3}
+  text: What am I going to do...
+  image: {fileID: 21300000, guid: 815dd100b5a7aae498dcf2aeac587c55, type: 3}
+  distance: 2.5
+  offset: {x: 0, y: 2.5, z: 0}
+  maxTime: 6
+  cooldown: 30
+  followPlayer: 0
 --- !u!1001 &2081586772
 PrefabInstance:
   m_ObjectHideFlags: 0
