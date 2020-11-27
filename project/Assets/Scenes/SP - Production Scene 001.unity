@@ -16786,6 +16786,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1631648804}
     m_Modifications:
+    - target: {fileID: 1252804682257586067, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1252804682257586067, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1852325536802514583, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
         type: 3}
       propertyPath: m_Enabled
@@ -17605,7 +17615,7 @@ MonoBehaviour:
     rightSprite: {fileID: 0}
     flipRight: 0
     rightOffset: {x: 0, y: 0}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 35b61fd74d11ab24db06d43150cc4cff, type: 3}
   - text: "That\u2019s all good, I\u2019ll fill in the silence. You\u2019d make great
       friends with Steph over there.   "
     speaker: Budd
@@ -19522,7 +19532,18 @@ MonoBehaviour:
     image: {fileID: 21300000, guid: 06f6dd2dcb0d8294bbfcf258222031b0, type: 3}
   endEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 901473029}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   returnControl: 0
   allowInteraction: 0
 --- !u!114 &901473013
@@ -20511,6 +20532,12 @@ MonoBehaviour:
       m_Calls: []
   returnControl: 1
   allowInteraction: 1
+--- !u!82 &901473029 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1252804682257586067, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1682753421}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &903775942
 GameObject:
   m_ObjectHideFlags: 0
@@ -24321,9 +24348,26 @@ MonoBehaviour:
     image: {fileID: 21300000, guid: 91512474b01e33b48bfcac89a107ca45, type: 3}
   endEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1026177264}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   returnControl: 1
   allowInteraction: 1
+--- !u!82 &1026177264 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1453362252609014699, guid: 09e2f49308eeeff45a1052bdea30d21c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1400497969}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1026177265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33500,6 +33544,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1998050624}
     m_Modifications:
+    - target: {fileID: 1453362252609014699, guid: 09e2f49308eeeff45a1052bdea30d21c,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 35b61fd74d11ab24db06d43150cc4cff, type: 3}
     - target: {fileID: 8618957282017877411, guid: 09e2f49308eeeff45a1052bdea30d21c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35786,7 +35835,18 @@ MonoBehaviour:
   allowInteraction: 1
   onSelected:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1485988367}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1485988365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35830,6 +35890,102 @@ MonoBehaviour:
     type: 3}
   leftImageOffset: {x: 400, y: 500}
   rightImageOffset: {x: 400, y: 500}
+--- !u!82 &1485988367
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485988362}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 35b61fd74d11ab24db06d43150cc4cff, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &1485988370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42274,6 +42430,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1998050624}
     m_Modifications:
+    - target: {fileID: 1252804682257586067, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 35b61fd74d11ab24db06d43150cc4cff, type: 3}
     - target: {fileID: 1852325536802514583, guid: ccdc1d73e76d65c4b8b34b4c1855b63f,
         type: 3}
       propertyPath: m_Enabled
@@ -46487,6 +46648,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aurora 9
       objectReference: {fileID: 0}
+    - target: {fileID: 8698398984687416930, guid: a00d367a95d638e40aa7adadde862888,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 35b61fd74d11ab24db06d43150cc4cff, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a00d367a95d638e40aa7adadde862888, type: 3}
 --- !u!4 &1885309147 stripped
@@ -47004,7 +47170,18 @@ MonoBehaviour:
     image: {fileID: 21300000, guid: 45c344f271eb3c04e95da909e555d47d, type: 3}
   endEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1885309169}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   returnControl: 1
   allowInteraction: 1
 --- !u!114 &1885309152
@@ -47948,6 +48125,12 @@ MonoBehaviour:
       m_Calls: []
   returnControl: 1
   allowInteraction: 1
+--- !u!82 &1885309169 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8698398984687416930, guid: a00d367a95d638e40aa7adadde862888,
+    type: 3}
+  m_PrefabInstance: {fileID: 1885309146}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1888604260
 PrefabInstance:
   m_ObjectHideFlags: 0
