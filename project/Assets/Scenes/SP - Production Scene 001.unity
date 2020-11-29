@@ -5621,7 +5621,7 @@ MonoBehaviour:
     type: 3}
   text: What am I going to do...
   image: {fileID: 21300000, guid: 815dd100b5a7aae498dcf2aeac587c55, type: 3}
-  distance: 2.5
+  distance: 3
   offset: {x: 0, y: 2.5, z: 0}
   maxTime: 6
   cooldown: 30
@@ -37102,7 +37102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTag: Start
   textBoxes:
-  - text: I need to check on Budd First
+  - text: I still don't know what to say...
     speaker: 
     namePosition: 0
     boxSprite: {fileID: 21300000, guid: 9f918b6a2edb5004199caf778e531f3d, type: 3}
@@ -53682,7 +53682,7 @@ MonoBehaviour:
     type: 3}
   text: What am I going to do...
   image: {fileID: 21300000, guid: 815dd100b5a7aae498dcf2aeac587c55, type: 3}
-  distance: 2.5
+  distance: 3
   offset: {x: 0, y: 2.5, z: 0}
   maxTime: 6
   cooldown: 30
